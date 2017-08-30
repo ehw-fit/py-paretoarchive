@@ -61,6 +61,24 @@ print a.points(returnIds=True)
 # [20,30]
 ```
 
+Pruning of non-dominated solutions' set specifying data resolution:
+
+```python
+def resample(val, resolution=0.01):
+    return round(val / resolution)*resolution
+
+
+pf = PyBspTreeArchive(4)
+for i, x in enumerate(dataset):
+   pf.process( ( resample(math.log10(x['wce']),0.001),  #resolution is 0.001
+                 resample(x['area'],10), #values can be only multiples of 10
+                 resample(x['pwr'],0.1), #resolution is 0.1
+                 resample(x['time'],0.1) #resolution is 0.1
+               ), customId=i) #customId may be omitted, there is an internal counter initialized to 0
+indexes = pf.points(returnIds=True)
+
+print [dataset[i]['wce'] for i in indexes]
+```
 
 ### SOURCE
 
