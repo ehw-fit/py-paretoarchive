@@ -3,8 +3,10 @@ from libcpp.vector cimport vector
 
 cdef extern from "paretoarchive.h":# namespace "std":
     cdef cppclass ObjVec[OBJ]:
-        ObjVec()
+        ObjVec(int id=0)
         double& operator[](unsigned int index)
+        int getId()
+        void setId(int id)
 
     ctypedef void* objvecty "ObjVec[2]*"
 
@@ -28,9 +30,11 @@ ctypedef BspTreeArchive[myInt2] BspTreeArchive2
 cdef class PyBspTreeArchive2:
   cdef BspTreeArchive2 *_front
   cdef int _sign[2]
+  cdef int _id
 
   def __cinit__(self):
     self._front = new BspTreeArchive2()
+    self._id = 0
     self._sign[0] = 1
     self._sign[1] = 1
 
@@ -42,13 +46,23 @@ cdef class PyBspTreeArchive2:
     del self._front
     self._front = NULL
 
-  def process(self, item):
+  def process(self, item, customId=None, returnId=False):
     assert len(item) == 2
     cdef ObjVec[myInt2] data
     cdef int i
+    if customId == None:
+        customId = self._id
+        self._id += 1
+    data.setId(customId)
     data[0] = self._sign[0]*item[0]
     data[1] = self._sign[1]*item[1]
-    return self._front.process(data)
+    if not returnId:
+        return self._front.process(data)
+    return (self._front.process(data), customId)
+
+  def clear(self):
+    self._id = 0
+    self._front.clear()
 
   def empty(self):
     return self._front.empty()
@@ -56,14 +70,19 @@ cdef class PyBspTreeArchive2:
   def size(self):
     return self._front.size()
 
-  def points(self):
+  def points(self, bool returnIds=False):
     cdef vector[const ObjVec[myInt2]*] vec
+    cdef ObjVec[myInt2] veci
     cdef int i
     vec = self._front.points()
     res = []
     for i in range(0,vec.size()):
         val = vec[i]
-        res.append([self._sign[0]*val[0][0], self._sign[1]*val[0][1]])
+        veci = val[0]
+        if returnIds:
+            res.append(veci.getId())
+        else:
+            res.append([self._sign[0]*veci[0],self._sign[1]*veci[1]])
     return res
 
 ctypedef BspTreeArchive[myInt3] BspTreeArchive3
@@ -71,12 +90,14 @@ ctypedef BspTreeArchive[myInt3] BspTreeArchive3
 cdef class PyBspTreeArchive3:
   cdef BspTreeArchive3 *_front
   cdef int _sign[3]
+  cdef int _id
 
   def __cinit__(self):
     self._front = new BspTreeArchive3()
     self._sign[0] = 1
     self._sign[1] = 1
     self._sign[2] = 1
+    self._id = 0
 
   def __dealloc__(self):
     del self._front
@@ -87,14 +108,24 @@ cdef class PyBspTreeArchive3:
     self._sign[1] = 1 if config[1] else -1 #1 minimize, -1 maximize
     self._sign[2] = 1 if config[2] else -1 #1 minimize, -1 maximize
 
-  def process(self, item):
+  def process(self, item, customId=None, returnId=False):
     assert len(item) == 3
     cdef ObjVec[myInt3] data
     cdef int i
+    if customId == None:
+        customId = self._id
+        self._id += 1
+    data.setId(customId)
     data[0] = self._sign[0]*item[0]
     data[1] = self._sign[1]*item[1]
     data[2] = self._sign[2]*item[2]
-    return self._front.process(data)
+    if not returnId:
+        return self._front.process(data)
+    return (self._front.process(data), customId)
+
+  def clear(self):
+    self._id = 0
+    self._front.clear()
 
   def empty(self):
     return self._front.empty()
@@ -102,14 +133,19 @@ cdef class PyBspTreeArchive3:
   def size(self):
     return self._front.size()
 
-  def points(self):
+  def points(self, bool returnIds=False):
     cdef vector[const ObjVec[myInt3]*] vec
+    cdef ObjVec[myInt3] veci
     cdef int i
     vec = self._front.points()
     res = []
     for i in range(0,vec.size()):
         val = vec[i]
-        res.append([self._sign[0]*val[0][0],self._sign[1]*val[0][1],self._sign[2]*val[0][2]])
+        veci = val[0]
+        if returnIds:
+            res.append(veci.getId())
+        else:
+            res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2]])
     return res
 
 ctypedef BspTreeArchive[myInt4] BspTreeArchive4
@@ -117,6 +153,7 @@ ctypedef BspTreeArchive[myInt4] BspTreeArchive4
 cdef class PyBspTreeArchive4:
   cdef BspTreeArchive4 *_front
   cdef int _sign[4]
+  cdef int _id
 
   def __cinit__(self):
     self._front = new BspTreeArchive4()
@@ -124,6 +161,7 @@ cdef class PyBspTreeArchive4:
     self._sign[1] = 1
     self._sign[2] = 1
     self._sign[3] = 1
+    self._id = 0
 
   def __dealloc__(self):
     del self._front
@@ -135,15 +173,26 @@ cdef class PyBspTreeArchive4:
     self._sign[2] = 1 if config[2] else -1 #1 minimize, -1 maximize
     self._sign[3] = 1 if config[3] else -1 #1 minimize, -1 maximize
 
-  def process(self, item):
+  def process(self, item, customId=None, returnId=False):
     assert len(item) == 4
     cdef ObjVec[myInt4] data
     cdef int i
+    if customId == None:
+        customId = self._id
+        self._id += 1
+    data.setId(customId)
     data[0] = self._sign[0]*item[0]
     data[1] = self._sign[1]*item[1]
     data[2] = self._sign[2]*item[2]
     data[3] = self._sign[3]*item[3]
-    return self._front.process(data)
+    if not returnId:
+        return self._front.process(data)
+    return (self._front.process(data), customId)
+
+
+  def clear(self):
+    self._id = 0
+    self._front.clear()
 
   def empty(self):
     return self._front.empty()
@@ -151,18 +200,23 @@ cdef class PyBspTreeArchive4:
   def size(self):
     return self._front.size()
 
-  def points(self):
+  def points(self, bool returnIds=False):
     cdef vector[const ObjVec[myInt4]*] vec
+    cdef ObjVec[myInt4] veci
     cdef int i
     vec = self._front.points()
     res = []
     for i in range(0,vec.size()):
         val = vec[i]
-        res.append([self._sign[0]*val[0][0],self._sign[1]*val[0][1],self._sign[2]*val[0][2],self._sign[3]*val[0][3]])
+        veci = val[0]
+        if returnIds:
+            res.append(veci.getId())
+        else:
+            res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3]])
     return res
 
 class PyBspTreeArchive:
-  def __init__(self, objectives, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True):
+  def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True):
      assert objectives in [2,3,4]
      self._archive = {2:PyBspTreeArchive2, 3:PyBspTreeArchive3, 4:PyBspTreeArchive4}[objectives]()
      self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4])

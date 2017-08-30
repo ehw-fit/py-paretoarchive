@@ -90,8 +90,8 @@ template <int OBJ>
 class ObjVec
 {
 public:
-	ObjVec()
-	{ memset(m_data, 0, sizeof(m_data)); }
+	ObjVec(int id=0)
+	{ m_id=id; memset(m_data, 0, sizeof(m_data)); }
 
 //	ObjVec(ObjVec const& other) = default; // NEFUNGUJE V MSVC
 
@@ -100,6 +100,7 @@ public:
 	{
 		assert(other.size() == OBJ);
 		for (unsigned int i=0; i<OBJ; i++) m_data[i] = other[i];
+      m_id = 0;
 	}
 
 //	ObjVec& operator = (ObjVec const& other) = default; // NEFUNGUJE V MSVC
@@ -145,8 +146,15 @@ public:
 	bool operator >= (ObjVec<OBJ> const& other) const
 	{ return dominance(*this, other) & 2; }
 
+   int getId(void) 
+   { return m_id; }
+
+   void setId(int id)
+   { m_id = id; }
+
 private:
 	double m_data[OBJ];
+   int m_id;
 };
 
 
