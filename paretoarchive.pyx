@@ -222,5 +222,15 @@ class PyBspTreeArchive:
      self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4])
      self.process = self._archive.process
      self.empty = self._archive.empty
+     self.clear = self._archive.clear
      self.size = self._archive.size
      self.points = self._archive.points
+
+  def filter(self, data, returnIds=False, sortKey=None):
+     self.clear()
+     for i, d in enumerate(data):
+        self.process(d, customId=i)
+     pts = self.points(returnIds=returnIds)
+     if sortKey == None: 
+        return pts
+     return sorted(pts, key = sortKey)

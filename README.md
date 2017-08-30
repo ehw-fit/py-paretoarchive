@@ -31,6 +31,13 @@ print a.points()  # get the non-dominated solutions
 # [[1.0, 3.0, 3.0], [1.0, 1.0, 2.0]]
 ```
 
+Single-line example:
+```python
+print PyBspTreeArchive(2, minimizeObjective1=True, minimizeObjective2=False).filter( [[2,4], [3,1], [2,1], [1,1]], sortKey=lambda itm: itm[0]) #process the array and sort the result by first objective (useful for plotting)
+# [[1.0, 1.0], [2.0, 4.0]]
+```
+
+
 Return indexes of the elements:
 
 ```python
@@ -61,7 +68,7 @@ print a.points(returnIds=True)
 # [20,30]
 ```
 
-Pruning of non-dominated solutions' set specifying data resolution:
+Pruning of the set of non-dominated solutions specifying data resolution:
 
 ```python
 def resample(val, resolution=0.01):
