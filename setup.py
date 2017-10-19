@@ -15,6 +15,9 @@ ext_module = Extension(
 
 
 setup(
+    name = 'paretoarchive',
+    version = '1.0',
+    description = 'Efficient incremental Pareto archive',
     cmdclass = {'build_ext': build_ext},
     ext_modules = [ext_module]
 )
