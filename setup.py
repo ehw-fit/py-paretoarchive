@@ -5,7 +5,7 @@ from Cython.Distutils import build_ext
 
 ext_module = Extension(
     "paretoarchive",
-    ["paretoarchive.pyx"],
+    ["paretoarchive_gen.pyx"],
     language="c++",
     extra_compile_args=["-std=c++11"],
     include_dirs=["./src"], 
