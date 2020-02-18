@@ -4,9 +4,12 @@ Creating an archive of all non-dominated points using Fast Incremental BSP Tree
 
 ### COMPILATION
 
-```
-> python2.7 setup.py build
-> python2.7 install --user
+```bash
+python setup.py build
+python install --user
+# or
+pip3 install --user git+https://github.com/ehw-fit/py-paretoarchive
+pip install --user git+https://github.com/ehw-fit/py-paretoarchive
 ```
 
 ### USAGE
