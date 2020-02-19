@@ -1,6 +1,6 @@
 # Archive of non-dominated points
 
-Creating an archive of all non-dominated points using Fast Incremental BSP Tree
+Creating an archive of all non-dominated points using Fast Incremental BSP Tree. This package provides a Python wrapper for code provided as [a fast incremental BSP archive](https://www.ini.rub.de/PEOPLE/glasmtbl/code/ParetoArchive/index.html).
 
 ### COMPILATION
 
