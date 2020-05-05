@@ -47,6 +47,9 @@ cdef class PyBspTreeArchive1:
   cdef int _sign[1]
   cdef int _id
 
+  def __reduce__(self):
+    return (PyBspTreeArchive1, (self._id, self._sign))
+
   def __cinit__(self):
     self._front = new BspTreeArchive1()
     self._id = 0
@@ -104,6 +107,9 @@ cdef class PyBspTreeArchive2:
   cdef BspTreeArchive2 *_front
   cdef int _sign[2]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive2, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive2()
@@ -165,6 +171,9 @@ cdef class PyBspTreeArchive3:
   cdef BspTreeArchive3 *_front
   cdef int _sign[3]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive3, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive3()
@@ -229,6 +238,9 @@ cdef class PyBspTreeArchive4:
   cdef BspTreeArchive4 *_front
   cdef int _sign[4]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive4, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive4()
@@ -296,6 +308,9 @@ cdef class PyBspTreeArchive5:
   cdef BspTreeArchive5 *_front
   cdef int _sign[5]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive5, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive5()
@@ -366,6 +381,9 @@ cdef class PyBspTreeArchive6:
   cdef BspTreeArchive6 *_front
   cdef int _sign[6]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive6, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive6()
@@ -439,6 +457,9 @@ cdef class PyBspTreeArchive7:
   cdef BspTreeArchive7 *_front
   cdef int _sign[7]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive7, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive7()
@@ -515,6 +536,9 @@ cdef class PyBspTreeArchive8:
   cdef BspTreeArchive8 *_front
   cdef int _sign[8]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive8, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive8()
@@ -594,6 +618,9 @@ cdef class PyBspTreeArchive9:
   cdef BspTreeArchive9 *_front
   cdef int _sign[9]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive9, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive9()
@@ -676,6 +703,9 @@ cdef class PyBspTreeArchive10:
   cdef BspTreeArchive10 *_front
   cdef int _sign[10]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive10, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive10()
@@ -761,6 +791,9 @@ cdef class PyBspTreeArchive11:
   cdef BspTreeArchive11 *_front
   cdef int _sign[11]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive11, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive11()
@@ -849,6 +882,9 @@ cdef class PyBspTreeArchive12:
   cdef BspTreeArchive12 *_front
   cdef int _sign[12]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive12, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive12()
@@ -940,6 +976,9 @@ cdef class PyBspTreeArchive13:
   cdef BspTreeArchive13 *_front
   cdef int _sign[13]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive13, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive13()
@@ -1034,6 +1073,9 @@ cdef class PyBspTreeArchive14:
   cdef BspTreeArchive14 *_front
   cdef int _sign[14]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive14, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive14()
@@ -1131,6 +1173,9 @@ cdef class PyBspTreeArchive15:
   cdef BspTreeArchive15 *_front
   cdef int _sign[15]
   cdef int _id
+
+  def __reduce__(self):
+    return (PyBspTreeArchive15, (self._id, self._sign))
 
   def __cinit__(self):
     self._front = new BspTreeArchive15()

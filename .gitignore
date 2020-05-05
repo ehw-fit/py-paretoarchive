@@ -1,0 +1,12 @@
+**.venv/
+**.idea/**
+**build/
+**.egg-info/
+*.out
+*.so
+paretoarchive_gen.cpp
+Pipfile
+\.idea/
+\.venv/
+build/
+paretoarchive\.egg-info/
