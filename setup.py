@@ -19,6 +19,7 @@ setup(
     version = '1.0',
     description = 'Efficient incremental Pareto archive',
     cmdclass = {'build_ext': build_ext},
-    ext_modules = [ext_module]
+    ext_modules = [ext_module],
+    install_requires=['cython']
 )
 
