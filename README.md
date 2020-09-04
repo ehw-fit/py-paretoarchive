@@ -94,6 +94,23 @@ indexes = pf.points(returnIds=True)
 print([dataset[i]['wce'] for i in indexes])
 ```
 
+## Using in Pandas
+You can easily use the library to filter a Pandas DataFrame. Note that the selected columns cannot have a "NaN" values (you should use `df.dropna(subset=["c1", "c2"])` function.
+
+```python
+from paretoarchive import PyBspTreeArchive
+def pandas_pareto(data : pd.DataFrame, columns : list, **kwargs) -> pd.DataFrame:
+    filt = list(zip(*[data[c] for c in columns]))
+    ids = data.index.tolist()
+
+    sel = [ids[i] for i in PyBspTreeArchive(len(columns), **kwargs).filter(filt, returnIds=True)]
+    filt = [i in sel for i in ids]
+    return data[filt]
+    
+# example usage    
+par_df = pandas_pareto(df, ["area", "energy", "weight"], minimizeObjective2 = False)
+```
+
 ### SOURCE
 
 * Tobias Glasmachers: **A Fast Incremental BSP Tree Archive for Non-dominated Points**
