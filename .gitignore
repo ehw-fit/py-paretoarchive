@@ -10,3 +10,6 @@ Pipfile
 \.venv/
 build/
 paretoarchive\.egg-info/
+
+.vscode
+__pycache__
