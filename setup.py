@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 from setuptools.extension import Extension
-from Cython.Distutils import build_ext
 from Cython.Build import cythonize
 
 
