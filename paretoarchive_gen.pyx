@@ -72,7 +72,7 @@ cdef class PyBspTreeArchive1:
     data.setId(customId)
     data[0] = self._sign[0]*item[0]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -136,7 +136,7 @@ cdef class PyBspTreeArchive2:
     data[0] = self._sign[0]*item[0]
     data[1] = self._sign[1]*item[1]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -203,7 +203,7 @@ cdef class PyBspTreeArchive3:
     data[1] = self._sign[1]*item[1]
     data[2] = self._sign[2]*item[2]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -273,7 +273,7 @@ cdef class PyBspTreeArchive4:
     data[2] = self._sign[2]*item[2]
     data[3] = self._sign[3]*item[3]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -346,7 +346,7 @@ cdef class PyBspTreeArchive5:
     data[3] = self._sign[3]*item[3]
     data[4] = self._sign[4]*item[4]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -422,7 +422,7 @@ cdef class PyBspTreeArchive6:
     data[4] = self._sign[4]*item[4]
     data[5] = self._sign[5]*item[5]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -501,7 +501,7 @@ cdef class PyBspTreeArchive7:
     data[5] = self._sign[5]*item[5]
     data[6] = self._sign[6]*item[6]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -583,7 +583,7 @@ cdef class PyBspTreeArchive8:
     data[6] = self._sign[6]*item[6]
     data[7] = self._sign[7]*item[7]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -668,7 +668,7 @@ cdef class PyBspTreeArchive9:
     data[7] = self._sign[7]*item[7]
     data[8] = self._sign[8]*item[8]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -756,7 +756,7 @@ cdef class PyBspTreeArchive10:
     data[8] = self._sign[8]*item[8]
     data[9] = self._sign[9]*item[9]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -847,7 +847,7 @@ cdef class PyBspTreeArchive11:
     data[9] = self._sign[9]*item[9]
     data[10] = self._sign[10]*item[10]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -941,7 +941,7 @@ cdef class PyBspTreeArchive12:
     data[10] = self._sign[10]*item[10]
     data[11] = self._sign[11]*item[11]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -1038,7 +1038,7 @@ cdef class PyBspTreeArchive13:
     data[11] = self._sign[11]*item[11]
     data[12] = self._sign[12]*item[12]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -1138,7 +1138,7 @@ cdef class PyBspTreeArchive14:
     data[12] = self._sign[12]*item[12]
     data[13] = self._sign[13]*item[13]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):
@@ -1241,7 +1241,7 @@ cdef class PyBspTreeArchive15:
     data[13] = self._sign[13]*item[13]
     data[14] = self._sign[14]*item[14]
     if not returnId:
-        return self._front.process(data)
+          return self._front.process(data)
     return (self._front.process(data), customId)
 
   def clear(self):

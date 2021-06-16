@@ -18,19 +18,19 @@ if __name__ == "__main__":
 
   for i in range(1,OBJS+1):
       src += ["""
-  ctypedef BspTreeArchive[myInt%d] BspTreeArchive%d
+ctypedef BspTreeArchive[myInt%d] BspTreeArchive%d
 
-  cdef class PyBspTreeArchive%d:
-    cdef BspTreeArchive%d *_front
-    cdef int _sign[%d]
-    cdef int _id
+cdef class PyBspTreeArchive%d:
+  cdef BspTreeArchive%d *_front
+  cdef int _sign[%d]
+  cdef int _id
 
-    def __reduce__(self):
-      return (PyBspTreeArchive%d, (self._id, self._sign))
+  def __reduce__(self):
+    return (PyBspTreeArchive%d, (self._id, self._sign))
 
-    def __cinit__(self):
-      self._front = new BspTreeArchive%d()
-      self._id = 0""" % (i,i,i,i,i,i,i)]
+  def __cinit__(self):
+    self._front = new BspTreeArchive%d()
+    self._id = 0""" % (i,i,i,i,i,i,i)]
 
       for j in range(0,i):
           src += ['    self._sign[%d] = 1' % j]
@@ -43,17 +43,17 @@ if __name__ == "__main__":
 
       src += ['']
       src += ["""  def __dealloc__(self):
-      del self._front
-      self._front = NULL
+    del self._front
+    self._front = NULL
 
-    def process(self, item, customId=None, returnId=False):
-      assert len(item) == %d
-      cdef ObjVec[myInt%d] data
-      cdef int i
-      if customId == None:
-          customId = self._id
-          self._id += 1
-      data.setId(customId)""" % (i,i)]
+  def process(self, item, customId=None, returnId=False):
+    assert len(item) == %d
+    cdef ObjVec[myInt%d] data
+    cdef int i
+    if customId == None:
+        customId = self._id
+        self._id += 1
+    data.setId(customId)""" % (i,i)]
 
 
       for j in range(0,i):
@@ -68,32 +68,32 @@ if __name__ == "__main__":
 
       src += ["""    if not returnId:
           return self._front.process(data)
-      return (self._front.process(data), customId)
+    return (self._front.process(data), customId)
 
-    def clear(self):
-      self._id = 0
-      self._front.clear()
+  def clear(self):
+    self._id = 0
+    self._front.clear()
 
-    def empty(self):
-      return self._front.empty()
+  def empty(self):
+    return self._front.empty()
 
-    def size(self):
-      return self._front.size()
+  def size(self):
+    return self._front.size()
 
-    def points(self, bool returnIds=False):
-      cdef vector[const ObjVec[myInt%d]*] vec
-      cdef ObjVec[myInt%d] veci
-      cdef int i
-      vec = self._front.points()
-      res = []
-      for i in range(0,vec.size()):
-          val = vec[i]
-          veci = val[0]
-          if returnIds:
-              res.append(veci.getId())
-          else:
-              res.append([%s])
-      return res""" % (i,i,dd)]
+  def points(self, bool returnIds=False):
+    cdef vector[const ObjVec[myInt%d]*] vec
+    cdef ObjVec[myInt%d] veci
+    cdef int i
+    vec = self._front.points()
+    res = []
+    for i in range(0,vec.size()):
+        val = vec[i]
+        veci = val[0]
+        if returnIds:
+            res.append(veci.getId())
+        else:
+            res.append([%s])
+    return res""" % (i,i,dd)]
 
       src += ['']
 
