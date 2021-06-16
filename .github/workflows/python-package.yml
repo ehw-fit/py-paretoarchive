@@ -27,7 +27,8 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Generate source code |
+    - name: Generate source code
+      run: |
         python gensrc.py
     - name: Build
       run: |      
@@ -42,5 +43,3 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: Internal test
-      run: python test.py
