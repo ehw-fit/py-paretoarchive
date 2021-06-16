@@ -1274,15 +1274,11 @@ OBJ2CLASS = {2:PyBspTreeArchive2,3:PyBspTreeArchive3,4:PyBspTreeArchive4,5:PyBsp
 
 
 class PyBspTreeArchive:
-  def __init__(self, objectives=3, **kwargs): #minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
+  def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
      if (objectives < 2) or (objectives > MAXOBJ):
         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
      self._archive = OBJ2CLASS[objectives]()
-     cfg = [True for i in range(objectives)]
-     for i in range(1, objectives+1):
-        if ('minimizeObjective%d' % i) in kwargs:
-            cfg[i-1] = kwargs['minimizeObjective%d' % i]
-     self._archive.configure(cfg)
+     self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
      self.process = self._archive.process
      self.empty = self._archive.empty
      self.clear = self._archive.clear
