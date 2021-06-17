@@ -5,12 +5,10 @@ Creating an archive of all non-dominated points using Fast Incremental BSP Tree.
 ### COMPILATION
 
 ```bash
-python setup.py build
-python install --user
-# or
-pip3 install --user git+https://github.com/ehw-fit/py-paretoarchive
-pip install --user git+https://github.com/ehw-fit/py-paretoarchive
+python -m pip install --user py-paretoarchive
 ```
+
+The package requires Cython module for its run. When Cython is correctly installed, the package should be platform independent.
 
 ### USAGE
 
