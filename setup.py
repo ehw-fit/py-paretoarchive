@@ -14,8 +14,14 @@ ext_module = Extension(
 
 setup(
     name = 'py-paretoarchive',
-    version = '0.1',
-    data_files=["paretoarchive_gen.pyx"],
+    version = '0.11',
+    data_files=["paretoarchive_gen.pyx",
+    "src/Makefile",
+    "src/nullptr_emulation.h",
+    "src/paretoarchive.h",
+    "src/test.cpp"]
+    
+    ,
     description = 'Efficient incremental Pareto archive',
     ext_modules = cythonize([ext_module]),
     packages = find_packages(),
