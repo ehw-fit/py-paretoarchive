@@ -96,6 +96,14 @@ print([dataset[i]['wce'] for i in indexes])
 You can easily use the library to filter a Pandas DataFrame. Note that the selected columns cannot have a "NaN" values (you should use `df.dropna(subset=["c1", "c2"])` function.
 
 ```python
+from paretoarchive.pandas import pareto
+par_df = pareto(df, ["area", "energy", "weight"], minimizeObjective2 = False)
+```
+
+or
+
+
+```python
 from paretoarchive import PyBspTreeArchive
 def pandas_pareto(data : pd.DataFrame, columns : list, **kwargs) -> pd.DataFrame:
     filt = list(zip(*[data[c] for c in columns]))

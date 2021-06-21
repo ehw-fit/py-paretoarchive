@@ -515,9 +515,9 @@ private:
 				assert(nl >= 1);
 				int below = nl, above = nl;
 				while (below >= 0 && value[below] == value[nl]) below--;
-				while (above <= bucket_size && value[above] == value[nl]) above++;
+				while (above <= (int)bucket_size && value[above] == value[nl]) above++;
 				assert(below >= 0 || above <= bucket_size);
-				if (below + 1 > bucket_size + 1 - above) nl = below + 1;
+				if (below + 1 > (int)bucket_size + 1 - above) nl = below + 1;
 				else nl = above;
 				assert(value[nl-1] < value[nl]);
 				double theta = 0.5 * (value[nl-1] + value[nl]);

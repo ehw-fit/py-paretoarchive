@@ -30,7 +30,7 @@ extensions = [
         "paretoarchive.core",
         ["src/paretoarchive/core.pyx"],
         language="c++",
-        extra_compile_args=["-std=c++11"],
+        extra_compile_args=["-std=c++11", "-Wno-sign-compare"],
         include_dirs=["./include"],
     )
 ]

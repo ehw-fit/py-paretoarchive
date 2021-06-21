@@ -22197,9 +22197,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
 /* "paretoarchive/core.pyx":1277
  * 
  * class PyBspTreeArchive:
- *   def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
- *      if (objectives < 2) or (objectives > MAXOBJ):
- *         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
+ *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
+ *       if (objectives < 2) or (objectives > MAXOBJ):
+ *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
  */
 
 /* Python wrapper */
@@ -22371,10 +22371,10 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
 
   /* "paretoarchive/core.pyx":1278
  * class PyBspTreeArchive:
- *   def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
- *      if (objectives < 2) or (objectives > MAXOBJ):             # <<<<<<<<<<<<<<
- *         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
- *      self._archive = OBJ2CLASS[objectives]()
+ *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
+ *       if (objectives < 2) or (objectives > MAXOBJ):             # <<<<<<<<<<<<<<
+ *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
+ *       self._archive = OBJ2CLASS[objectives]()
  */
   __pyx_t_2 = PyObject_RichCompare(__pyx_v_objectives, __pyx_int_2, Py_LT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1278, __pyx_L1_error)
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1278, __pyx_L1_error)
@@ -22395,11 +22395,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   if (unlikely(__pyx_t_1)) {
 
     /* "paretoarchive/core.pyx":1279
- *   def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
- *      if (objectives < 2) or (objectives > MAXOBJ):
- *         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))             # <<<<<<<<<<<<<<
- *      self._archive = OBJ2CLASS[objectives]()
- *      self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
+ *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
+ *       if (objectives < 2) or (objectives > MAXOBJ):
+ *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))             # <<<<<<<<<<<<<<
+ *       self._archive = OBJ2CLASS[objectives]()
+ *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
  */
     __pyx_t_4 = PyTuple_New(5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1279, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
@@ -22518,19 +22518,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
 
     /* "paretoarchive/core.pyx":1278
  * class PyBspTreeArchive:
- *   def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
- *      if (objectives < 2) or (objectives > MAXOBJ):             # <<<<<<<<<<<<<<
- *         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
- *      self._archive = OBJ2CLASS[objectives]()
+ *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
+ *       if (objectives < 2) or (objectives > MAXOBJ):             # <<<<<<<<<<<<<<
+ *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
+ *       self._archive = OBJ2CLASS[objectives]()
  */
   }
 
   /* "paretoarchive/core.pyx":1280
- *      if (objectives < 2) or (objectives > MAXOBJ):
- *         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
- *      self._archive = OBJ2CLASS[objectives]()             # <<<<<<<<<<<<<<
- *      self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
- *      self.process = self._archive.process
+ *       if (objectives < 2) or (objectives > MAXOBJ):
+ *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
+ *       self._archive = OBJ2CLASS[objectives]()             # <<<<<<<<<<<<<<
+ *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
+ *       self.process = self._archive.process
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_OBJ2CLASS); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1280, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -22556,11 +22556,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "paretoarchive/core.pyx":1281
- *         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
- *      self._archive = OBJ2CLASS[objectives]()
- *      self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])             # <<<<<<<<<<<<<<
- *      self.process = self._archive.process
- *      self.empty = self._archive.empty
+ *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
+ *       self._archive = OBJ2CLASS[objectives]()
+ *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])             # <<<<<<<<<<<<<<
+ *       self.process = self._archive.process
+ *       self.empty = self._archive.empty
  */
   __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1281, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
@@ -22606,11 +22606,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "paretoarchive/core.pyx":1282
- *      self._archive = OBJ2CLASS[objectives]()
- *      self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
- *      self.process = self._archive.process             # <<<<<<<<<<<<<<
- *      self.empty = self._archive.empty
- *      self.clear = self._archive.clear
+ *       self._archive = OBJ2CLASS[objectives]()
+ *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
+ *       self.process = self._archive.process             # <<<<<<<<<<<<<<
+ *       self.empty = self._archive.empty
+ *       self.clear = self._archive.clear
  */
   __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1282, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -22621,11 +22621,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "paretoarchive/core.pyx":1283
- *      self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
- *      self.process = self._archive.process
- *      self.empty = self._archive.empty             # <<<<<<<<<<<<<<
- *      self.clear = self._archive.clear
- *      self.size = self._archive.size
+ *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
+ *       self.process = self._archive.process
+ *       self.empty = self._archive.empty             # <<<<<<<<<<<<<<
+ *       self.clear = self._archive.clear
+ *       self.size = self._archive.size
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1283, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -22636,11 +22636,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "paretoarchive/core.pyx":1284
- *      self.process = self._archive.process
- *      self.empty = self._archive.empty
- *      self.clear = self._archive.clear             # <<<<<<<<<<<<<<
- *      self.size = self._archive.size
- *      self.points = self._archive.points
+ *       self.process = self._archive.process
+ *       self.empty = self._archive.empty
+ *       self.clear = self._archive.clear             # <<<<<<<<<<<<<<
+ *       self.size = self._archive.size
+ *       self.points = self._archive.points
  */
   __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1284, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -22651,10 +22651,10 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "paretoarchive/core.pyx":1285
- *      self.empty = self._archive.empty
- *      self.clear = self._archive.clear
- *      self.size = self._archive.size             # <<<<<<<<<<<<<<
- *      self.points = self._archive.points
+ *       self.empty = self._archive.empty
+ *       self.clear = self._archive.clear
+ *       self.size = self._archive.size             # <<<<<<<<<<<<<<
+ *       self.points = self._archive.points
  * 
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1285, __pyx_L1_error)
@@ -22666,11 +22666,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "paretoarchive/core.pyx":1286
- *      self.clear = self._archive.clear
- *      self.size = self._archive.size
- *      self.points = self._archive.points             # <<<<<<<<<<<<<<
+ *       self.clear = self._archive.clear
+ *       self.size = self._archive.size
+ *       self.points = self._archive.points             # <<<<<<<<<<<<<<
  * 
- *   def filter(self, data, returnIds=False, sortKey=None):
+ *    def filter(self, data, returnIds=False, sortKey=None):
  */
   __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -22683,9 +22683,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   /* "paretoarchive/core.pyx":1277
  * 
  * class PyBspTreeArchive:
- *   def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
- *      if (objectives < 2) or (objectives > MAXOBJ):
- *         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
+ *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
+ *       if (objectives < 2) or (objectives > MAXOBJ):
+ *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
  */
 
   /* function exit code */
@@ -22706,9 +22706,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
 }
 
 /* "paretoarchive/core.pyx":1288
- *      self.points = self._archive.points
+ *       self.points = self._archive.points
  * 
- *   def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
+ *    def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
  *      self.clear()
  *      for i, d in enumerate(data):
  */
@@ -22829,7 +22829,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
 
   /* "paretoarchive/core.pyx":1289
  * 
- *   def filter(self, data, returnIds=False, sortKey=None):
+ *    def filter(self, data, returnIds=False, sortKey=None):
  *      self.clear()             # <<<<<<<<<<<<<<
  *      for i, d in enumerate(data):
  *         self.process(d, customId=i)
@@ -22854,7 +22854,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "paretoarchive/core.pyx":1290
- *   def filter(self, data, returnIds=False, sortKey=None):
+ *    def filter(self, data, returnIds=False, sortKey=None):
  *      self.clear()
  *      for i, d in enumerate(data):             # <<<<<<<<<<<<<<
  *         self.process(d, customId=i)
@@ -22936,7 +22936,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
     /* "paretoarchive/core.pyx":1290
- *   def filter(self, data, returnIds=False, sortKey=None):
+ *    def filter(self, data, returnIds=False, sortKey=None):
  *      self.clear()
  *      for i, d in enumerate(data):             # <<<<<<<<<<<<<<
  *         self.process(d, customId=i)
@@ -23020,9 +23020,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
   goto __pyx_L0;
 
   /* "paretoarchive/core.pyx":1288
- *      self.points = self._archive.points
+ *       self.points = self._archive.points
  * 
- *   def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
+ *    def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
  *      self.clear()
  *      for i, d in enumerate(data):
  */
@@ -25075,9 +25075,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   /* "paretoarchive/core.pyx":1277
  * 
  * class PyBspTreeArchive:
- *   def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
- *      if (objectives < 2) or (objectives > MAXOBJ):
- *         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
+ *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
+ *       if (objectives < 2) or (objectives > MAXOBJ):
+ *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
  */
   __pyx_tuple__2 = PyTuple_Pack(9, __pyx_n_s_self, __pyx_n_s_objectives, __pyx_n_s_minimizeObjective1, __pyx_n_s_minimizeObjective2, __pyx_n_s_minimizeObjective3, __pyx_n_s_minimizeObjective4, __pyx_n_s_minimizeObjective5, __pyx_n_s_minimizeObjective6, __pyx_n_s_a); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 1277, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__2);
@@ -25088,9 +25088,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__4);
 
   /* "paretoarchive/core.pyx":1288
- *      self.points = self._archive.points
+ *       self.points = self._archive.points
  * 
- *   def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
+ *    def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
  *      self.clear()
  *      for i, d in enumerate(data):
  */
@@ -25578,8 +25578,8 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  * class PyBspTreeArchive:             # <<<<<<<<<<<<<<
- *   def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
- *      if (objectives < 2) or (objectives > MAXOBJ):
+ *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
+ *       if (objectives < 2) or (objectives > MAXOBJ):
  */
   __pyx_t_1 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_PyBspTreeArchive, __pyx_n_s_PyBspTreeArchive, (PyObject *) NULL, __pyx_n_s_paretoarchive_core, (PyObject *) NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1276, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -25587,9 +25587,9 @@ if (!__Pyx_RefNanny) {
   /* "paretoarchive/core.pyx":1277
  * 
  * class PyBspTreeArchive:
- *   def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
- *      if (objectives < 2) or (objectives > MAXOBJ):
- *         raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
+ *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
+ *       if (objectives < 2) or (objectives > MAXOBJ):
+ *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
  */
   __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_13paretoarchive_4core_16PyBspTreeArchive_1__init__, 0, __pyx_n_s_PyBspTreeArchive___init, NULL, __pyx_n_s_paretoarchive_core, __pyx_d, ((PyObject *)__pyx_codeobj__3)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1277, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -25598,9 +25598,9 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "paretoarchive/core.pyx":1288
- *      self.points = self._archive.points
+ *       self.points = self._archive.points
  * 
- *   def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
+ *    def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
  *      self.clear()
  *      for i, d in enumerate(data):
  */
@@ -25614,8 +25614,8 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  * class PyBspTreeArchive:             # <<<<<<<<<<<<<<
- *   def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
- *      if (objectives < 2) or (objectives > MAXOBJ):
+ *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
+ *       if (objectives < 2) or (objectives > MAXOBJ):
  */
   __pyx_t_2 = __Pyx_Py3ClassCreate(((PyObject*)&__Pyx_DefaultClassType), __pyx_n_s_PyBspTreeArchive, __pyx_empty_tuple, __pyx_t_1, NULL, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1276, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);

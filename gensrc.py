@@ -1,7 +1,12 @@
 #!/usr/bin/python
-# This file automatically generates Cython file paretoarchive_gen.pyx based on paretorarchive.pyx
-# It generates the classes for 1 to OBJS objectives
-# Because of using c++ templates simple copy is needed
+"""
+This file automatically generates Cython file paretoarchive_gen.pyx based on paretorarchive.pyx
+
+It generates the classes for 1 to OBJS objectives. Because of using c++ templates simple copy is needed
+
+
+
+"""
 
 if __name__ == "__main__":
 
