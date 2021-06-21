@@ -12,12 +12,12 @@ src/paretoarchive/core.cpp: src/paretoarchive/core.pyx
 build: src/paretoarchive/core.cpp
 	CYTHONIZE=1 ./setup.py build
 
-dist:
+dist: src/paretoarchive/core.cpp
 	CYTHONIZE=1 ./setup.py sdist bdist_wheel
 
 redist: clean dist
 
-install:
+install: src/paretoarchive/core.cpp
 	CYTHONIZE=1 pip install .
 
 install-from-source: dist
