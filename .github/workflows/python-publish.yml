@@ -50,7 +50,7 @@ jobs:
       with:
         python-version: '3.x'
     - name: Install the package
-      run: pip install py-paretoarchive pandas
+      run: pip install py-paretoarchive pandas pytest
     - uses: actions/checkout@v2
     - name: Run pytest
       run: pytest
