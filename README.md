@@ -17,6 +17,8 @@ make install-from-source
 pytest
 ```
 
+The package requires Cython module for its run. When Cython is correctly installed, the package should be platform independent.
+
 ### USAGE
 
 ```python
