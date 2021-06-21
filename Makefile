@@ -21,7 +21,7 @@ install: src/paretoarchive/core.cpp
 	CYTHONIZE=1 pip install .
 
 install-from-source: dist
-	pip install --force-reinstall dist/py-paretoarchive-0.15.tar.gz
+	pip install --force-reinstall `ls dist/*.tar.gz | sort | tail -1`
 
 clean:
 	$(RM) -r build dist src/*.egg-info

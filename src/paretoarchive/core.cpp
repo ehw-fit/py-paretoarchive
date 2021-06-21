@@ -7,7 +7,8 @@
             "src/paretoarchive/paretoarchive.h"
         ],
         "extra_compile_args": [
-            "-std=c++11"
+            "-std=c++11",
+            "-Wno-sign-compare"
         ],
         "include_dirs": [
             "src/paretoarchive",
@@ -879,7 +880,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive13;
 struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive14;
 struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive15;
 
-/* "paretoarchive/core.pyx":43
+/* "paretoarchive/core.pyx":48
  *     ctypedef int myInt15 "15"    # a fake type
  * 
  * ctypedef BspTreeArchive[myInt1] BspTreeArchive1             # <<<<<<<<<<<<<<
@@ -888,7 +889,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive15;
  */
 typedef BspTreeArchive<1>  __pyx_t_13paretoarchive_4core_BspTreeArchive1;
 
-/* "paretoarchive/core.pyx":104
+/* "paretoarchive/core.pyx":109
  * 
  * 
  * ctypedef BspTreeArchive[myInt2] BspTreeArchive2             # <<<<<<<<<<<<<<
@@ -897,7 +898,7 @@ typedef BspTreeArchive<1>  __pyx_t_13paretoarchive_4core_BspTreeArchive1;
  */
 typedef BspTreeArchive<2>  __pyx_t_13paretoarchive_4core_BspTreeArchive2;
 
-/* "paretoarchive/core.pyx":168
+/* "paretoarchive/core.pyx":173
  * 
  * 
  * ctypedef BspTreeArchive[myInt3] BspTreeArchive3             # <<<<<<<<<<<<<<
@@ -906,7 +907,7 @@ typedef BspTreeArchive<2>  __pyx_t_13paretoarchive_4core_BspTreeArchive2;
  */
 typedef BspTreeArchive<3>  __pyx_t_13paretoarchive_4core_BspTreeArchive3;
 
-/* "paretoarchive/core.pyx":235
+/* "paretoarchive/core.pyx":240
  * 
  * 
  * ctypedef BspTreeArchive[myInt4] BspTreeArchive4             # <<<<<<<<<<<<<<
@@ -915,7 +916,7 @@ typedef BspTreeArchive<3>  __pyx_t_13paretoarchive_4core_BspTreeArchive3;
  */
 typedef BspTreeArchive<4>  __pyx_t_13paretoarchive_4core_BspTreeArchive4;
 
-/* "paretoarchive/core.pyx":305
+/* "paretoarchive/core.pyx":310
  * 
  * 
  * ctypedef BspTreeArchive[myInt5] BspTreeArchive5             # <<<<<<<<<<<<<<
@@ -924,7 +925,7 @@ typedef BspTreeArchive<4>  __pyx_t_13paretoarchive_4core_BspTreeArchive4;
  */
 typedef BspTreeArchive<5>  __pyx_t_13paretoarchive_4core_BspTreeArchive5;
 
-/* "paretoarchive/core.pyx":378
+/* "paretoarchive/core.pyx":383
  * 
  * 
  * ctypedef BspTreeArchive[myInt6] BspTreeArchive6             # <<<<<<<<<<<<<<
@@ -933,7 +934,7 @@ typedef BspTreeArchive<5>  __pyx_t_13paretoarchive_4core_BspTreeArchive5;
  */
 typedef BspTreeArchive<6>  __pyx_t_13paretoarchive_4core_BspTreeArchive6;
 
-/* "paretoarchive/core.pyx":454
+/* "paretoarchive/core.pyx":459
  * 
  * 
  * ctypedef BspTreeArchive[myInt7] BspTreeArchive7             # <<<<<<<<<<<<<<
@@ -942,7 +943,7 @@ typedef BspTreeArchive<6>  __pyx_t_13paretoarchive_4core_BspTreeArchive6;
  */
 typedef BspTreeArchive<7>  __pyx_t_13paretoarchive_4core_BspTreeArchive7;
 
-/* "paretoarchive/core.pyx":533
+/* "paretoarchive/core.pyx":538
  * 
  * 
  * ctypedef BspTreeArchive[myInt8] BspTreeArchive8             # <<<<<<<<<<<<<<
@@ -951,7 +952,7 @@ typedef BspTreeArchive<7>  __pyx_t_13paretoarchive_4core_BspTreeArchive7;
  */
 typedef BspTreeArchive<8>  __pyx_t_13paretoarchive_4core_BspTreeArchive8;
 
-/* "paretoarchive/core.pyx":615
+/* "paretoarchive/core.pyx":620
  * 
  * 
  * ctypedef BspTreeArchive[myInt9] BspTreeArchive9             # <<<<<<<<<<<<<<
@@ -960,7 +961,7 @@ typedef BspTreeArchive<8>  __pyx_t_13paretoarchive_4core_BspTreeArchive8;
  */
 typedef BspTreeArchive<9>  __pyx_t_13paretoarchive_4core_BspTreeArchive9;
 
-/* "paretoarchive/core.pyx":700
+/* "paretoarchive/core.pyx":705
  * 
  * 
  * ctypedef BspTreeArchive[myInt10] BspTreeArchive10             # <<<<<<<<<<<<<<
@@ -969,7 +970,7 @@ typedef BspTreeArchive<9>  __pyx_t_13paretoarchive_4core_BspTreeArchive9;
  */
 typedef BspTreeArchive<10>  __pyx_t_13paretoarchive_4core_BspTreeArchive10;
 
-/* "paretoarchive/core.pyx":788
+/* "paretoarchive/core.pyx":793
  * 
  * 
  * ctypedef BspTreeArchive[myInt11] BspTreeArchive11             # <<<<<<<<<<<<<<
@@ -978,7 +979,7 @@ typedef BspTreeArchive<10>  __pyx_t_13paretoarchive_4core_BspTreeArchive10;
  */
 typedef BspTreeArchive<11>  __pyx_t_13paretoarchive_4core_BspTreeArchive11;
 
-/* "paretoarchive/core.pyx":879
+/* "paretoarchive/core.pyx":884
  * 
  * 
  * ctypedef BspTreeArchive[myInt12] BspTreeArchive12             # <<<<<<<<<<<<<<
@@ -987,7 +988,7 @@ typedef BspTreeArchive<11>  __pyx_t_13paretoarchive_4core_BspTreeArchive11;
  */
 typedef BspTreeArchive<12>  __pyx_t_13paretoarchive_4core_BspTreeArchive12;
 
-/* "paretoarchive/core.pyx":973
+/* "paretoarchive/core.pyx":978
  * 
  * 
  * ctypedef BspTreeArchive[myInt13] BspTreeArchive13             # <<<<<<<<<<<<<<
@@ -996,7 +997,7 @@ typedef BspTreeArchive<12>  __pyx_t_13paretoarchive_4core_BspTreeArchive12;
  */
 typedef BspTreeArchive<13>  __pyx_t_13paretoarchive_4core_BspTreeArchive13;
 
-/* "paretoarchive/core.pyx":1070
+/* "paretoarchive/core.pyx":1075
  * 
  * 
  * ctypedef BspTreeArchive[myInt14] BspTreeArchive14             # <<<<<<<<<<<<<<
@@ -1005,7 +1006,7 @@ typedef BspTreeArchive<13>  __pyx_t_13paretoarchive_4core_BspTreeArchive13;
  */
 typedef BspTreeArchive<14>  __pyx_t_13paretoarchive_4core_BspTreeArchive14;
 
-/* "paretoarchive/core.pyx":1170
+/* "paretoarchive/core.pyx":1175
  * 
  * 
  * ctypedef BspTreeArchive[myInt15] BspTreeArchive15             # <<<<<<<<<<<<<<
@@ -1014,7 +1015,7 @@ typedef BspTreeArchive<14>  __pyx_t_13paretoarchive_4core_BspTreeArchive14;
  */
 typedef BspTreeArchive<15>  __pyx_t_13paretoarchive_4core_BspTreeArchive15;
 
-/* "paretoarchive/core.pyx":45
+/* "paretoarchive/core.pyx":50
  * ctypedef BspTreeArchive[myInt1] BspTreeArchive1
  * 
  * cdef class PyBspTreeArchive1:             # <<<<<<<<<<<<<<
@@ -1029,7 +1030,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive1 {
 };
 
 
-/* "paretoarchive/core.pyx":106
+/* "paretoarchive/core.pyx":111
  * ctypedef BspTreeArchive[myInt2] BspTreeArchive2
  * 
  * cdef class PyBspTreeArchive2:             # <<<<<<<<<<<<<<
@@ -1044,7 +1045,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive2 {
 };
 
 
-/* "paretoarchive/core.pyx":170
+/* "paretoarchive/core.pyx":175
  * ctypedef BspTreeArchive[myInt3] BspTreeArchive3
  * 
  * cdef class PyBspTreeArchive3:             # <<<<<<<<<<<<<<
@@ -1059,7 +1060,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive3 {
 };
 
 
-/* "paretoarchive/core.pyx":237
+/* "paretoarchive/core.pyx":242
  * ctypedef BspTreeArchive[myInt4] BspTreeArchive4
  * 
  * cdef class PyBspTreeArchive4:             # <<<<<<<<<<<<<<
@@ -1074,7 +1075,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive4 {
 };
 
 
-/* "paretoarchive/core.pyx":307
+/* "paretoarchive/core.pyx":312
  * ctypedef BspTreeArchive[myInt5] BspTreeArchive5
  * 
  * cdef class PyBspTreeArchive5:             # <<<<<<<<<<<<<<
@@ -1089,7 +1090,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive5 {
 };
 
 
-/* "paretoarchive/core.pyx":380
+/* "paretoarchive/core.pyx":385
  * ctypedef BspTreeArchive[myInt6] BspTreeArchive6
  * 
  * cdef class PyBspTreeArchive6:             # <<<<<<<<<<<<<<
@@ -1104,7 +1105,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive6 {
 };
 
 
-/* "paretoarchive/core.pyx":456
+/* "paretoarchive/core.pyx":461
  * ctypedef BspTreeArchive[myInt7] BspTreeArchive7
  * 
  * cdef class PyBspTreeArchive7:             # <<<<<<<<<<<<<<
@@ -1119,7 +1120,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive7 {
 };
 
 
-/* "paretoarchive/core.pyx":535
+/* "paretoarchive/core.pyx":540
  * ctypedef BspTreeArchive[myInt8] BspTreeArchive8
  * 
  * cdef class PyBspTreeArchive8:             # <<<<<<<<<<<<<<
@@ -1134,7 +1135,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive8 {
 };
 
 
-/* "paretoarchive/core.pyx":617
+/* "paretoarchive/core.pyx":622
  * ctypedef BspTreeArchive[myInt9] BspTreeArchive9
  * 
  * cdef class PyBspTreeArchive9:             # <<<<<<<<<<<<<<
@@ -1149,7 +1150,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive9 {
 };
 
 
-/* "paretoarchive/core.pyx":702
+/* "paretoarchive/core.pyx":707
  * ctypedef BspTreeArchive[myInt10] BspTreeArchive10
  * 
  * cdef class PyBspTreeArchive10:             # <<<<<<<<<<<<<<
@@ -1164,7 +1165,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive10 {
 };
 
 
-/* "paretoarchive/core.pyx":790
+/* "paretoarchive/core.pyx":795
  * ctypedef BspTreeArchive[myInt11] BspTreeArchive11
  * 
  * cdef class PyBspTreeArchive11:             # <<<<<<<<<<<<<<
@@ -1179,7 +1180,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive11 {
 };
 
 
-/* "paretoarchive/core.pyx":881
+/* "paretoarchive/core.pyx":886
  * ctypedef BspTreeArchive[myInt12] BspTreeArchive12
  * 
  * cdef class PyBspTreeArchive12:             # <<<<<<<<<<<<<<
@@ -1194,7 +1195,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive12 {
 };
 
 
-/* "paretoarchive/core.pyx":975
+/* "paretoarchive/core.pyx":980
  * ctypedef BspTreeArchive[myInt13] BspTreeArchive13
  * 
  * cdef class PyBspTreeArchive13:             # <<<<<<<<<<<<<<
@@ -1209,7 +1210,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive13 {
 };
 
 
-/* "paretoarchive/core.pyx":1072
+/* "paretoarchive/core.pyx":1077
  * ctypedef BspTreeArchive[myInt14] BspTreeArchive14
  * 
  * cdef class PyBspTreeArchive14:             # <<<<<<<<<<<<<<
@@ -1224,7 +1225,7 @@ struct __pyx_obj_13paretoarchive_4core_PyBspTreeArchive14 {
 };
 
 
-/* "paretoarchive/core.pyx":1172
+/* "paretoarchive/core.pyx":1177
  * ctypedef BspTreeArchive[myInt15] BspTreeArchive15
  * 
  * cdef class PyBspTreeArchive15:             # <<<<<<<<<<<<<<
@@ -2064,7 +2065,7 @@ static PyObject *__pyx_codeobj__3;
 static PyObject *__pyx_codeobj__6;
 /* Late includes */
 
-/* "paretoarchive/core.pyx":50
+/* "paretoarchive/core.pyx":55
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -2097,7 +2098,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1___reduce__(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":51
+  /* "paretoarchive/core.pyx":56
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive1, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -2105,11 +2106,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1___reduce__(s
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 51, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 56, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 51, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 56, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 51, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 56, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -2117,7 +2118,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1___reduce__(s
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 51, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 56, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive1));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive1));
@@ -2129,7 +2130,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1___reduce__(s
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":50
+  /* "paretoarchive/core.pyx":55
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -2150,7 +2151,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1___reduce__(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":53
+/* "paretoarchive/core.pyx":58
  *     return (PyBspTreeArchive1, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -2179,7 +2180,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_2__cinit__(struct 
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":54
+  /* "paretoarchive/core.pyx":59
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive1()             # <<<<<<<<<<<<<<
@@ -2188,7 +2189,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_2__cinit__(struct 
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive1();
 
-  /* "paretoarchive/core.pyx":55
+  /* "paretoarchive/core.pyx":60
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive1()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -2197,7 +2198,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_2__cinit__(struct 
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":56
+  /* "paretoarchive/core.pyx":61
  *     self._front = new BspTreeArchive1()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -2206,7 +2207,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":53
+  /* "paretoarchive/core.pyx":58
  *     return (PyBspTreeArchive1, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -2220,7 +2221,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_2__cinit__(struct 
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":58
+/* "paretoarchive/core.pyx":63
  *     self._sign[0] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -2253,16 +2254,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_4configure(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":59
+  /* "paretoarchive/core.pyx":64
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  * 
  *   def __dealloc__(self):
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 59, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 59, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -2271,7 +2272,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_4configure(s
   }
   (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":58
+  /* "paretoarchive/core.pyx":63
  *     self._sign[0] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -2292,7 +2293,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_4configure(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":61
+/* "paretoarchive/core.pyx":66
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -2315,7 +2316,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_6__dealloc__(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":62
+  /* "paretoarchive/core.pyx":67
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -2324,7 +2325,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_6__dealloc__(stru
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":63
+  /* "paretoarchive/core.pyx":68
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -2333,7 +2334,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_6__dealloc__(stru
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":61
+  /* "paretoarchive/core.pyx":66
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -2345,7 +2346,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_6__dealloc__(stru
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":65
+/* "paretoarchive/core.pyx":70
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -2403,7 +2404,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive1_9process(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 65, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 70, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -2422,7 +2423,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive1_9process(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 65, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 70, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive1.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -2453,7 +2454,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_8process(str
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":66
+  /* "paretoarchive/core.pyx":71
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 1             # <<<<<<<<<<<<<<
@@ -2462,39 +2463,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_8process(str
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 66, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 71, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 1) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 66, __pyx_L1_error)
+      __PYX_ERR(0, 71, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":69
+  /* "paretoarchive/core.pyx":74
  *     cdef ObjVec[myInt1] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 69, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 74, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 74, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":70
+    /* "paretoarchive/core.pyx":75
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 70, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 75, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":71
+    /* "paretoarchive/core.pyx":76
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -2503,7 +2504,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_8process(str
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":69
+    /* "paretoarchive/core.pyx":74
  *     cdef ObjVec[myInt1] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -2512,47 +2513,47 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":72
+  /* "paretoarchive/core.pyx":77
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     if not returnId:
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 77, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":73
+  /* "paretoarchive/core.pyx":78
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":74
+  /* "paretoarchive/core.pyx":79
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 74, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 79, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":75
+    /* "paretoarchive/core.pyx":80
  *     data[0] = self._sign[0]*item[0]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -2560,13 +2561,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_8process(str
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 75, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 80, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_r = __pyx_t_6;
     __pyx_t_6 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":74
+    /* "paretoarchive/core.pyx":79
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -2575,7 +2576,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":76
+  /* "paretoarchive/core.pyx":81
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -2583,9 +2584,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_8process(str
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6);
@@ -2597,7 +2598,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_8process(str
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":65
+  /* "paretoarchive/core.pyx":70
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -2619,7 +2620,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_8process(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":78
+/* "paretoarchive/core.pyx":83
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -2646,7 +2647,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_10clear(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":79
+  /* "paretoarchive/core.pyx":84
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -2655,7 +2656,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_10clear(stru
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":80
+  /* "paretoarchive/core.pyx":85
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -2664,7 +2665,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_10clear(stru
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":78
+  /* "paretoarchive/core.pyx":83
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -2679,7 +2680,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_10clear(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":82
+/* "paretoarchive/core.pyx":87
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -2710,7 +2711,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_12empty(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":83
+  /* "paretoarchive/core.pyx":88
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -2718,13 +2719,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_12empty(stru
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 83, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":82
+  /* "paretoarchive/core.pyx":87
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -2743,7 +2744,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_12empty(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":85
+/* "paretoarchive/core.pyx":90
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -2774,7 +2775,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_14size(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":86
+  /* "paretoarchive/core.pyx":91
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -2782,13 +2783,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_14size(struc
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 86, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 91, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":85
+  /* "paretoarchive/core.pyx":90
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -2807,7 +2808,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_14size(struc
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":88
+/* "paretoarchive/core.pyx":93
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -2847,7 +2848,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive1_17points(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 93, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -2858,14 +2859,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive1_17points(PyO
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 93, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 93, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive1.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -2898,7 +2899,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":92
+  /* "paretoarchive/core.pyx":97
  *     cdef ObjVec[myInt1] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -2907,19 +2908,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":93
+  /* "paretoarchive/core.pyx":98
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 93, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":94
+  /* "paretoarchive/core.pyx":99
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -2931,7 +2932,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":95
+    /* "paretoarchive/core.pyx":100
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -2940,7 +2941,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":96
+    /* "paretoarchive/core.pyx":101
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -2949,7 +2950,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":97
+    /* "paretoarchive/core.pyx":102
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -2959,19 +2960,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":98
+      /* "paretoarchive/core.pyx":103
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 103, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 98, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 103, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":97
+      /* "paretoarchive/core.pyx":102
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -2981,7 +2982,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":100
+    /* "paretoarchive/core.pyx":105
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0]])             # <<<<<<<<<<<<<<
@@ -2989,20 +2990,20 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 100, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 105, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyList_New(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 100, __pyx_L1_error)
+      __pyx_t_7 = PyList_New(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 105, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_7, 0, __pyx_t_1);
       __pyx_t_1 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_7); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 100, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_7); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 105, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":101
+  /* "paretoarchive/core.pyx":106
  *         else:
  *             res.append([self._sign[0]*veci[0]])
  *     return res             # <<<<<<<<<<<<<<
@@ -3014,7 +3015,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":88
+  /* "paretoarchive/core.pyx":93
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -3035,7 +3036,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive1_16points(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":111
+/* "paretoarchive/core.pyx":116
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -3068,7 +3069,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2___reduce__(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":112
+  /* "paretoarchive/core.pyx":117
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive2, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -3076,11 +3077,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2___reduce__(s
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 112, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 117, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 112, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 117, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 117, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -3088,7 +3089,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2___reduce__(s
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 112, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 117, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive2));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive2));
@@ -3100,7 +3101,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2___reduce__(s
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":111
+  /* "paretoarchive/core.pyx":116
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -3121,7 +3122,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2___reduce__(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":114
+/* "paretoarchive/core.pyx":119
  *     return (PyBspTreeArchive2, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -3150,7 +3151,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_2__cinit__(struct 
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":115
+  /* "paretoarchive/core.pyx":120
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive2()             # <<<<<<<<<<<<<<
@@ -3159,7 +3160,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_2__cinit__(struct 
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive2();
 
-  /* "paretoarchive/core.pyx":116
+  /* "paretoarchive/core.pyx":121
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive2()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -3168,7 +3169,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_2__cinit__(struct 
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":117
+  /* "paretoarchive/core.pyx":122
  *     self._front = new BspTreeArchive2()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -3177,7 +3178,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":118
+  /* "paretoarchive/core.pyx":123
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -3186,7 +3187,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":114
+  /* "paretoarchive/core.pyx":119
  *     return (PyBspTreeArchive2, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -3200,7 +3201,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_2__cinit__(struct 
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":120
+/* "paretoarchive/core.pyx":125
  *     self._sign[1] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -3233,16 +3234,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_4configure(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":121
+  /* "paretoarchive/core.pyx":126
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  * 
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 126, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 126, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -3251,16 +3252,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_4configure(s
   }
   (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":122
+  /* "paretoarchive/core.pyx":127
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  * 
  *   def __dealloc__(self):
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 127, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 127, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -3269,7 +3270,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_4configure(s
   }
   (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":120
+  /* "paretoarchive/core.pyx":125
  *     self._sign[1] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -3290,7 +3291,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_4configure(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":124
+/* "paretoarchive/core.pyx":129
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -3313,7 +3314,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_6__dealloc__(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":125
+  /* "paretoarchive/core.pyx":130
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -3322,7 +3323,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_6__dealloc__(stru
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":126
+  /* "paretoarchive/core.pyx":131
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -3331,7 +3332,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_6__dealloc__(stru
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":124
+  /* "paretoarchive/core.pyx":129
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -3343,7 +3344,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_6__dealloc__(stru
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":128
+/* "paretoarchive/core.pyx":133
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -3401,7 +3402,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive2_9process(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 128, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 133, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -3420,7 +3421,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive2_9process(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 128, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 133, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive2.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -3451,7 +3452,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_8process(str
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":129
+  /* "paretoarchive/core.pyx":134
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 2             # <<<<<<<<<<<<<<
@@ -3460,39 +3461,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_8process(str
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 129, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 134, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 2) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 129, __pyx_L1_error)
+      __PYX_ERR(0, 134, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":132
+  /* "paretoarchive/core.pyx":137
  *     cdef ObjVec[myInt2] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 132, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 132, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 137, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 137, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":133
+    /* "paretoarchive/core.pyx":138
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 133, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 138, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":134
+    /* "paretoarchive/core.pyx":139
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -3501,7 +3502,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_8process(str
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":132
+    /* "paretoarchive/core.pyx":137
  *     cdef ObjVec[myInt2] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -3510,66 +3511,66 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":135
+  /* "paretoarchive/core.pyx":140
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 140, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":136
+  /* "paretoarchive/core.pyx":141
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     if not returnId:
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 136, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 136, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 136, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 136, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":137
+  /* "paretoarchive/core.pyx":142
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 137, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 142, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 137, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 142, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 137, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 142, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 137, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 142, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":138
+  /* "paretoarchive/core.pyx":143
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 143, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":139
+    /* "paretoarchive/core.pyx":144
  *     data[1] = self._sign[1]*item[1]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -3577,13 +3578,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_8process(str
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 139, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 144, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":138
+    /* "paretoarchive/core.pyx":143
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -3592,7 +3593,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":140
+  /* "paretoarchive/core.pyx":145
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -3600,9 +3601,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_8process(str
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 140, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 140, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
@@ -3614,7 +3615,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_8process(str
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":128
+  /* "paretoarchive/core.pyx":133
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -3636,7 +3637,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_8process(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":142
+/* "paretoarchive/core.pyx":147
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -3663,7 +3664,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_10clear(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":143
+  /* "paretoarchive/core.pyx":148
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -3672,7 +3673,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_10clear(stru
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":144
+  /* "paretoarchive/core.pyx":149
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -3681,7 +3682,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_10clear(stru
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":142
+  /* "paretoarchive/core.pyx":147
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -3696,7 +3697,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_10clear(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":146
+/* "paretoarchive/core.pyx":151
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -3727,7 +3728,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_12empty(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":147
+  /* "paretoarchive/core.pyx":152
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -3735,13 +3736,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_12empty(stru
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 147, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":146
+  /* "paretoarchive/core.pyx":151
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -3760,7 +3761,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_12empty(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":149
+/* "paretoarchive/core.pyx":154
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -3791,7 +3792,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_14size(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":150
+  /* "paretoarchive/core.pyx":155
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -3799,13 +3800,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_14size(struc
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 155, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":149
+  /* "paretoarchive/core.pyx":154
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -3824,7 +3825,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_14size(struc
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":152
+/* "paretoarchive/core.pyx":157
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -3864,7 +3865,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive2_17points(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 152, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 157, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -3875,14 +3876,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive2_17points(PyO
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 152, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 157, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 152, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 157, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive2.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -3916,7 +3917,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":156
+  /* "paretoarchive/core.pyx":161
  *     cdef ObjVec[myInt2] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -3925,19 +3926,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":157
+  /* "paretoarchive/core.pyx":162
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 157, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 162, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":158
+  /* "paretoarchive/core.pyx":163
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -3949,7 +3950,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":159
+    /* "paretoarchive/core.pyx":164
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -3958,7 +3959,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":160
+    /* "paretoarchive/core.pyx":165
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -3967,7 +3968,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":161
+    /* "paretoarchive/core.pyx":166
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -3977,19 +3978,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":162
+      /* "paretoarchive/core.pyx":167
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 162, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 167, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 162, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 167, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":161
+      /* "paretoarchive/core.pyx":166
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -3999,7 +4000,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":164
+    /* "paretoarchive/core.pyx":169
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1]])             # <<<<<<<<<<<<<<
@@ -4007,11 +4008,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 164, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 169, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 164, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 169, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyList_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 164, __pyx_L1_error)
+      __pyx_t_8 = PyList_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 169, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_8, 0, __pyx_t_1);
@@ -4019,13 +4020,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
       PyList_SET_ITEM(__pyx_t_8, 1, __pyx_t_7);
       __pyx_t_1 = 0;
       __pyx_t_7 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_8); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 164, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_8); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 169, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":165
+  /* "paretoarchive/core.pyx":170
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1]])
  *     return res             # <<<<<<<<<<<<<<
@@ -4037,7 +4038,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":152
+  /* "paretoarchive/core.pyx":157
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -4059,7 +4060,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive2_16points(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":175
+/* "paretoarchive/core.pyx":180
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -4092,7 +4093,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3___reduce__(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":176
+  /* "paretoarchive/core.pyx":181
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive3, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -4100,11 +4101,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3___reduce__(s
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 176, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 176, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 176, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -4112,7 +4113,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3___reduce__(s
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 176, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive3));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive3));
@@ -4124,7 +4125,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3___reduce__(s
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":175
+  /* "paretoarchive/core.pyx":180
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -4145,7 +4146,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3___reduce__(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":178
+/* "paretoarchive/core.pyx":183
  *     return (PyBspTreeArchive3, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -4174,7 +4175,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_2__cinit__(struct 
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":179
+  /* "paretoarchive/core.pyx":184
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive3()             # <<<<<<<<<<<<<<
@@ -4183,7 +4184,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_2__cinit__(struct 
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive3();
 
-  /* "paretoarchive/core.pyx":180
+  /* "paretoarchive/core.pyx":185
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive3()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -4192,7 +4193,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_2__cinit__(struct 
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":181
+  /* "paretoarchive/core.pyx":186
  *     self._front = new BspTreeArchive3()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -4201,7 +4202,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":182
+  /* "paretoarchive/core.pyx":187
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -4210,7 +4211,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":183
+  /* "paretoarchive/core.pyx":188
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -4219,7 +4220,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":178
+  /* "paretoarchive/core.pyx":183
  *     return (PyBspTreeArchive3, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -4233,7 +4234,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_2__cinit__(struct 
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":185
+/* "paretoarchive/core.pyx":190
  *     self._sign[2] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -4266,16 +4267,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_4configure(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":186
+  /* "paretoarchive/core.pyx":191
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 186, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 191, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 186, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 191, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -4284,16 +4285,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_4configure(s
   }
   (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":187
+  /* "paretoarchive/core.pyx":192
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  * 
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 192, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 192, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -4302,16 +4303,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_4configure(s
   }
   (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":188
+  /* "paretoarchive/core.pyx":193
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  * 
  *   def __dealloc__(self):
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 188, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 193, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -4320,7 +4321,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_4configure(s
   }
   (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":185
+  /* "paretoarchive/core.pyx":190
  *     self._sign[2] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -4341,7 +4342,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_4configure(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":190
+/* "paretoarchive/core.pyx":195
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -4364,7 +4365,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_6__dealloc__(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":191
+  /* "paretoarchive/core.pyx":196
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -4373,7 +4374,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_6__dealloc__(stru
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":192
+  /* "paretoarchive/core.pyx":197
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -4382,7 +4383,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_6__dealloc__(stru
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":190
+  /* "paretoarchive/core.pyx":195
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -4394,7 +4395,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_6__dealloc__(stru
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":194
+/* "paretoarchive/core.pyx":199
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -4452,7 +4453,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive3_9process(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 194, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 199, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -4471,7 +4472,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive3_9process(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 194, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 199, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive3.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -4502,7 +4503,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_8process(str
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":195
+  /* "paretoarchive/core.pyx":200
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 3             # <<<<<<<<<<<<<<
@@ -4511,39 +4512,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_8process(str
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 195, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 200, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 3) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 195, __pyx_L1_error)
+      __PYX_ERR(0, 200, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":198
+  /* "paretoarchive/core.pyx":203
  *     cdef ObjVec[myInt3] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 198, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 198, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 203, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 203, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":199
+    /* "paretoarchive/core.pyx":204
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 199, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 204, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":200
+    /* "paretoarchive/core.pyx":205
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -4552,7 +4553,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_8process(str
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":198
+    /* "paretoarchive/core.pyx":203
  *     cdef ObjVec[myInt3] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -4561,85 +4562,85 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":201
+  /* "paretoarchive/core.pyx":206
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 206, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":202
+  /* "paretoarchive/core.pyx":207
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 207, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 207, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 207, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 207, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":203
+  /* "paretoarchive/core.pyx":208
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     if not returnId:
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 203, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 208, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 203, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 208, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 203, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 208, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 203, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 208, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":204
+  /* "paretoarchive/core.pyx":209
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 209, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 209, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 209, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 209, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":205
+  /* "paretoarchive/core.pyx":210
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 205, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 210, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":206
+    /* "paretoarchive/core.pyx":211
  *     data[2] = self._sign[2]*item[2]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -4647,13 +4648,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_8process(str
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 206, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 211, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_r = __pyx_t_6;
     __pyx_t_6 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":205
+    /* "paretoarchive/core.pyx":210
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -4662,7 +4663,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":207
+  /* "paretoarchive/core.pyx":212
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -4670,9 +4671,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_8process(str
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 207, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 212, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 207, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 212, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6);
@@ -4684,7 +4685,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_8process(str
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":194
+  /* "paretoarchive/core.pyx":199
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -4706,7 +4707,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_8process(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":209
+/* "paretoarchive/core.pyx":214
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -4733,7 +4734,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_10clear(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":210
+  /* "paretoarchive/core.pyx":215
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -4742,7 +4743,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_10clear(stru
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":211
+  /* "paretoarchive/core.pyx":216
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -4751,7 +4752,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_10clear(stru
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":209
+  /* "paretoarchive/core.pyx":214
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -4766,7 +4767,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_10clear(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":213
+/* "paretoarchive/core.pyx":218
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -4797,7 +4798,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_12empty(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":214
+  /* "paretoarchive/core.pyx":219
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -4805,13 +4806,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_12empty(stru
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 214, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":213
+  /* "paretoarchive/core.pyx":218
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -4830,7 +4831,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_12empty(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":216
+/* "paretoarchive/core.pyx":221
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -4861,7 +4862,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_14size(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":217
+  /* "paretoarchive/core.pyx":222
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -4869,13 +4870,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_14size(struc
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 217, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 222, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":216
+  /* "paretoarchive/core.pyx":221
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -4894,7 +4895,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_14size(struc
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":219
+/* "paretoarchive/core.pyx":224
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -4934,7 +4935,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive3_17points(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 219, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 224, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -4945,14 +4946,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive3_17points(PyO
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 219, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 224, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 219, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 224, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive3.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -4987,7 +4988,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":223
+  /* "paretoarchive/core.pyx":228
  *     cdef ObjVec[myInt3] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -4996,19 +4997,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":224
+  /* "paretoarchive/core.pyx":229
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 224, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 229, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":225
+  /* "paretoarchive/core.pyx":230
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -5020,7 +5021,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":226
+    /* "paretoarchive/core.pyx":231
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -5029,7 +5030,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":227
+    /* "paretoarchive/core.pyx":232
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -5038,7 +5039,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":228
+    /* "paretoarchive/core.pyx":233
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -5048,19 +5049,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":229
+      /* "paretoarchive/core.pyx":234
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 229, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 229, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":228
+      /* "paretoarchive/core.pyx":233
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -5070,7 +5071,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":231
+    /* "paretoarchive/core.pyx":236
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2]])             # <<<<<<<<<<<<<<
@@ -5078,13 +5079,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 231, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 236, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 231, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 236, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 231, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 236, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyList_New(3); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 231, __pyx_L1_error)
+      __pyx_t_9 = PyList_New(3); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 236, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_9, 0, __pyx_t_1);
@@ -5095,13 +5096,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
       __pyx_t_1 = 0;
       __pyx_t_7 = 0;
       __pyx_t_8 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_9); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 231, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_9); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 236, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":232
+  /* "paretoarchive/core.pyx":237
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2]])
  *     return res             # <<<<<<<<<<<<<<
@@ -5113,7 +5114,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":219
+  /* "paretoarchive/core.pyx":224
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -5136,7 +5137,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive3_16points(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":242
+/* "paretoarchive/core.pyx":247
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -5169,7 +5170,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4___reduce__(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":243
+  /* "paretoarchive/core.pyx":248
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive4, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -5177,11 +5178,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4___reduce__(s
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 243, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 248, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 243, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 248, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 243, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 248, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -5189,7 +5190,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4___reduce__(s
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 243, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 248, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive4));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive4));
@@ -5201,7 +5202,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4___reduce__(s
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":242
+  /* "paretoarchive/core.pyx":247
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -5222,7 +5223,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4___reduce__(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":245
+/* "paretoarchive/core.pyx":250
  *     return (PyBspTreeArchive4, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -5251,7 +5252,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_2__cinit__(struct 
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":246
+  /* "paretoarchive/core.pyx":251
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive4()             # <<<<<<<<<<<<<<
@@ -5260,7 +5261,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_2__cinit__(struct 
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive4();
 
-  /* "paretoarchive/core.pyx":247
+  /* "paretoarchive/core.pyx":252
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive4()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -5269,7 +5270,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_2__cinit__(struct 
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":248
+  /* "paretoarchive/core.pyx":253
  *     self._front = new BspTreeArchive4()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -5278,7 +5279,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":249
+  /* "paretoarchive/core.pyx":254
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -5287,7 +5288,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":250
+  /* "paretoarchive/core.pyx":255
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -5296,7 +5297,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":251
+  /* "paretoarchive/core.pyx":256
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -5305,7 +5306,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":245
+  /* "paretoarchive/core.pyx":250
  *     return (PyBspTreeArchive4, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -5319,7 +5320,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_2__cinit__(struct 
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":253
+/* "paretoarchive/core.pyx":258
  *     self._sign[3] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -5352,16 +5353,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_4configure(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":254
+  /* "paretoarchive/core.pyx":259
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 259, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 254, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 259, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -5370,16 +5371,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_4configure(s
   }
   (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":255
+  /* "paretoarchive/core.pyx":260
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 255, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 260, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 255, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 260, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -5388,16 +5389,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_4configure(s
   }
   (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":256
+  /* "paretoarchive/core.pyx":261
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  * 
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 256, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 261, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 256, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 261, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -5406,16 +5407,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_4configure(s
   }
   (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":257
+  /* "paretoarchive/core.pyx":262
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  * 
  *   def __dealloc__(self):
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 257, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 262, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 257, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 262, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -5424,7 +5425,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_4configure(s
   }
   (__pyx_v_self->_sign[3]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":253
+  /* "paretoarchive/core.pyx":258
  *     self._sign[3] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -5445,7 +5446,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_4configure(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":259
+/* "paretoarchive/core.pyx":264
  *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -5468,7 +5469,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_6__dealloc__(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":260
+  /* "paretoarchive/core.pyx":265
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -5477,7 +5478,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_6__dealloc__(stru
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":261
+  /* "paretoarchive/core.pyx":266
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -5486,7 +5487,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_6__dealloc__(stru
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":259
+  /* "paretoarchive/core.pyx":264
  *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -5498,7 +5499,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_6__dealloc__(stru
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":263
+/* "paretoarchive/core.pyx":268
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -5556,7 +5557,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive4_9process(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 263, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 268, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -5575,7 +5576,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive4_9process(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 263, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 268, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive4.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -5606,7 +5607,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_8process(str
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":264
+  /* "paretoarchive/core.pyx":269
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 4             # <<<<<<<<<<<<<<
@@ -5615,39 +5616,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_8process(str
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 264, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 269, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 4) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 264, __pyx_L1_error)
+      __PYX_ERR(0, 269, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":267
+  /* "paretoarchive/core.pyx":272
  *     cdef ObjVec[myInt4] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 267, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 267, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":268
+    /* "paretoarchive/core.pyx":273
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 268, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 273, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":269
+    /* "paretoarchive/core.pyx":274
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -5656,7 +5657,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_8process(str
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":267
+    /* "paretoarchive/core.pyx":272
  *     cdef ObjVec[myInt4] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -5665,104 +5666,104 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":270
+  /* "paretoarchive/core.pyx":275
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 270, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 275, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":271
+  /* "paretoarchive/core.pyx":276
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 271, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 276, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 271, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 276, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 271, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 276, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 271, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 276, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":272
+  /* "paretoarchive/core.pyx":277
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 277, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 277, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 277, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 277, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":273
+  /* "paretoarchive/core.pyx":278
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     if not returnId:
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 273, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 278, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 273, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 278, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 273, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 278, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 273, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 278, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":274
+  /* "paretoarchive/core.pyx":279
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 279, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 279, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 279, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 279, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":275
+  /* "paretoarchive/core.pyx":280
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 275, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 280, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":276
+    /* "paretoarchive/core.pyx":281
  *     data[3] = self._sign[3]*item[3]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -5770,13 +5771,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_8process(str
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 276, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 281, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":275
+    /* "paretoarchive/core.pyx":280
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -5785,7 +5786,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":277
+  /* "paretoarchive/core.pyx":282
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -5793,9 +5794,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_8process(str
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 277, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 282, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 277, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 282, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
@@ -5807,7 +5808,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_8process(str
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":263
+  /* "paretoarchive/core.pyx":268
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -5829,7 +5830,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_8process(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":279
+/* "paretoarchive/core.pyx":284
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -5856,7 +5857,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_10clear(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":280
+  /* "paretoarchive/core.pyx":285
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -5865,7 +5866,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_10clear(stru
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":281
+  /* "paretoarchive/core.pyx":286
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -5874,7 +5875,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_10clear(stru
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":279
+  /* "paretoarchive/core.pyx":284
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -5889,7 +5890,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_10clear(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":283
+/* "paretoarchive/core.pyx":288
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -5920,7 +5921,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_12empty(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":284
+  /* "paretoarchive/core.pyx":289
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -5928,13 +5929,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_12empty(stru
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 284, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 289, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":283
+  /* "paretoarchive/core.pyx":288
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -5953,7 +5954,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_12empty(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":286
+/* "paretoarchive/core.pyx":291
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -5984,7 +5985,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_14size(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":287
+  /* "paretoarchive/core.pyx":292
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -5992,13 +5993,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_14size(struc
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 287, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 292, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":286
+  /* "paretoarchive/core.pyx":291
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -6017,7 +6018,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_14size(struc
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":289
+/* "paretoarchive/core.pyx":294
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -6057,7 +6058,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive4_17points(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 289, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 294, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -6068,14 +6069,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive4_17points(PyO
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 289, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 294, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 289, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 294, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive4.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -6111,7 +6112,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":293
+  /* "paretoarchive/core.pyx":298
  *     cdef ObjVec[myInt4] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -6120,19 +6121,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":294
+  /* "paretoarchive/core.pyx":299
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 294, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 299, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":295
+  /* "paretoarchive/core.pyx":300
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -6144,7 +6145,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":296
+    /* "paretoarchive/core.pyx":301
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -6153,7 +6154,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":297
+    /* "paretoarchive/core.pyx":302
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -6162,7 +6163,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":298
+    /* "paretoarchive/core.pyx":303
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -6172,19 +6173,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":299
+      /* "paretoarchive/core.pyx":304
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 299, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 304, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 299, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 304, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":298
+      /* "paretoarchive/core.pyx":303
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -6194,7 +6195,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":301
+    /* "paretoarchive/core.pyx":306
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3]])             # <<<<<<<<<<<<<<
@@ -6202,15 +6203,15 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 301, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 306, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 301, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 306, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 301, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 306, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 301, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 306, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyList_New(4); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 301, __pyx_L1_error)
+      __pyx_t_10 = PyList_New(4); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 306, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_10, 0, __pyx_t_1);
@@ -6224,13 +6225,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
       __pyx_t_7 = 0;
       __pyx_t_8 = 0;
       __pyx_t_9 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_10); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 301, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_10); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 306, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":302
+  /* "paretoarchive/core.pyx":307
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3]])
  *     return res             # <<<<<<<<<<<<<<
@@ -6242,7 +6243,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":289
+  /* "paretoarchive/core.pyx":294
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -6266,7 +6267,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive4_16points(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":312
+/* "paretoarchive/core.pyx":317
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -6299,7 +6300,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5___reduce__(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":313
+  /* "paretoarchive/core.pyx":318
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive5, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -6307,11 +6308,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5___reduce__(s
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 313, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 318, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 313, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 318, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 313, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 318, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -6319,7 +6320,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5___reduce__(s
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 313, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 318, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive5));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive5));
@@ -6331,7 +6332,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5___reduce__(s
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":312
+  /* "paretoarchive/core.pyx":317
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -6352,7 +6353,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5___reduce__(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":315
+/* "paretoarchive/core.pyx":320
  *     return (PyBspTreeArchive5, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -6381,7 +6382,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_2__cinit__(struct 
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":316
+  /* "paretoarchive/core.pyx":321
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive5()             # <<<<<<<<<<<<<<
@@ -6390,7 +6391,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_2__cinit__(struct 
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive5();
 
-  /* "paretoarchive/core.pyx":317
+  /* "paretoarchive/core.pyx":322
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive5()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -6399,7 +6400,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_2__cinit__(struct 
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":318
+  /* "paretoarchive/core.pyx":323
  *     self._front = new BspTreeArchive5()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -6408,7 +6409,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":319
+  /* "paretoarchive/core.pyx":324
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -6417,7 +6418,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":320
+  /* "paretoarchive/core.pyx":325
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -6426,7 +6427,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":321
+  /* "paretoarchive/core.pyx":326
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -6435,7 +6436,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":322
+  /* "paretoarchive/core.pyx":327
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -6444,7 +6445,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":315
+  /* "paretoarchive/core.pyx":320
  *     return (PyBspTreeArchive5, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -6458,7 +6459,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_2__cinit__(struct 
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":324
+/* "paretoarchive/core.pyx":329
  *     self._sign[4] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -6491,16 +6492,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_4configure(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":325
+  /* "paretoarchive/core.pyx":330
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 325, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 330, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -6509,16 +6510,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_4configure(s
   }
   (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":326
+  /* "paretoarchive/core.pyx":331
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 331, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 326, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 331, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -6527,16 +6528,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_4configure(s
   }
   (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":327
+  /* "paretoarchive/core.pyx":332
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 327, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 332, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 327, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 332, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -6545,16 +6546,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_4configure(s
   }
   (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":328
+  /* "paretoarchive/core.pyx":333
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  * 
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 333, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 333, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -6563,16 +6564,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_4configure(s
   }
   (__pyx_v_self->_sign[3]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":329
+  /* "paretoarchive/core.pyx":334
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  * 
  *   def __dealloc__(self):
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 329, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 334, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 329, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 334, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
     __pyx_t_1 = 1;
@@ -6581,7 +6582,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_4configure(s
   }
   (__pyx_v_self->_sign[4]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":324
+  /* "paretoarchive/core.pyx":329
  *     self._sign[4] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -6602,7 +6603,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_4configure(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":331
+/* "paretoarchive/core.pyx":336
  *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -6625,7 +6626,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_6__dealloc__(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":332
+  /* "paretoarchive/core.pyx":337
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -6634,7 +6635,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_6__dealloc__(stru
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":333
+  /* "paretoarchive/core.pyx":338
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -6643,7 +6644,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_6__dealloc__(stru
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":331
+  /* "paretoarchive/core.pyx":336
  *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -6655,7 +6656,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_6__dealloc__(stru
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":335
+/* "paretoarchive/core.pyx":340
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -6713,7 +6714,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive5_9process(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 335, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 340, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -6732,7 +6733,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive5_9process(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 335, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 340, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive5.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -6763,7 +6764,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_8process(str
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":336
+  /* "paretoarchive/core.pyx":341
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 5             # <<<<<<<<<<<<<<
@@ -6772,39 +6773,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_8process(str
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 336, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 341, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 5) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 336, __pyx_L1_error)
+      __PYX_ERR(0, 341, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":339
+  /* "paretoarchive/core.pyx":344
  *     cdef ObjVec[myInt5] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 339, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 339, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 344, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 344, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":340
+    /* "paretoarchive/core.pyx":345
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 340, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 345, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":341
+    /* "paretoarchive/core.pyx":346
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -6813,7 +6814,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_8process(str
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":339
+    /* "paretoarchive/core.pyx":344
  *     cdef ObjVec[myInt5] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -6822,123 +6823,123 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":342
+  /* "paretoarchive/core.pyx":347
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 342, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 347, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":343
+  /* "paretoarchive/core.pyx":348
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 343, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 348, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 343, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 348, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 343, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 348, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 343, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 348, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":344
+  /* "paretoarchive/core.pyx":349
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 344, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 349, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 344, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 349, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 344, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 349, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 344, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 349, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":345
+  /* "paretoarchive/core.pyx":350
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 345, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 350, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 345, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 350, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 345, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 350, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 345, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 350, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":346
+  /* "paretoarchive/core.pyx":351
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     if not returnId:
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 346, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 351, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 346, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 351, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 346, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 351, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 346, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 351, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":347
+  /* "paretoarchive/core.pyx":352
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 347, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 352, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 347, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 352, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 347, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 352, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 347, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 352, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":348
+  /* "paretoarchive/core.pyx":353
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 348, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 353, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":349
+    /* "paretoarchive/core.pyx":354
  *     data[4] = self._sign[4]*item[4]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -6946,13 +6947,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_8process(str
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 354, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_r = __pyx_t_6;
     __pyx_t_6 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":348
+    /* "paretoarchive/core.pyx":353
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -6961,7 +6962,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":350
+  /* "paretoarchive/core.pyx":355
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -6969,9 +6970,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_8process(str
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 350, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 355, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 350, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 355, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6);
@@ -6983,7 +6984,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_8process(str
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":335
+  /* "paretoarchive/core.pyx":340
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -7005,7 +7006,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_8process(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":352
+/* "paretoarchive/core.pyx":357
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -7032,7 +7033,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_10clear(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":353
+  /* "paretoarchive/core.pyx":358
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -7041,7 +7042,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_10clear(stru
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":354
+  /* "paretoarchive/core.pyx":359
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -7050,7 +7051,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_10clear(stru
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":352
+  /* "paretoarchive/core.pyx":357
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -7065,7 +7066,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_10clear(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":356
+/* "paretoarchive/core.pyx":361
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -7096,7 +7097,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_12empty(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":357
+  /* "paretoarchive/core.pyx":362
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -7104,13 +7105,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_12empty(stru
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 362, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":356
+  /* "paretoarchive/core.pyx":361
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -7129,7 +7130,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_12empty(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":359
+/* "paretoarchive/core.pyx":364
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -7160,7 +7161,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_14size(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":360
+  /* "paretoarchive/core.pyx":365
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -7168,13 +7169,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_14size(struc
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 360, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 365, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":359
+  /* "paretoarchive/core.pyx":364
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -7193,7 +7194,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_14size(struc
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":362
+/* "paretoarchive/core.pyx":367
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -7233,7 +7234,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive5_17points(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 362, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 367, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -7244,14 +7245,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive5_17points(PyO
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 362, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 367, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 362, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 367, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive5.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -7288,7 +7289,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":366
+  /* "paretoarchive/core.pyx":371
  *     cdef ObjVec[myInt5] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -7297,19 +7298,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":367
+  /* "paretoarchive/core.pyx":372
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 367, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 372, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":368
+  /* "paretoarchive/core.pyx":373
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -7321,7 +7322,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":369
+    /* "paretoarchive/core.pyx":374
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -7330,7 +7331,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":370
+    /* "paretoarchive/core.pyx":375
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -7339,7 +7340,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":371
+    /* "paretoarchive/core.pyx":376
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -7349,19 +7350,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":372
+      /* "paretoarchive/core.pyx":377
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 372, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 377, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 372, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 377, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":371
+      /* "paretoarchive/core.pyx":376
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -7371,7 +7372,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":374
+    /* "paretoarchive/core.pyx":379
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4]])             # <<<<<<<<<<<<<<
@@ -7379,17 +7380,17 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 374, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 379, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 374, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 379, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 374, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 379, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 374, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 379, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 374, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 379, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyList_New(5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 374, __pyx_L1_error)
+      __pyx_t_11 = PyList_New(5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 379, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_11, 0, __pyx_t_1);
@@ -7406,13 +7407,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
       __pyx_t_8 = 0;
       __pyx_t_9 = 0;
       __pyx_t_10 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_11); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 374, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_11); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 379, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":375
+  /* "paretoarchive/core.pyx":380
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4]])
  *     return res             # <<<<<<<<<<<<<<
@@ -7424,7 +7425,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":362
+  /* "paretoarchive/core.pyx":367
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -7449,7 +7450,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive5_16points(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":385
+/* "paretoarchive/core.pyx":390
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -7482,7 +7483,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6___reduce__(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":386
+  /* "paretoarchive/core.pyx":391
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive6, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -7490,11 +7491,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6___reduce__(s
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 386, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 391, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 386, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 391, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 386, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 391, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -7502,7 +7503,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6___reduce__(s
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 386, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 391, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive6));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive6));
@@ -7514,7 +7515,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6___reduce__(s
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":385
+  /* "paretoarchive/core.pyx":390
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -7535,7 +7536,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6___reduce__(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":388
+/* "paretoarchive/core.pyx":393
  *     return (PyBspTreeArchive6, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -7564,7 +7565,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":389
+  /* "paretoarchive/core.pyx":394
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive6()             # <<<<<<<<<<<<<<
@@ -7573,7 +7574,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive6();
 
-  /* "paretoarchive/core.pyx":390
+  /* "paretoarchive/core.pyx":395
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive6()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -7582,7 +7583,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":391
+  /* "paretoarchive/core.pyx":396
  *     self._front = new BspTreeArchive6()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -7591,7 +7592,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":392
+  /* "paretoarchive/core.pyx":397
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -7600,7 +7601,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":393
+  /* "paretoarchive/core.pyx":398
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -7609,7 +7610,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":394
+  /* "paretoarchive/core.pyx":399
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -7618,7 +7619,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":395
+  /* "paretoarchive/core.pyx":400
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -7627,7 +7628,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":396
+  /* "paretoarchive/core.pyx":401
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -7636,7 +7637,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":388
+  /* "paretoarchive/core.pyx":393
  *     return (PyBspTreeArchive6, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -7650,7 +7651,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_2__cinit__(struct 
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":398
+/* "paretoarchive/core.pyx":403
  *     self._sign[5] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -7683,104 +7684,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_4configure(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":399
+  /* "paretoarchive/core.pyx":404
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 399, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 399, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":400
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 400, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 400, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":401
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 401, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 401, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":402
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 402, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 402, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":403
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- * 
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 403, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 403, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":404
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 404, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 404, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 404, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -7789,9 +7700,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":405
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 405, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 405, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":406
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 406, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 406, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":407
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 407, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 407, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":408
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 408, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 408, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":409
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[5]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":398
+  /* "paretoarchive/core.pyx":403
  *     self._sign[5] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -7812,7 +7813,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_4configure(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":406
+/* "paretoarchive/core.pyx":411
  *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -7835,7 +7836,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_6__dealloc__(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":407
+  /* "paretoarchive/core.pyx":412
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -7844,7 +7845,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_6__dealloc__(stru
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":408
+  /* "paretoarchive/core.pyx":413
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -7853,7 +7854,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_6__dealloc__(stru
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":406
+  /* "paretoarchive/core.pyx":411
  *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -7865,7 +7866,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_6__dealloc__(stru
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":410
+/* "paretoarchive/core.pyx":415
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -7923,7 +7924,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive6_9process(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 410, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 415, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -7942,7 +7943,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive6_9process(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 410, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 415, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive6.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -7973,7 +7974,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_8process(str
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":411
+  /* "paretoarchive/core.pyx":416
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 6             # <<<<<<<<<<<<<<
@@ -7982,39 +7983,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_8process(str
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 411, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 416, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 6) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 411, __pyx_L1_error)
+      __PYX_ERR(0, 416, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":414
+  /* "paretoarchive/core.pyx":419
  *     cdef ObjVec[myInt6] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 414, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 414, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 419, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":415
+    /* "paretoarchive/core.pyx":420
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 415, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 420, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":416
+    /* "paretoarchive/core.pyx":421
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -8023,7 +8024,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_8process(str
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":414
+    /* "paretoarchive/core.pyx":419
  *     cdef ObjVec[myInt6] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -8032,142 +8033,142 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":417
+  /* "paretoarchive/core.pyx":422
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 417, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 422, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":418
+  /* "paretoarchive/core.pyx":423
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":419
+  /* "paretoarchive/core.pyx":424
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 419, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 424, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 419, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 424, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 419, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 424, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 419, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 424, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":420
+  /* "paretoarchive/core.pyx":425
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 420, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 425, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 420, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 425, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 420, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 425, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 420, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 425, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":421
+  /* "paretoarchive/core.pyx":426
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 421, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 426, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 421, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 426, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 421, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 426, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 421, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 426, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":422
+  /* "paretoarchive/core.pyx":427
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     if not returnId:
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 422, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 427, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 422, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 427, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 422, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 427, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 422, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 427, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":423
+  /* "paretoarchive/core.pyx":428
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 423, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 428, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 423, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 428, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 423, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 428, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 423, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 428, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":424
+  /* "paretoarchive/core.pyx":429
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 424, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 429, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":425
+    /* "paretoarchive/core.pyx":430
  *     data[5] = self._sign[5]*item[5]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -8175,13 +8176,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_8process(str
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 425, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 430, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":424
+    /* "paretoarchive/core.pyx":429
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -8190,7 +8191,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":426
+  /* "paretoarchive/core.pyx":431
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -8198,9 +8199,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_8process(str
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 426, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 431, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 426, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 431, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
@@ -8212,7 +8213,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_8process(str
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":410
+  /* "paretoarchive/core.pyx":415
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -8234,7 +8235,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_8process(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":428
+/* "paretoarchive/core.pyx":433
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -8261,7 +8262,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_10clear(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":429
+  /* "paretoarchive/core.pyx":434
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -8270,7 +8271,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_10clear(stru
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":430
+  /* "paretoarchive/core.pyx":435
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -8279,7 +8280,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_10clear(stru
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":428
+  /* "paretoarchive/core.pyx":433
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -8294,7 +8295,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_10clear(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":432
+/* "paretoarchive/core.pyx":437
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -8325,7 +8326,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_12empty(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":433
+  /* "paretoarchive/core.pyx":438
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -8333,13 +8334,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_12empty(stru
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 433, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 438, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":432
+  /* "paretoarchive/core.pyx":437
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -8358,7 +8359,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_12empty(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":435
+/* "paretoarchive/core.pyx":440
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -8389,7 +8390,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_14size(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":436
+  /* "paretoarchive/core.pyx":441
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -8397,13 +8398,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_14size(struc
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 436, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 441, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":435
+  /* "paretoarchive/core.pyx":440
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -8422,7 +8423,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_14size(struc
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":438
+/* "paretoarchive/core.pyx":443
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -8462,7 +8463,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive6_17points(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 438, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 443, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -8473,14 +8474,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive6_17points(PyO
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 438, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 443, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 438, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 443, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive6.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -8518,7 +8519,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":442
+  /* "paretoarchive/core.pyx":447
  *     cdef ObjVec[myInt6] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -8527,19 +8528,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":443
+  /* "paretoarchive/core.pyx":448
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 443, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 448, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":444
+  /* "paretoarchive/core.pyx":449
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -8551,7 +8552,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":445
+    /* "paretoarchive/core.pyx":450
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -8560,7 +8561,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":446
+    /* "paretoarchive/core.pyx":451
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -8569,7 +8570,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":447
+    /* "paretoarchive/core.pyx":452
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -8579,19 +8580,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":448
+      /* "paretoarchive/core.pyx":453
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 448, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 453, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 448, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 453, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":447
+      /* "paretoarchive/core.pyx":452
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -8601,7 +8602,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":450
+    /* "paretoarchive/core.pyx":455
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5]])             # <<<<<<<<<<<<<<
@@ -8609,19 +8610,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 450, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 455, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 450, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 455, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 450, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 455, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 450, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 455, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 450, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 455, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 450, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 455, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyList_New(6); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 450, __pyx_L1_error)
+      __pyx_t_12 = PyList_New(6); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 455, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_12, 0, __pyx_t_1);
@@ -8641,13 +8642,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
       __pyx_t_9 = 0;
       __pyx_t_10 = 0;
       __pyx_t_11 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_12); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 450, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_12); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 455, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":451
+  /* "paretoarchive/core.pyx":456
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5]])
  *     return res             # <<<<<<<<<<<<<<
@@ -8659,7 +8660,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":438
+  /* "paretoarchive/core.pyx":443
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -8685,7 +8686,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive6_16points(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":461
+/* "paretoarchive/core.pyx":466
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -8718,7 +8719,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7___reduce__(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":462
+  /* "paretoarchive/core.pyx":467
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive7, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -8726,11 +8727,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7___reduce__(s
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 462, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 467, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 462, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 467, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 462, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 467, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -8738,7 +8739,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7___reduce__(s
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 462, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 467, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive7));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive7));
@@ -8750,7 +8751,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7___reduce__(s
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":461
+  /* "paretoarchive/core.pyx":466
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -8771,7 +8772,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7___reduce__(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":464
+/* "paretoarchive/core.pyx":469
  *     return (PyBspTreeArchive7, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -8800,7 +8801,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":465
+  /* "paretoarchive/core.pyx":470
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive7()             # <<<<<<<<<<<<<<
@@ -8809,7 +8810,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive7();
 
-  /* "paretoarchive/core.pyx":466
+  /* "paretoarchive/core.pyx":471
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive7()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -8818,7 +8819,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":467
+  /* "paretoarchive/core.pyx":472
  *     self._front = new BspTreeArchive7()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -8827,7 +8828,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":468
+  /* "paretoarchive/core.pyx":473
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -8836,7 +8837,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":469
+  /* "paretoarchive/core.pyx":474
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -8845,7 +8846,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":470
+  /* "paretoarchive/core.pyx":475
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -8854,7 +8855,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":471
+  /* "paretoarchive/core.pyx":476
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -8863,7 +8864,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":472
+  /* "paretoarchive/core.pyx":477
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -8872,7 +8873,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":473
+  /* "paretoarchive/core.pyx":478
  *     self._sign[4] = 1
  *     self._sign[5] = 1
  *     self._sign[6] = 1             # <<<<<<<<<<<<<<
@@ -8881,7 +8882,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[6]) = 1;
 
-  /* "paretoarchive/core.pyx":464
+  /* "paretoarchive/core.pyx":469
  *     return (PyBspTreeArchive7, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -8895,7 +8896,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_2__cinit__(struct 
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":475
+/* "paretoarchive/core.pyx":480
  *     self._sign[6] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -8928,104 +8929,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_4configure(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":476
+  /* "paretoarchive/core.pyx":481
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":477
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 477, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 477, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":478
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 478, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 478, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":479
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 479, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 479, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":480
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 480, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 480, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":481
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- * 
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 481, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -9034,16 +8945,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":482
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 482, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 482, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 482, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -9052,9 +8963,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":483
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 483, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 483, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":484
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 484, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 484, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":485
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 485, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 485, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":486
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 486, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 486, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":487
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 487, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 487, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[6]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":475
+  /* "paretoarchive/core.pyx":480
  *     self._sign[6] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -9075,7 +9076,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_4configure(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":484
+/* "paretoarchive/core.pyx":489
  *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -9098,7 +9099,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_6__dealloc__(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":485
+  /* "paretoarchive/core.pyx":490
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -9107,7 +9108,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_6__dealloc__(stru
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":486
+  /* "paretoarchive/core.pyx":491
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -9116,7 +9117,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_6__dealloc__(stru
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":484
+  /* "paretoarchive/core.pyx":489
  *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -9128,7 +9129,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_6__dealloc__(stru
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":488
+/* "paretoarchive/core.pyx":493
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -9186,7 +9187,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive7_9process(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 488, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 493, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -9205,7 +9206,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive7_9process(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 488, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 493, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive7.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -9236,7 +9237,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_8process(str
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":489
+  /* "paretoarchive/core.pyx":494
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 7             # <<<<<<<<<<<<<<
@@ -9245,39 +9246,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_8process(str
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 489, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 494, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 7) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 489, __pyx_L1_error)
+      __PYX_ERR(0, 494, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":492
+  /* "paretoarchive/core.pyx":497
  *     cdef ObjVec[myInt7] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 492, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 492, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 497, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 497, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":493
+    /* "paretoarchive/core.pyx":498
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 493, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 498, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":494
+    /* "paretoarchive/core.pyx":499
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -9286,7 +9287,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_8process(str
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":492
+    /* "paretoarchive/core.pyx":497
  *     cdef ObjVec[myInt7] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -9295,161 +9296,161 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":495
+  /* "paretoarchive/core.pyx":500
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 495, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 500, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":496
+  /* "paretoarchive/core.pyx":501
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 496, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 501, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 496, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 501, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 496, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 501, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 496, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 501, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":497
+  /* "paretoarchive/core.pyx":502
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 497, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 502, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 497, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 502, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 497, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 502, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 497, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 502, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":498
+  /* "paretoarchive/core.pyx":503
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 498, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 503, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 498, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 503, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 498, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 503, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 498, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 503, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":499
+  /* "paretoarchive/core.pyx":504
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 499, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 504, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 499, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 504, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 499, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 504, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 499, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 504, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":500
+  /* "paretoarchive/core.pyx":505
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 500, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 505, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 500, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 505, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 500, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 505, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 500, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 505, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":501
+  /* "paretoarchive/core.pyx":506
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     data[6] = self._sign[6]*item[6]
  *     if not returnId:
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 501, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 506, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 501, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 506, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 501, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 506, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 501, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 506, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":502
+  /* "paretoarchive/core.pyx":507
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 502, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 507, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 502, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 507, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 502, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 507, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 502, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 507, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[6]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":503
+  /* "paretoarchive/core.pyx":508
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 503, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 508, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":504
+    /* "paretoarchive/core.pyx":509
  *     data[6] = self._sign[6]*item[6]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -9457,13 +9458,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_8process(str
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 504, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 509, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_r = __pyx_t_6;
     __pyx_t_6 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":503
+    /* "paretoarchive/core.pyx":508
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -9472,7 +9473,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":505
+  /* "paretoarchive/core.pyx":510
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -9480,9 +9481,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_8process(str
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 505, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 510, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 505, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 510, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6);
@@ -9494,7 +9495,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_8process(str
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":488
+  /* "paretoarchive/core.pyx":493
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -9516,7 +9517,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_8process(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":507
+/* "paretoarchive/core.pyx":512
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -9543,7 +9544,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_10clear(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":508
+  /* "paretoarchive/core.pyx":513
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -9552,7 +9553,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_10clear(stru
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":509
+  /* "paretoarchive/core.pyx":514
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -9561,7 +9562,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_10clear(stru
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":507
+  /* "paretoarchive/core.pyx":512
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -9576,7 +9577,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_10clear(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":511
+/* "paretoarchive/core.pyx":516
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -9607,7 +9608,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_12empty(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":512
+  /* "paretoarchive/core.pyx":517
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -9615,13 +9616,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_12empty(stru
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 517, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":511
+  /* "paretoarchive/core.pyx":516
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -9640,7 +9641,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_12empty(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":514
+/* "paretoarchive/core.pyx":519
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -9671,7 +9672,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_14size(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":515
+  /* "paretoarchive/core.pyx":520
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -9679,13 +9680,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_14size(struc
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 515, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 520, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":514
+  /* "paretoarchive/core.pyx":519
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -9704,7 +9705,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_14size(struc
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":517
+/* "paretoarchive/core.pyx":522
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -9744,7 +9745,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive7_17points(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 517, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 522, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -9755,14 +9756,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive7_17points(PyO
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 517, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 522, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 517, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 522, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive7.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -9801,7 +9802,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":521
+  /* "paretoarchive/core.pyx":526
  *     cdef ObjVec[myInt7] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -9810,19 +9811,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":522
+  /* "paretoarchive/core.pyx":527
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 527, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":523
+  /* "paretoarchive/core.pyx":528
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -9834,7 +9835,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":524
+    /* "paretoarchive/core.pyx":529
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -9843,7 +9844,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":525
+    /* "paretoarchive/core.pyx":530
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -9852,7 +9853,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":526
+    /* "paretoarchive/core.pyx":531
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -9862,19 +9863,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":527
+      /* "paretoarchive/core.pyx":532
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 527, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 532, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 527, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 532, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":526
+      /* "paretoarchive/core.pyx":531
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -9884,7 +9885,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":529
+    /* "paretoarchive/core.pyx":534
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6]])             # <<<<<<<<<<<<<<
@@ -9892,21 +9893,21 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 529, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 529, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 529, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 529, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 529, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 529, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 529, __pyx_L1_error)
+      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_13 = PyList_New(7); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 529, __pyx_L1_error)
+      __pyx_t_13 = PyList_New(7); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_13, 0, __pyx_t_1);
@@ -9929,13 +9930,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
       __pyx_t_10 = 0;
       __pyx_t_11 = 0;
       __pyx_t_12 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_13); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 529, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_13); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":530
+  /* "paretoarchive/core.pyx":535
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6]])
  *     return res             # <<<<<<<<<<<<<<
@@ -9947,7 +9948,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":517
+  /* "paretoarchive/core.pyx":522
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -9974,7 +9975,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive7_16points(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":540
+/* "paretoarchive/core.pyx":545
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -10007,7 +10008,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8___reduce__(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":541
+  /* "paretoarchive/core.pyx":546
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive8, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -10015,11 +10016,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8___reduce__(s
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 541, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 8); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 541, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 8); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 541, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -10027,7 +10028,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8___reduce__(s
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 541, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive8));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive8));
@@ -10039,7 +10040,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8___reduce__(s
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":540
+  /* "paretoarchive/core.pyx":545
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -10060,7 +10061,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8___reduce__(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":543
+/* "paretoarchive/core.pyx":548
  *     return (PyBspTreeArchive8, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -10089,7 +10090,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":544
+  /* "paretoarchive/core.pyx":549
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive8()             # <<<<<<<<<<<<<<
@@ -10098,7 +10099,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive8();
 
-  /* "paretoarchive/core.pyx":545
+  /* "paretoarchive/core.pyx":550
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive8()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -10107,7 +10108,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":546
+  /* "paretoarchive/core.pyx":551
  *     self._front = new BspTreeArchive8()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -10116,7 +10117,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":547
+  /* "paretoarchive/core.pyx":552
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -10125,7 +10126,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":548
+  /* "paretoarchive/core.pyx":553
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -10134,7 +10135,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":549
+  /* "paretoarchive/core.pyx":554
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -10143,7 +10144,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":550
+  /* "paretoarchive/core.pyx":555
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -10152,7 +10153,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":551
+  /* "paretoarchive/core.pyx":556
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -10161,7 +10162,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":552
+  /* "paretoarchive/core.pyx":557
  *     self._sign[4] = 1
  *     self._sign[5] = 1
  *     self._sign[6] = 1             # <<<<<<<<<<<<<<
@@ -10170,7 +10171,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[6]) = 1;
 
-  /* "paretoarchive/core.pyx":553
+  /* "paretoarchive/core.pyx":558
  *     self._sign[5] = 1
  *     self._sign[6] = 1
  *     self._sign[7] = 1             # <<<<<<<<<<<<<<
@@ -10179,7 +10180,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[7]) = 1;
 
-  /* "paretoarchive/core.pyx":543
+  /* "paretoarchive/core.pyx":548
  *     return (PyBspTreeArchive8, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -10193,7 +10194,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_2__cinit__(struct 
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":555
+/* "paretoarchive/core.pyx":560
  *     self._sign[7] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -10226,104 +10227,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_4configure(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":556
+  /* "paretoarchive/core.pyx":561
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 556, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 556, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":557
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 557, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 557, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":558
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 558, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 558, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":559
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 559, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 559, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":560
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 560, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 560, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":561
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 561, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 561, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 561, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -10332,16 +10243,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":562
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- * 
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 562, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 562, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 562, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -10350,16 +10261,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":563
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 563, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 563, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 563, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -10368,9 +10279,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":564
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 564, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 564, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":565
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 565, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 565, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":566
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 566, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 566, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":567
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 567, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 567, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":568
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 568, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 568, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[7]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":555
+  /* "paretoarchive/core.pyx":560
  *     self._sign[7] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -10391,7 +10392,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_4configure(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":565
+/* "paretoarchive/core.pyx":570
  *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -10414,7 +10415,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_6__dealloc__(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":566
+  /* "paretoarchive/core.pyx":571
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -10423,7 +10424,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_6__dealloc__(stru
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":567
+  /* "paretoarchive/core.pyx":572
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -10432,7 +10433,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_6__dealloc__(stru
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":565
+  /* "paretoarchive/core.pyx":570
  *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -10444,7 +10445,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_6__dealloc__(stru
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":569
+/* "paretoarchive/core.pyx":574
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -10502,7 +10503,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive8_9process(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 569, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 574, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -10521,7 +10522,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive8_9process(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 569, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 574, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive8.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -10552,7 +10553,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_8process(str
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":570
+  /* "paretoarchive/core.pyx":575
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 8             # <<<<<<<<<<<<<<
@@ -10561,39 +10562,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_8process(str
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 570, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 575, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 8) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 570, __pyx_L1_error)
+      __PYX_ERR(0, 575, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":573
+  /* "paretoarchive/core.pyx":578
  *     cdef ObjVec[myInt8] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 573, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 573, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 578, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 578, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":574
+    /* "paretoarchive/core.pyx":579
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 574, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 579, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":575
+    /* "paretoarchive/core.pyx":580
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -10602,7 +10603,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_8process(str
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":573
+    /* "paretoarchive/core.pyx":578
  *     cdef ObjVec[myInt8] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -10611,180 +10612,180 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":576
+  /* "paretoarchive/core.pyx":581
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 576, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 581, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":577
+  /* "paretoarchive/core.pyx":582
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 577, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 582, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 577, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 582, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 577, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 582, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 577, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 582, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":578
+  /* "paretoarchive/core.pyx":583
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 578, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 583, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 578, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 583, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 578, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 583, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 583, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":579
+  /* "paretoarchive/core.pyx":584
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 584, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 584, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 584, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 584, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":580
+  /* "paretoarchive/core.pyx":585
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 580, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 585, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 580, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 585, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 580, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 585, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 580, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 585, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":581
+  /* "paretoarchive/core.pyx":586
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 581, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 586, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 581, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 586, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 581, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 586, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 581, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 586, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":582
+  /* "paretoarchive/core.pyx":587
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 582, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 587, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 582, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 587, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 582, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 587, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 582, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 587, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":583
+  /* "paretoarchive/core.pyx":588
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]             # <<<<<<<<<<<<<<
  *     data[7] = self._sign[7]*item[7]
  *     if not returnId:
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 583, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 588, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 583, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 588, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 583, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 588, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 583, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 588, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[6]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":584
+  /* "paretoarchive/core.pyx":589
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 584, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 584, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 584, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 584, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[7]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":585
+  /* "paretoarchive/core.pyx":590
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 585, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 590, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":586
+    /* "paretoarchive/core.pyx":591
  *     data[7] = self._sign[7]*item[7]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -10792,13 +10793,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_8process(str
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 586, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 591, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":585
+    /* "paretoarchive/core.pyx":590
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -10807,7 +10808,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":587
+  /* "paretoarchive/core.pyx":592
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -10815,9 +10816,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_8process(str
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 587, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 592, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 587, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 592, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
@@ -10829,7 +10830,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_8process(str
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":569
+  /* "paretoarchive/core.pyx":574
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -10851,7 +10852,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_8process(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":589
+/* "paretoarchive/core.pyx":594
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -10878,7 +10879,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_10clear(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":590
+  /* "paretoarchive/core.pyx":595
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -10887,7 +10888,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_10clear(stru
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":591
+  /* "paretoarchive/core.pyx":596
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -10896,7 +10897,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_10clear(stru
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":589
+  /* "paretoarchive/core.pyx":594
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -10911,7 +10912,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_10clear(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":593
+/* "paretoarchive/core.pyx":598
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -10942,7 +10943,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_12empty(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":594
+  /* "paretoarchive/core.pyx":599
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -10950,13 +10951,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_12empty(stru
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 594, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 599, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":593
+  /* "paretoarchive/core.pyx":598
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -10975,7 +10976,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_12empty(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":596
+/* "paretoarchive/core.pyx":601
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -11006,7 +11007,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_14size(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":597
+  /* "paretoarchive/core.pyx":602
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -11014,13 +11015,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_14size(struc
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 597, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 602, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":596
+  /* "paretoarchive/core.pyx":601
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -11039,7 +11040,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_14size(struc
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":599
+/* "paretoarchive/core.pyx":604
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -11079,7 +11080,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive8_17points(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 599, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 604, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -11090,14 +11091,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive8_17points(PyO
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 599, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 604, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 599, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 604, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive8.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -11137,7 +11138,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":603
+  /* "paretoarchive/core.pyx":608
  *     cdef ObjVec[myInt8] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -11146,19 +11147,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":604
+  /* "paretoarchive/core.pyx":609
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 604, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 609, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":605
+  /* "paretoarchive/core.pyx":610
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -11170,7 +11171,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":606
+    /* "paretoarchive/core.pyx":611
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -11179,7 +11180,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":607
+    /* "paretoarchive/core.pyx":612
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -11188,7 +11189,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":608
+    /* "paretoarchive/core.pyx":613
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -11198,19 +11199,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":609
+      /* "paretoarchive/core.pyx":614
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 609, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 614, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 609, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 614, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":608
+      /* "paretoarchive/core.pyx":613
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -11220,7 +11221,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":611
+    /* "paretoarchive/core.pyx":616
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7]])             # <<<<<<<<<<<<<<
@@ -11228,23 +11229,23 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
-      __pyx_t_14 = PyList_New(8); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_14 = PyList_New(8); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_14, 0, __pyx_t_1);
@@ -11270,13 +11271,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
       __pyx_t_11 = 0;
       __pyx_t_12 = 0;
       __pyx_t_13 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_14); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 611, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_14); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 616, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":612
+  /* "paretoarchive/core.pyx":617
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7]])
  *     return res             # <<<<<<<<<<<<<<
@@ -11288,7 +11289,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":599
+  /* "paretoarchive/core.pyx":604
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -11316,7 +11317,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive8_16points(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":622
+/* "paretoarchive/core.pyx":627
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -11349,7 +11350,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9___reduce__(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":623
+  /* "paretoarchive/core.pyx":628
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive9, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -11357,11 +11358,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9___reduce__(s
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 623, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 628, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 623, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 628, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 623, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 628, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -11369,7 +11370,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9___reduce__(s
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 623, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 628, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive9));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive9));
@@ -11381,7 +11382,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9___reduce__(s
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":622
+  /* "paretoarchive/core.pyx":627
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -11402,7 +11403,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9___reduce__(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":625
+/* "paretoarchive/core.pyx":630
  *     return (PyBspTreeArchive9, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -11431,7 +11432,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":626
+  /* "paretoarchive/core.pyx":631
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive9()             # <<<<<<<<<<<<<<
@@ -11440,7 +11441,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive9();
 
-  /* "paretoarchive/core.pyx":627
+  /* "paretoarchive/core.pyx":632
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive9()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -11449,7 +11450,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":628
+  /* "paretoarchive/core.pyx":633
  *     self._front = new BspTreeArchive9()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -11458,7 +11459,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":629
+  /* "paretoarchive/core.pyx":634
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -11467,7 +11468,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":630
+  /* "paretoarchive/core.pyx":635
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -11476,7 +11477,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":631
+  /* "paretoarchive/core.pyx":636
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -11485,7 +11486,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":632
+  /* "paretoarchive/core.pyx":637
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -11494,7 +11495,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":633
+  /* "paretoarchive/core.pyx":638
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -11503,7 +11504,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":634
+  /* "paretoarchive/core.pyx":639
  *     self._sign[4] = 1
  *     self._sign[5] = 1
  *     self._sign[6] = 1             # <<<<<<<<<<<<<<
@@ -11512,7 +11513,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[6]) = 1;
 
-  /* "paretoarchive/core.pyx":635
+  /* "paretoarchive/core.pyx":640
  *     self._sign[5] = 1
  *     self._sign[6] = 1
  *     self._sign[7] = 1             # <<<<<<<<<<<<<<
@@ -11521,7 +11522,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[7]) = 1;
 
-  /* "paretoarchive/core.pyx":636
+  /* "paretoarchive/core.pyx":641
  *     self._sign[6] = 1
  *     self._sign[7] = 1
  *     self._sign[8] = 1             # <<<<<<<<<<<<<<
@@ -11530,7 +11531,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
  */
   (__pyx_v_self->_sign[8]) = 1;
 
-  /* "paretoarchive/core.pyx":625
+  /* "paretoarchive/core.pyx":630
  *     return (PyBspTreeArchive9, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -11544,7 +11545,7 @@ static int __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_2__cinit__(struct 
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":638
+/* "paretoarchive/core.pyx":643
  *     self._sign[8] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -11577,104 +11578,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_4configure(s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":639
+  /* "paretoarchive/core.pyx":644
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 639, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 639, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":640
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 640, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 640, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":641
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 641, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 641, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":642
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 642, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 642, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":643
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 643, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 643, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":644
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 644, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 644, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 644, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -11683,16 +11594,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":645
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 645, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 645, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 645, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -11701,16 +11612,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":646
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- * 
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 646, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 646, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 646, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -11719,16 +11630,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":647
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 647, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 647, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 647, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -11737,9 +11648,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_4configure(s
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":648
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 648, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 648, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":649
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 649, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 649, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":650
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":651
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 651, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 651, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":652
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 652, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 652, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[8]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":638
+  /* "paretoarchive/core.pyx":643
  *     self._sign[8] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -11760,7 +11761,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_4configure(s
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":649
+/* "paretoarchive/core.pyx":654
  *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -11783,7 +11784,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_6__dealloc__(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":650
+  /* "paretoarchive/core.pyx":655
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -11792,7 +11793,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_6__dealloc__(stru
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":651
+  /* "paretoarchive/core.pyx":656
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -11801,7 +11802,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_6__dealloc__(stru
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":649
+  /* "paretoarchive/core.pyx":654
  *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -11813,7 +11814,7 @@ static void __pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_6__dealloc__(stru
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":653
+/* "paretoarchive/core.pyx":658
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -11871,7 +11872,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive9_9process(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 653, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 658, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -11890,7 +11891,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive9_9process(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 653, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 658, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive9.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -11921,7 +11922,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_8process(str
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":654
+  /* "paretoarchive/core.pyx":659
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 9             # <<<<<<<<<<<<<<
@@ -11930,39 +11931,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_8process(str
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 654, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 659, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 9) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 654, __pyx_L1_error)
+      __PYX_ERR(0, 659, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":657
+  /* "paretoarchive/core.pyx":662
  *     cdef ObjVec[myInt9] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 657, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 657, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 662, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 662, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":658
+    /* "paretoarchive/core.pyx":663
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 658, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 663, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":659
+    /* "paretoarchive/core.pyx":664
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -11971,7 +11972,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_8process(str
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":657
+    /* "paretoarchive/core.pyx":662
  *     cdef ObjVec[myInt9] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -11980,199 +11981,199 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":660
+  /* "paretoarchive/core.pyx":665
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 660, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 665, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":661
+  /* "paretoarchive/core.pyx":666
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 661, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 661, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 661, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 661, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":662
+  /* "paretoarchive/core.pyx":667
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 662, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 662, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 662, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 662, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":663
+  /* "paretoarchive/core.pyx":668
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 663, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 668, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 663, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 668, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 663, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 668, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 663, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 668, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":664
+  /* "paretoarchive/core.pyx":669
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 664, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 669, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 664, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 669, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 664, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 669, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 664, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 669, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":665
+  /* "paretoarchive/core.pyx":670
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 665, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 670, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 665, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 670, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 665, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 670, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 665, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 670, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":666
+  /* "paretoarchive/core.pyx":671
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 666, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 671, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 666, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 671, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 666, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 671, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 666, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 671, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":667
+  /* "paretoarchive/core.pyx":672
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]             # <<<<<<<<<<<<<<
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 667, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 672, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 667, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 672, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 667, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 672, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 667, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 672, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[6]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":668
+  /* "paretoarchive/core.pyx":673
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]             # <<<<<<<<<<<<<<
  *     data[8] = self._sign[8]*item[8]
  *     if not returnId:
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 668, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 673, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 668, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 673, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 668, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 673, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 668, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 673, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[7]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":669
+  /* "paretoarchive/core.pyx":674
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 669, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 674, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 669, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 674, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 669, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 674, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 669, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 674, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[8]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":670
+  /* "paretoarchive/core.pyx":675
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 670, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 675, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":671
+    /* "paretoarchive/core.pyx":676
  *     data[8] = self._sign[8]*item[8]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -12180,13 +12181,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_8process(str
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 671, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_r = __pyx_t_6;
     __pyx_t_6 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":670
+    /* "paretoarchive/core.pyx":675
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -12195,7 +12196,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_8process(str
  */
   }
 
-  /* "paretoarchive/core.pyx":672
+  /* "paretoarchive/core.pyx":677
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -12203,9 +12204,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_8process(str
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 672, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 677, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 672, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 677, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6);
@@ -12217,7 +12218,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_8process(str
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":653
+  /* "paretoarchive/core.pyx":658
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -12239,7 +12240,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_8process(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":674
+/* "paretoarchive/core.pyx":679
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -12266,7 +12267,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_10clear(stru
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":675
+  /* "paretoarchive/core.pyx":680
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -12275,7 +12276,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_10clear(stru
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":676
+  /* "paretoarchive/core.pyx":681
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -12284,7 +12285,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_10clear(stru
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":674
+  /* "paretoarchive/core.pyx":679
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -12299,7 +12300,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_10clear(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":678
+/* "paretoarchive/core.pyx":683
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -12330,7 +12331,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_12empty(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":679
+  /* "paretoarchive/core.pyx":684
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -12338,13 +12339,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_12empty(stru
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 679, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 684, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":678
+  /* "paretoarchive/core.pyx":683
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -12363,7 +12364,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_12empty(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":681
+/* "paretoarchive/core.pyx":686
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -12394,7 +12395,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_14size(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":682
+  /* "paretoarchive/core.pyx":687
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -12402,13 +12403,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_14size(struc
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 682, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 687, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":681
+  /* "paretoarchive/core.pyx":686
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -12427,7 +12428,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_14size(struc
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":684
+/* "paretoarchive/core.pyx":689
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -12467,7 +12468,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive9_17points(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 684, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 689, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -12478,14 +12479,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_17PyBspTreeArchive9_17points(PyO
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 684, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 689, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 684, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 689, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive9.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -12526,7 +12527,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":688
+  /* "paretoarchive/core.pyx":693
  *     cdef ObjVec[myInt9] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -12535,19 +12536,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":689
+  /* "paretoarchive/core.pyx":694
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 689, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 694, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":690
+  /* "paretoarchive/core.pyx":695
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -12559,7 +12560,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":691
+    /* "paretoarchive/core.pyx":696
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -12568,7 +12569,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":692
+    /* "paretoarchive/core.pyx":697
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -12577,7 +12578,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":693
+    /* "paretoarchive/core.pyx":698
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -12587,19 +12588,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":694
+      /* "paretoarchive/core.pyx":699
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 694, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 699, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 694, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 699, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":693
+      /* "paretoarchive/core.pyx":698
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -12609,7 +12610,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":696
+    /* "paretoarchive/core.pyx":701
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8]])             # <<<<<<<<<<<<<<
@@ -12617,25 +12618,25 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
-      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_15 = PyList_New(9); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_15 = PyList_New(9); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_15, 0, __pyx_t_1);
@@ -12664,13 +12665,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
       __pyx_t_12 = 0;
       __pyx_t_13 = 0;
       __pyx_t_14 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_15); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 696, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_15); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 701, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":697
+  /* "paretoarchive/core.pyx":702
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8]])
  *     return res             # <<<<<<<<<<<<<<
@@ -12682,7 +12683,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":684
+  /* "paretoarchive/core.pyx":689
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -12711,7 +12712,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_17PyBspTreeArchive9_16points(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":707
+/* "paretoarchive/core.pyx":712
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -12744,7 +12745,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10___reduce__(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":708
+  /* "paretoarchive/core.pyx":713
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive10, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -12752,11 +12753,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10___reduce__(
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 708, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 713, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 708, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 713, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 708, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 713, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -12764,7 +12765,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10___reduce__(
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 708, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 713, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive10));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive10));
@@ -12776,7 +12777,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10___reduce__(
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":707
+  /* "paretoarchive/core.pyx":712
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -12797,7 +12798,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10___reduce__(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":710
+/* "paretoarchive/core.pyx":715
  *     return (PyBspTreeArchive10, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -12826,7 +12827,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":711
+  /* "paretoarchive/core.pyx":716
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive10()             # <<<<<<<<<<<<<<
@@ -12835,7 +12836,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive10();
 
-  /* "paretoarchive/core.pyx":712
+  /* "paretoarchive/core.pyx":717
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive10()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -12844,7 +12845,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":713
+  /* "paretoarchive/core.pyx":718
  *     self._front = new BspTreeArchive10()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -12853,7 +12854,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":714
+  /* "paretoarchive/core.pyx":719
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -12862,7 +12863,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":715
+  /* "paretoarchive/core.pyx":720
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -12871,7 +12872,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":716
+  /* "paretoarchive/core.pyx":721
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -12880,7 +12881,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":717
+  /* "paretoarchive/core.pyx":722
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -12889,7 +12890,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":718
+  /* "paretoarchive/core.pyx":723
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -12898,7 +12899,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":719
+  /* "paretoarchive/core.pyx":724
  *     self._sign[4] = 1
  *     self._sign[5] = 1
  *     self._sign[6] = 1             # <<<<<<<<<<<<<<
@@ -12907,7 +12908,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[6]) = 1;
 
-  /* "paretoarchive/core.pyx":720
+  /* "paretoarchive/core.pyx":725
  *     self._sign[5] = 1
  *     self._sign[6] = 1
  *     self._sign[7] = 1             # <<<<<<<<<<<<<<
@@ -12916,7 +12917,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[7]) = 1;
 
-  /* "paretoarchive/core.pyx":721
+  /* "paretoarchive/core.pyx":726
  *     self._sign[6] = 1
  *     self._sign[7] = 1
  *     self._sign[8] = 1             # <<<<<<<<<<<<<<
@@ -12925,7 +12926,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[8]) = 1;
 
-  /* "paretoarchive/core.pyx":722
+  /* "paretoarchive/core.pyx":727
  *     self._sign[7] = 1
  *     self._sign[8] = 1
  *     self._sign[9] = 1             # <<<<<<<<<<<<<<
@@ -12934,7 +12935,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
  */
   (__pyx_v_self->_sign[9]) = 1;
 
-  /* "paretoarchive/core.pyx":710
+  /* "paretoarchive/core.pyx":715
  *     return (PyBspTreeArchive10, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -12948,7 +12949,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_2__cinit__(struct
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":724
+/* "paretoarchive/core.pyx":729
  *     self._sign[9] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -12981,104 +12982,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_4configure(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":725
+  /* "paretoarchive/core.pyx":730
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 725, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 725, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":726
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 726, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 726, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":727
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 727, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 727, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":728
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 728, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 728, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":729
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 729, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 729, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":730
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 730, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 730, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 730, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -13087,16 +12998,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":731
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 731, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 731, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 731, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -13105,16 +13016,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":732
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 732, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 732, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 732, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -13123,16 +13034,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":733
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- * 
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 733, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 733, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 733, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -13141,16 +13052,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":734
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 734, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 734, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 734, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -13159,9 +13070,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_4configure(
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":735
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 735, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 735, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":736
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 736, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 736, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":737
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 737, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 737, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":738
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 738, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 738, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":739
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 739, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 739, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[9]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":724
+  /* "paretoarchive/core.pyx":729
  *     self._sign[9] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -13182,7 +13183,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_4configure(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":736
+/* "paretoarchive/core.pyx":741
  *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -13205,7 +13206,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_6__dealloc__(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":737
+  /* "paretoarchive/core.pyx":742
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -13214,7 +13215,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_6__dealloc__(str
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":738
+  /* "paretoarchive/core.pyx":743
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -13223,7 +13224,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_6__dealloc__(str
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":736
+  /* "paretoarchive/core.pyx":741
  *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -13235,7 +13236,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_6__dealloc__(str
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":740
+/* "paretoarchive/core.pyx":745
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -13293,7 +13294,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive10_9process(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 740, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 745, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -13312,7 +13313,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive10_9process(Py
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 740, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 745, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive10.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -13343,7 +13344,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_8process(st
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":741
+  /* "paretoarchive/core.pyx":746
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 10             # <<<<<<<<<<<<<<
@@ -13352,39 +13353,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_8process(st
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 741, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 746, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 10) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 741, __pyx_L1_error)
+      __PYX_ERR(0, 746, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":744
+  /* "paretoarchive/core.pyx":749
  *     cdef ObjVec[myInt10] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 744, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 744, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 749, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 749, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":745
+    /* "paretoarchive/core.pyx":750
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 745, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 750, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":746
+    /* "paretoarchive/core.pyx":751
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -13393,7 +13394,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_8process(st
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":744
+    /* "paretoarchive/core.pyx":749
  *     cdef ObjVec[myInt10] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -13402,218 +13403,218 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":747
+  /* "paretoarchive/core.pyx":752
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 747, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 752, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":748
+  /* "paretoarchive/core.pyx":753
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 748, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 753, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 748, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 753, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 748, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 753, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 748, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 753, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":749
+  /* "paretoarchive/core.pyx":754
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 749, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 754, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 749, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 754, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 749, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 754, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 749, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 754, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":750
+  /* "paretoarchive/core.pyx":755
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 750, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 755, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 750, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 755, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 750, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 755, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 750, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 755, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":751
+  /* "paretoarchive/core.pyx":756
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 751, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 756, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 751, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 756, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 751, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 756, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 751, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 756, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":752
+  /* "paretoarchive/core.pyx":757
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 752, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 757, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 752, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 757, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 752, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 757, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 752, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 757, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":753
+  /* "paretoarchive/core.pyx":758
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 753, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 753, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 753, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 753, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 758, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":754
+  /* "paretoarchive/core.pyx":759
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]             # <<<<<<<<<<<<<<
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 754, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 759, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 754, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 759, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 754, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 759, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 754, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 759, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[6]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":755
+  /* "paretoarchive/core.pyx":760
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]             # <<<<<<<<<<<<<<
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 755, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 760, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 755, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 760, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 755, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 760, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 755, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 760, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[7]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":756
+  /* "paretoarchive/core.pyx":761
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]             # <<<<<<<<<<<<<<
  *     data[9] = self._sign[9]*item[9]
  *     if not returnId:
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 756, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 761, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 756, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 761, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 756, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 761, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 756, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 761, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[8]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":757
+  /* "paretoarchive/core.pyx":762
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 757, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 762, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 757, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 762, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 757, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 762, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 757, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 762, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[9]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":758
+  /* "paretoarchive/core.pyx":763
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 758, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 763, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":759
+    /* "paretoarchive/core.pyx":764
  *     data[9] = self._sign[9]*item[9]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -13621,13 +13622,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_8process(st
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 759, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 764, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":758
+    /* "paretoarchive/core.pyx":763
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -13636,7 +13637,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":760
+  /* "paretoarchive/core.pyx":765
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -13644,9 +13645,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_8process(st
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 760, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 765, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 760, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 765, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
@@ -13658,7 +13659,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_8process(st
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":740
+  /* "paretoarchive/core.pyx":745
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -13680,7 +13681,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_8process(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":762
+/* "paretoarchive/core.pyx":767
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -13707,7 +13708,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_10clear(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":763
+  /* "paretoarchive/core.pyx":768
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -13716,7 +13717,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_10clear(str
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":764
+  /* "paretoarchive/core.pyx":769
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -13725,7 +13726,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_10clear(str
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":762
+  /* "paretoarchive/core.pyx":767
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -13740,7 +13741,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_10clear(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":766
+/* "paretoarchive/core.pyx":771
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -13771,7 +13772,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_12empty(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":767
+  /* "paretoarchive/core.pyx":772
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -13779,13 +13780,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_12empty(str
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 767, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 772, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":766
+  /* "paretoarchive/core.pyx":771
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -13804,7 +13805,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_12empty(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":769
+/* "paretoarchive/core.pyx":774
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -13835,7 +13836,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_14size(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":770
+  /* "paretoarchive/core.pyx":775
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -13843,13 +13844,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_14size(stru
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 770, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 775, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":769
+  /* "paretoarchive/core.pyx":774
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -13868,7 +13869,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_14size(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":772
+/* "paretoarchive/core.pyx":777
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -13908,7 +13909,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive10_17points(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 772, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 777, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -13919,14 +13920,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive10_17points(Py
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 772, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 777, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 772, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 777, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive10.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -13968,7 +13969,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":776
+  /* "paretoarchive/core.pyx":781
  *     cdef ObjVec[myInt10] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -13977,19 +13978,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":777
+  /* "paretoarchive/core.pyx":782
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 777, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 782, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":778
+  /* "paretoarchive/core.pyx":783
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -14001,7 +14002,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":779
+    /* "paretoarchive/core.pyx":784
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -14010,7 +14011,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":780
+    /* "paretoarchive/core.pyx":785
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -14019,7 +14020,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":781
+    /* "paretoarchive/core.pyx":786
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -14029,19 +14030,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":782
+      /* "paretoarchive/core.pyx":787
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 782, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 787, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 782, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 787, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":781
+      /* "paretoarchive/core.pyx":786
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -14051,7 +14052,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":784
+    /* "paretoarchive/core.pyx":789
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9]])             # <<<<<<<<<<<<<<
@@ -14059,27 +14060,27 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
-      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
-      __pyx_t_16 = PyList_New(10); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_16 = PyList_New(10); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_16, 0, __pyx_t_1);
@@ -14111,13 +14112,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
       __pyx_t_13 = 0;
       __pyx_t_14 = 0;
       __pyx_t_15 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_16); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 784, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_16); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 789, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":785
+  /* "paretoarchive/core.pyx":790
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9]])
  *     return res             # <<<<<<<<<<<<<<
@@ -14129,7 +14130,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":772
+  /* "paretoarchive/core.pyx":777
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -14159,7 +14160,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive10_16points(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":795
+/* "paretoarchive/core.pyx":800
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -14192,7 +14193,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11___reduce__(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":796
+  /* "paretoarchive/core.pyx":801
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive11, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -14200,11 +14201,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11___reduce__(
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 796, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 801, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 11); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 796, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 11); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 801, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 796, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 801, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -14212,7 +14213,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11___reduce__(
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 796, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 801, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive11));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive11));
@@ -14224,7 +14225,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11___reduce__(
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":795
+  /* "paretoarchive/core.pyx":800
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -14245,7 +14246,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11___reduce__(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":798
+/* "paretoarchive/core.pyx":803
  *     return (PyBspTreeArchive11, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -14274,7 +14275,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":799
+  /* "paretoarchive/core.pyx":804
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive11()             # <<<<<<<<<<<<<<
@@ -14283,7 +14284,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive11();
 
-  /* "paretoarchive/core.pyx":800
+  /* "paretoarchive/core.pyx":805
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive11()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -14292,7 +14293,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":801
+  /* "paretoarchive/core.pyx":806
  *     self._front = new BspTreeArchive11()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -14301,7 +14302,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":802
+  /* "paretoarchive/core.pyx":807
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -14310,7 +14311,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":803
+  /* "paretoarchive/core.pyx":808
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -14319,7 +14320,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":804
+  /* "paretoarchive/core.pyx":809
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -14328,7 +14329,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":805
+  /* "paretoarchive/core.pyx":810
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -14337,7 +14338,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":806
+  /* "paretoarchive/core.pyx":811
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -14346,7 +14347,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":807
+  /* "paretoarchive/core.pyx":812
  *     self._sign[4] = 1
  *     self._sign[5] = 1
  *     self._sign[6] = 1             # <<<<<<<<<<<<<<
@@ -14355,7 +14356,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[6]) = 1;
 
-  /* "paretoarchive/core.pyx":808
+  /* "paretoarchive/core.pyx":813
  *     self._sign[5] = 1
  *     self._sign[6] = 1
  *     self._sign[7] = 1             # <<<<<<<<<<<<<<
@@ -14364,7 +14365,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[7]) = 1;
 
-  /* "paretoarchive/core.pyx":809
+  /* "paretoarchive/core.pyx":814
  *     self._sign[6] = 1
  *     self._sign[7] = 1
  *     self._sign[8] = 1             # <<<<<<<<<<<<<<
@@ -14373,7 +14374,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[8]) = 1;
 
-  /* "paretoarchive/core.pyx":810
+  /* "paretoarchive/core.pyx":815
  *     self._sign[7] = 1
  *     self._sign[8] = 1
  *     self._sign[9] = 1             # <<<<<<<<<<<<<<
@@ -14382,7 +14383,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[9]) = 1;
 
-  /* "paretoarchive/core.pyx":811
+  /* "paretoarchive/core.pyx":816
  *     self._sign[8] = 1
  *     self._sign[9] = 1
  *     self._sign[10] = 1             # <<<<<<<<<<<<<<
@@ -14391,7 +14392,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
  */
   (__pyx_v_self->_sign[10]) = 1;
 
-  /* "paretoarchive/core.pyx":798
+  /* "paretoarchive/core.pyx":803
  *     return (PyBspTreeArchive11, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -14405,7 +14406,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_2__cinit__(struct
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":813
+/* "paretoarchive/core.pyx":818
  *     self._sign[10] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -14438,104 +14439,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_4configure(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":814
+  /* "paretoarchive/core.pyx":819
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 814, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 814, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":815
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 815, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 815, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":816
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 816, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 816, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":817
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 817, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 817, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":818
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 818, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 818, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":819
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 819, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 819, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 819, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14544,16 +14455,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":820
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 820, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 820, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 820, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14562,16 +14473,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":821
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 821, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 821, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 821, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14580,16 +14491,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":822
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 822, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 822, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 822, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14598,16 +14509,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":823
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- * 
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 823, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 823, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 823, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14616,16 +14527,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":824
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 824, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 824, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 824, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14634,9 +14545,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_4configure(
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":825
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 825, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 825, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":826
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 826, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 826, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":827
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 827, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 827, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":828
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 828, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 828, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":829
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 829, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 829, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[10]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":813
+  /* "paretoarchive/core.pyx":818
  *     self._sign[10] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -14657,7 +14658,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_4configure(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":826
+/* "paretoarchive/core.pyx":831
  *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -14680,7 +14681,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_6__dealloc__(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":827
+  /* "paretoarchive/core.pyx":832
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -14689,7 +14690,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_6__dealloc__(str
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":828
+  /* "paretoarchive/core.pyx":833
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -14698,7 +14699,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_6__dealloc__(str
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":826
+  /* "paretoarchive/core.pyx":831
  *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -14710,7 +14711,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_6__dealloc__(str
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":830
+/* "paretoarchive/core.pyx":835
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -14768,7 +14769,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive11_9process(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 830, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 835, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -14787,7 +14788,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive11_9process(Py
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 830, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 835, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive11.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -14818,7 +14819,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_8process(st
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":831
+  /* "paretoarchive/core.pyx":836
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 11             # <<<<<<<<<<<<<<
@@ -14827,39 +14828,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_8process(st
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 831, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 836, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 11) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 831, __pyx_L1_error)
+      __PYX_ERR(0, 836, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":834
+  /* "paretoarchive/core.pyx":839
  *     cdef ObjVec[myInt11] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 834, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 834, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 839, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 839, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":835
+    /* "paretoarchive/core.pyx":840
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 835, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 840, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":836
+    /* "paretoarchive/core.pyx":841
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -14868,7 +14869,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_8process(st
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":834
+    /* "paretoarchive/core.pyx":839
  *     cdef ObjVec[myInt11] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -14877,237 +14878,237 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":837
+  /* "paretoarchive/core.pyx":842
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 837, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 842, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":838
+  /* "paretoarchive/core.pyx":843
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 838, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 843, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 838, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 843, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 838, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 843, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 838, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 843, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":839
+  /* "paretoarchive/core.pyx":844
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 839, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 844, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 839, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 844, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 839, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 844, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 839, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 844, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":840
+  /* "paretoarchive/core.pyx":845
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 840, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 845, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 840, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 845, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 840, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 845, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 840, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 845, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":841
+  /* "paretoarchive/core.pyx":846
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 841, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 846, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 841, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 846, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 841, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 846, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 841, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 846, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":842
+  /* "paretoarchive/core.pyx":847
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 842, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 847, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 842, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 847, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 842, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 847, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 842, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 847, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":843
+  /* "paretoarchive/core.pyx":848
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 843, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 848, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 843, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 848, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 843, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 848, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 843, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 848, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":844
+  /* "paretoarchive/core.pyx":849
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]             # <<<<<<<<<<<<<<
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 844, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 849, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 844, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 849, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 844, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 849, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 844, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 849, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[6]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":845
+  /* "paretoarchive/core.pyx":850
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]             # <<<<<<<<<<<<<<
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 845, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 850, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 845, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 850, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 845, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 850, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 845, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 850, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[7]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":846
+  /* "paretoarchive/core.pyx":851
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]             # <<<<<<<<<<<<<<
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 846, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 851, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 846, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 851, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 846, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 851, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 846, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 851, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[8]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":847
+  /* "paretoarchive/core.pyx":852
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]             # <<<<<<<<<<<<<<
  *     data[10] = self._sign[10]*item[10]
  *     if not returnId:
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 847, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 852, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 847, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 852, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 847, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 852, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 847, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 852, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[9]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":848
+  /* "paretoarchive/core.pyx":853
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 848, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 853, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 848, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 853, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 848, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 853, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 848, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 853, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[10]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":849
+  /* "paretoarchive/core.pyx":854
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 849, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 854, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":850
+    /* "paretoarchive/core.pyx":855
  *     data[10] = self._sign[10]*item[10]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -15115,13 +15116,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_8process(st
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 850, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 855, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_r = __pyx_t_6;
     __pyx_t_6 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":849
+    /* "paretoarchive/core.pyx":854
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -15130,7 +15131,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":851
+  /* "paretoarchive/core.pyx":856
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -15138,9 +15139,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_8process(st
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 851, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 856, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 851, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 856, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6);
@@ -15152,7 +15153,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_8process(st
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":830
+  /* "paretoarchive/core.pyx":835
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -15174,7 +15175,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_8process(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":853
+/* "paretoarchive/core.pyx":858
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -15201,7 +15202,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_10clear(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":854
+  /* "paretoarchive/core.pyx":859
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -15210,7 +15211,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_10clear(str
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":855
+  /* "paretoarchive/core.pyx":860
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -15219,7 +15220,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_10clear(str
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":853
+  /* "paretoarchive/core.pyx":858
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -15234,7 +15235,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_10clear(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":857
+/* "paretoarchive/core.pyx":862
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -15265,7 +15266,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_12empty(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":858
+  /* "paretoarchive/core.pyx":863
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -15273,13 +15274,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_12empty(str
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 858, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 863, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":857
+  /* "paretoarchive/core.pyx":862
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -15298,7 +15299,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_12empty(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":860
+/* "paretoarchive/core.pyx":865
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -15329,7 +15330,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_14size(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":861
+  /* "paretoarchive/core.pyx":866
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -15337,13 +15338,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_14size(stru
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 861, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 866, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":860
+  /* "paretoarchive/core.pyx":865
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -15362,7 +15363,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_14size(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":863
+/* "paretoarchive/core.pyx":868
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -15402,7 +15403,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive11_17points(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 863, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 868, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -15413,14 +15414,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive11_17points(Py
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 863, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 868, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 863, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 868, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive11.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -15463,7 +15464,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":867
+  /* "paretoarchive/core.pyx":872
  *     cdef ObjVec[myInt11] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -15472,19 +15473,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":868
+  /* "paretoarchive/core.pyx":873
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 868, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 873, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":869
+  /* "paretoarchive/core.pyx":874
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -15496,7 +15497,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":870
+    /* "paretoarchive/core.pyx":875
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -15505,7 +15506,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":871
+    /* "paretoarchive/core.pyx":876
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -15514,7 +15515,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":872
+    /* "paretoarchive/core.pyx":877
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -15524,19 +15525,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":873
+      /* "paretoarchive/core.pyx":878
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 873, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 878, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 873, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 878, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":872
+      /* "paretoarchive/core.pyx":877
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -15546,7 +15547,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":875
+    /* "paretoarchive/core.pyx":880
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10]])             # <<<<<<<<<<<<<<
@@ -15554,29 +15555,29 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
-      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
-      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
-      __pyx_t_17 = PyList_New(11); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_17 = PyList_New(11); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_17, 0, __pyx_t_1);
@@ -15611,13 +15612,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
       __pyx_t_14 = 0;
       __pyx_t_15 = 0;
       __pyx_t_16 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_17); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 875, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_17); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 880, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":876
+  /* "paretoarchive/core.pyx":881
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10]])
  *     return res             # <<<<<<<<<<<<<<
@@ -15629,7 +15630,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":863
+  /* "paretoarchive/core.pyx":868
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -15660,7 +15661,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive11_16points(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":886
+/* "paretoarchive/core.pyx":891
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -15693,7 +15694,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12___reduce__(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":887
+  /* "paretoarchive/core.pyx":892
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive12, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -15701,11 +15702,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12___reduce__(
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 887, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 892, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 12); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 887, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 12); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 892, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 887, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 892, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -15713,7 +15714,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12___reduce__(
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 887, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 892, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive12));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive12));
@@ -15725,7 +15726,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12___reduce__(
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":886
+  /* "paretoarchive/core.pyx":891
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -15746,7 +15747,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12___reduce__(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":889
+/* "paretoarchive/core.pyx":894
  *     return (PyBspTreeArchive12, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -15775,7 +15776,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":890
+  /* "paretoarchive/core.pyx":895
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive12()             # <<<<<<<<<<<<<<
@@ -15784,7 +15785,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive12();
 
-  /* "paretoarchive/core.pyx":891
+  /* "paretoarchive/core.pyx":896
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive12()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -15793,7 +15794,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":892
+  /* "paretoarchive/core.pyx":897
  *     self._front = new BspTreeArchive12()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -15802,7 +15803,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":893
+  /* "paretoarchive/core.pyx":898
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -15811,7 +15812,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":894
+  /* "paretoarchive/core.pyx":899
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -15820,7 +15821,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":895
+  /* "paretoarchive/core.pyx":900
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -15829,7 +15830,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":896
+  /* "paretoarchive/core.pyx":901
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -15838,7 +15839,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":897
+  /* "paretoarchive/core.pyx":902
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -15847,7 +15848,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":898
+  /* "paretoarchive/core.pyx":903
  *     self._sign[4] = 1
  *     self._sign[5] = 1
  *     self._sign[6] = 1             # <<<<<<<<<<<<<<
@@ -15856,7 +15857,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[6]) = 1;
 
-  /* "paretoarchive/core.pyx":899
+  /* "paretoarchive/core.pyx":904
  *     self._sign[5] = 1
  *     self._sign[6] = 1
  *     self._sign[7] = 1             # <<<<<<<<<<<<<<
@@ -15865,7 +15866,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[7]) = 1;
 
-  /* "paretoarchive/core.pyx":900
+  /* "paretoarchive/core.pyx":905
  *     self._sign[6] = 1
  *     self._sign[7] = 1
  *     self._sign[8] = 1             # <<<<<<<<<<<<<<
@@ -15874,7 +15875,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[8]) = 1;
 
-  /* "paretoarchive/core.pyx":901
+  /* "paretoarchive/core.pyx":906
  *     self._sign[7] = 1
  *     self._sign[8] = 1
  *     self._sign[9] = 1             # <<<<<<<<<<<<<<
@@ -15883,7 +15884,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[9]) = 1;
 
-  /* "paretoarchive/core.pyx":902
+  /* "paretoarchive/core.pyx":907
  *     self._sign[8] = 1
  *     self._sign[9] = 1
  *     self._sign[10] = 1             # <<<<<<<<<<<<<<
@@ -15892,7 +15893,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[10]) = 1;
 
-  /* "paretoarchive/core.pyx":903
+  /* "paretoarchive/core.pyx":908
  *     self._sign[9] = 1
  *     self._sign[10] = 1
  *     self._sign[11] = 1             # <<<<<<<<<<<<<<
@@ -15901,7 +15902,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
  */
   (__pyx_v_self->_sign[11]) = 1;
 
-  /* "paretoarchive/core.pyx":889
+  /* "paretoarchive/core.pyx":894
  *     return (PyBspTreeArchive12, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -15915,7 +15916,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_2__cinit__(struct
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":905
+/* "paretoarchive/core.pyx":910
  *     self._sign[11] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -15948,104 +15949,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_4configure(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":906
+  /* "paretoarchive/core.pyx":911
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 906, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 906, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":907
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 907, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 907, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":908
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 908, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 908, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":909
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 909, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 909, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":910
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 910, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 910, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":911
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 911, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 911, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 911, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -16054,16 +15965,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":912
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 912, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 912, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 912, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -16072,16 +15983,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":913
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 913, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 913, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 913, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -16090,16 +16001,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":914
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 914, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 914, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -16108,16 +16019,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":915
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 915, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 915, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 915, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -16126,16 +16037,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":916
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
- * 
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 916, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 916, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 916, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -16144,16 +16055,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[10]) = __pyx_t_1;
+  (__pyx_v_self->_sign[5]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":917
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 917, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 917, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 917, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -16162,9 +16073,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_4configure(
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":918
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 918, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 918, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":919
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 919, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 919, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":920
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 920, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 920, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":921
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 921, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 921, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[10]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":922
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 922, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 922, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[11]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":905
+  /* "paretoarchive/core.pyx":910
  *     self._sign[11] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -16185,7 +16186,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_4configure(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":919
+/* "paretoarchive/core.pyx":924
  *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -16208,7 +16209,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_6__dealloc__(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":920
+  /* "paretoarchive/core.pyx":925
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -16217,7 +16218,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_6__dealloc__(str
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":921
+  /* "paretoarchive/core.pyx":926
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -16226,7 +16227,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_6__dealloc__(str
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":919
+  /* "paretoarchive/core.pyx":924
  *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -16238,7 +16239,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_6__dealloc__(str
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":923
+/* "paretoarchive/core.pyx":928
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -16296,7 +16297,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive12_9process(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 923, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 928, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -16315,7 +16316,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive12_9process(Py
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 923, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 928, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive12.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -16346,7 +16347,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_8process(st
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":924
+  /* "paretoarchive/core.pyx":929
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 12             # <<<<<<<<<<<<<<
@@ -16355,39 +16356,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_8process(st
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 924, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 929, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 12) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 924, __pyx_L1_error)
+      __PYX_ERR(0, 929, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":927
+  /* "paretoarchive/core.pyx":932
  *     cdef ObjVec[myInt12] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 927, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 927, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 932, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 932, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":928
+    /* "paretoarchive/core.pyx":933
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 928, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 933, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":929
+    /* "paretoarchive/core.pyx":934
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -16396,7 +16397,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_8process(st
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":927
+    /* "paretoarchive/core.pyx":932
  *     cdef ObjVec[myInt12] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -16405,256 +16406,256 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":930
+  /* "paretoarchive/core.pyx":935
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 930, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 935, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":931
+  /* "paretoarchive/core.pyx":936
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 931, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 936, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 931, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 936, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 931, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 936, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 931, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 936, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":932
+  /* "paretoarchive/core.pyx":937
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 932, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 937, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 932, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 937, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 932, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 937, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 932, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 937, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":933
+  /* "paretoarchive/core.pyx":938
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 933, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 938, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 933, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 938, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 933, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 938, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 933, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 938, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":934
+  /* "paretoarchive/core.pyx":939
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 934, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 939, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 934, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 939, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 934, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 939, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 934, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 939, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":935
+  /* "paretoarchive/core.pyx":940
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 935, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 940, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 935, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 940, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 935, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 940, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 935, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 940, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":936
+  /* "paretoarchive/core.pyx":941
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 936, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 941, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 936, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 941, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 936, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 941, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 936, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 941, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":937
+  /* "paretoarchive/core.pyx":942
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]             # <<<<<<<<<<<<<<
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 937, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 942, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 937, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 942, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 937, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 942, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 937, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 942, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[6]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":938
+  /* "paretoarchive/core.pyx":943
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]             # <<<<<<<<<<<<<<
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 938, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 943, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 938, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 943, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 938, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 943, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 938, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 943, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[7]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":939
+  /* "paretoarchive/core.pyx":944
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]             # <<<<<<<<<<<<<<
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 939, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 944, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 939, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 944, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 939, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 944, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 939, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 944, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[8]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":940
+  /* "paretoarchive/core.pyx":945
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]             # <<<<<<<<<<<<<<
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 940, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 945, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 940, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 945, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 940, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 945, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 940, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 945, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[9]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":941
+  /* "paretoarchive/core.pyx":946
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]             # <<<<<<<<<<<<<<
  *     data[11] = self._sign[11]*item[11]
  *     if not returnId:
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 941, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 946, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 941, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 946, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 941, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 946, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 941, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 946, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[10]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":942
+  /* "paretoarchive/core.pyx":947
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[11])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 942, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[11])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 947, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 942, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 947, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 942, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 947, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 942, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 947, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[11]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":943
+  /* "paretoarchive/core.pyx":948
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 943, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 948, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":944
+    /* "paretoarchive/core.pyx":949
  *     data[11] = self._sign[11]*item[11]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -16662,13 +16663,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_8process(st
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 944, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 949, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":943
+    /* "paretoarchive/core.pyx":948
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -16677,7 +16678,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":945
+  /* "paretoarchive/core.pyx":950
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -16685,9 +16686,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_8process(st
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 945, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 950, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 945, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 950, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
@@ -16699,7 +16700,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_8process(st
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":923
+  /* "paretoarchive/core.pyx":928
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -16721,7 +16722,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_8process(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":947
+/* "paretoarchive/core.pyx":952
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -16748,7 +16749,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_10clear(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":948
+  /* "paretoarchive/core.pyx":953
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -16757,7 +16758,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_10clear(str
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":949
+  /* "paretoarchive/core.pyx":954
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -16766,7 +16767,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_10clear(str
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":947
+  /* "paretoarchive/core.pyx":952
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -16781,7 +16782,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_10clear(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":951
+/* "paretoarchive/core.pyx":956
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -16812,7 +16813,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_12empty(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":952
+  /* "paretoarchive/core.pyx":957
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -16820,13 +16821,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_12empty(str
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 952, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 957, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":951
+  /* "paretoarchive/core.pyx":956
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -16845,7 +16846,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_12empty(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":954
+/* "paretoarchive/core.pyx":959
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -16876,7 +16877,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_14size(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":955
+  /* "paretoarchive/core.pyx":960
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -16884,13 +16885,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_14size(stru
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 955, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":954
+  /* "paretoarchive/core.pyx":959
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -16909,7 +16910,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_14size(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":957
+/* "paretoarchive/core.pyx":962
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -16949,7 +16950,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive12_17points(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 957, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 962, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -16960,14 +16961,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive12_17points(Py
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 957, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 962, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 957, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 962, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive12.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -17011,7 +17012,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":961
+  /* "paretoarchive/core.pyx":966
  *     cdef ObjVec[myInt12] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -17020,19 +17021,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":962
+  /* "paretoarchive/core.pyx":967
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 962, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 967, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":963
+  /* "paretoarchive/core.pyx":968
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -17044,7 +17045,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":964
+    /* "paretoarchive/core.pyx":969
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -17053,7 +17054,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":965
+    /* "paretoarchive/core.pyx":970
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -17062,7 +17063,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":966
+    /* "paretoarchive/core.pyx":971
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -17072,19 +17073,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":967
+      /* "paretoarchive/core.pyx":972
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 967, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 972, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 967, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 972, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":966
+      /* "paretoarchive/core.pyx":971
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -17094,7 +17095,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":969
+    /* "paretoarchive/core.pyx":974
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11]])             # <<<<<<<<<<<<<<
@@ -17102,31 +17103,31 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
-      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
-      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
-      __pyx_t_17 = PyFloat_FromDouble(((__pyx_v_self->_sign[11]) * (__pyx_v_veci[11]))); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_17 = PyFloat_FromDouble(((__pyx_v_self->_sign[11]) * (__pyx_v_veci[11]))); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_18 = PyList_New(12); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_18 = PyList_New(12); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_18, 0, __pyx_t_1);
@@ -17164,13 +17165,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
       __pyx_t_15 = 0;
       __pyx_t_16 = 0;
       __pyx_t_17 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_18); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 969, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_18); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 974, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":970
+  /* "paretoarchive/core.pyx":975
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11]])
  *     return res             # <<<<<<<<<<<<<<
@@ -17182,7 +17183,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":957
+  /* "paretoarchive/core.pyx":962
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -17214,7 +17215,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive12_16points(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":980
+/* "paretoarchive/core.pyx":985
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -17247,7 +17248,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13___reduce__(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":981
+  /* "paretoarchive/core.pyx":986
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive13, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -17255,11 +17256,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13___reduce__(
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 981, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 986, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 13); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 981, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 13); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 986, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 981, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 986, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -17267,7 +17268,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13___reduce__(
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 981, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 986, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive13));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive13));
@@ -17279,7 +17280,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13___reduce__(
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":980
+  /* "paretoarchive/core.pyx":985
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -17300,7 +17301,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13___reduce__(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":983
+/* "paretoarchive/core.pyx":988
  *     return (PyBspTreeArchive13, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -17329,7 +17330,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":984
+  /* "paretoarchive/core.pyx":989
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive13()             # <<<<<<<<<<<<<<
@@ -17338,7 +17339,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive13();
 
-  /* "paretoarchive/core.pyx":985
+  /* "paretoarchive/core.pyx":990
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive13()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -17347,7 +17348,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":986
+  /* "paretoarchive/core.pyx":991
  *     self._front = new BspTreeArchive13()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -17356,7 +17357,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":987
+  /* "paretoarchive/core.pyx":992
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -17365,7 +17366,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":988
+  /* "paretoarchive/core.pyx":993
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -17374,7 +17375,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":989
+  /* "paretoarchive/core.pyx":994
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -17383,7 +17384,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":990
+  /* "paretoarchive/core.pyx":995
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -17392,7 +17393,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":991
+  /* "paretoarchive/core.pyx":996
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -17401,7 +17402,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":992
+  /* "paretoarchive/core.pyx":997
  *     self._sign[4] = 1
  *     self._sign[5] = 1
  *     self._sign[6] = 1             # <<<<<<<<<<<<<<
@@ -17410,7 +17411,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[6]) = 1;
 
-  /* "paretoarchive/core.pyx":993
+  /* "paretoarchive/core.pyx":998
  *     self._sign[5] = 1
  *     self._sign[6] = 1
  *     self._sign[7] = 1             # <<<<<<<<<<<<<<
@@ -17419,7 +17420,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[7]) = 1;
 
-  /* "paretoarchive/core.pyx":994
+  /* "paretoarchive/core.pyx":999
  *     self._sign[6] = 1
  *     self._sign[7] = 1
  *     self._sign[8] = 1             # <<<<<<<<<<<<<<
@@ -17428,7 +17429,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[8]) = 1;
 
-  /* "paretoarchive/core.pyx":995
+  /* "paretoarchive/core.pyx":1000
  *     self._sign[7] = 1
  *     self._sign[8] = 1
  *     self._sign[9] = 1             # <<<<<<<<<<<<<<
@@ -17437,7 +17438,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[9]) = 1;
 
-  /* "paretoarchive/core.pyx":996
+  /* "paretoarchive/core.pyx":1001
  *     self._sign[8] = 1
  *     self._sign[9] = 1
  *     self._sign[10] = 1             # <<<<<<<<<<<<<<
@@ -17446,7 +17447,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[10]) = 1;
 
-  /* "paretoarchive/core.pyx":997
+  /* "paretoarchive/core.pyx":1002
  *     self._sign[9] = 1
  *     self._sign[10] = 1
  *     self._sign[11] = 1             # <<<<<<<<<<<<<<
@@ -17455,7 +17456,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[11]) = 1;
 
-  /* "paretoarchive/core.pyx":998
+  /* "paretoarchive/core.pyx":1003
  *     self._sign[10] = 1
  *     self._sign[11] = 1
  *     self._sign[12] = 1             # <<<<<<<<<<<<<<
@@ -17464,7 +17465,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
  */
   (__pyx_v_self->_sign[12]) = 1;
 
-  /* "paretoarchive/core.pyx":983
+  /* "paretoarchive/core.pyx":988
  *     return (PyBspTreeArchive13, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -17478,7 +17479,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_2__cinit__(struct
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1000
+/* "paretoarchive/core.pyx":1005
  *     self._sign[12] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -17511,104 +17512,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":1001
+  /* "paretoarchive/core.pyx":1006
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1001, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1001, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1002
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1002, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1002, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1003
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1003, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1003, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1004
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1004, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1004, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1005
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1005, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1005, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1006
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1006, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1006, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1006, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -17617,16 +17528,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1007
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1007, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1007, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1007, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -17635,16 +17546,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1008
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1008, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1008, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1008, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -17653,16 +17564,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1009
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1009, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1009, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1009, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -17671,16 +17582,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1010
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1010, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1010, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1010, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -17689,16 +17600,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1011
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1011, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1011, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1011, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -17707,16 +17618,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[10]) = __pyx_t_1;
+  (__pyx_v_self->_sign[5]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1012
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
- * 
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1012, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1012, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1012, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -17725,16 +17636,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[11]) = __pyx_t_1;
+  (__pyx_v_self->_sign[6]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1013
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1013, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1013, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1013, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -17743,9 +17654,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1014
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1014, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1014, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1015
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1015, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1015, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1016
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1016, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1016, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[10]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1017
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1017, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1017, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[11]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1018
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1018, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1018, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[12]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":1000
+  /* "paretoarchive/core.pyx":1005
  *     self._sign[12] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -17766,7 +17767,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_4configure(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1015
+/* "paretoarchive/core.pyx":1020
  *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -17789,7 +17790,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_6__dealloc__(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":1016
+  /* "paretoarchive/core.pyx":1021
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -17798,7 +17799,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_6__dealloc__(str
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":1017
+  /* "paretoarchive/core.pyx":1022
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -17807,7 +17808,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_6__dealloc__(str
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":1015
+  /* "paretoarchive/core.pyx":1020
  *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -17819,7 +17820,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_6__dealloc__(str
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":1019
+/* "paretoarchive/core.pyx":1024
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -17877,7 +17878,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive13_9process(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 1019, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 1024, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -17896,7 +17897,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive13_9process(Py
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1019, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1024, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive13.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -17927,7 +17928,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_8process(st
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":1020
+  /* "paretoarchive/core.pyx":1025
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 13             # <<<<<<<<<<<<<<
@@ -17936,39 +17937,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_8process(st
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1020, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1025, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 13) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 1020, __pyx_L1_error)
+      __PYX_ERR(0, 1025, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":1023
+  /* "paretoarchive/core.pyx":1028
  *     cdef ObjVec[myInt13] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1023, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1023, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1028, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1028, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":1024
+    /* "paretoarchive/core.pyx":1029
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1024, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1029, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":1025
+    /* "paretoarchive/core.pyx":1030
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -17977,7 +17978,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_8process(st
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":1023
+    /* "paretoarchive/core.pyx":1028
  *     cdef ObjVec[myInt13] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -17986,275 +17987,275 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":1026
+  /* "paretoarchive/core.pyx":1031
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1026, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1031, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":1027
+  /* "paretoarchive/core.pyx":1032
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1027, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1032, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1027, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1032, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1027, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1032, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1027, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1032, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1028
+  /* "paretoarchive/core.pyx":1033
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1028, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1033, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1028, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1033, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1028, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1033, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1028, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1033, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1029
+  /* "paretoarchive/core.pyx":1034
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1029, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1034, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1029, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1034, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1029, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1034, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1029, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1034, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1030
+  /* "paretoarchive/core.pyx":1035
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1030, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1035, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1030, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1035, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1030, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1035, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1030, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1035, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1031
+  /* "paretoarchive/core.pyx":1036
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1031, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1036, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1031, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1036, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1031, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1036, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1031, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1036, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1032
+  /* "paretoarchive/core.pyx":1037
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1032, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1037, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1032, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1037, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1032, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1037, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1032, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1037, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1033
+  /* "paretoarchive/core.pyx":1038
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]             # <<<<<<<<<<<<<<
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1033, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1038, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1033, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1038, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1033, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1038, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1033, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1038, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[6]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1034
+  /* "paretoarchive/core.pyx":1039
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]             # <<<<<<<<<<<<<<
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1034, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1039, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1034, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1039, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1034, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1039, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1034, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1039, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[7]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1035
+  /* "paretoarchive/core.pyx":1040
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]             # <<<<<<<<<<<<<<
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1035, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1040, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1035, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1040, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1035, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1040, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1035, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1040, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[8]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1036
+  /* "paretoarchive/core.pyx":1041
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]             # <<<<<<<<<<<<<<
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1036, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1041, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1036, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1041, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1036, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1041, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1036, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1041, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[9]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1037
+  /* "paretoarchive/core.pyx":1042
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]             # <<<<<<<<<<<<<<
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1037, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1042, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1037, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1042, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1037, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1042, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1037, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1042, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[10]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1038
+  /* "paretoarchive/core.pyx":1043
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]             # <<<<<<<<<<<<<<
  *     data[12] = self._sign[12]*item[12]
  *     if not returnId:
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[11])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1038, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[11])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1043, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1038, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1043, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1038, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1043, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1038, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1043, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[11]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1039
+  /* "paretoarchive/core.pyx":1044
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[12])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1039, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[12])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1044, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1039, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1044, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1039, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1044, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1039, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1044, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[12]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1040
+  /* "paretoarchive/core.pyx":1045
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1040, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1045, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":1041
+    /* "paretoarchive/core.pyx":1046
  *     data[12] = self._sign[12]*item[12]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -18262,13 +18263,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_8process(st
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1041, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1046, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_r = __pyx_t_6;
     __pyx_t_6 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":1040
+    /* "paretoarchive/core.pyx":1045
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -18277,7 +18278,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":1042
+  /* "paretoarchive/core.pyx":1047
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -18285,9 +18286,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_8process(st
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1042, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1047, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1042, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1047, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6);
@@ -18299,7 +18300,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_8process(st
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1019
+  /* "paretoarchive/core.pyx":1024
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -18321,7 +18322,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_8process(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1044
+/* "paretoarchive/core.pyx":1049
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -18348,7 +18349,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_10clear(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":1045
+  /* "paretoarchive/core.pyx":1050
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -18357,7 +18358,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_10clear(str
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":1046
+  /* "paretoarchive/core.pyx":1051
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -18366,7 +18367,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_10clear(str
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":1044
+  /* "paretoarchive/core.pyx":1049
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -18381,7 +18382,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_10clear(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1048
+/* "paretoarchive/core.pyx":1053
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -18412,7 +18413,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_12empty(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":1049
+  /* "paretoarchive/core.pyx":1054
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -18420,13 +18421,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_12empty(str
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1049, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1054, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1048
+  /* "paretoarchive/core.pyx":1053
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -18445,7 +18446,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_12empty(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1051
+/* "paretoarchive/core.pyx":1056
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -18476,7 +18477,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_14size(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":1052
+  /* "paretoarchive/core.pyx":1057
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -18484,13 +18485,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_14size(stru
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1052, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1057, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1051
+  /* "paretoarchive/core.pyx":1056
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -18509,7 +18510,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_14size(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1054
+/* "paretoarchive/core.pyx":1059
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -18549,7 +18550,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive13_17points(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 1054, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 1059, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -18560,14 +18561,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive13_17points(Py
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1054, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1059, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1054, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1059, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive13.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -18612,7 +18613,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":1058
+  /* "paretoarchive/core.pyx":1063
  *     cdef ObjVec[myInt13] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -18621,19 +18622,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":1059
+  /* "paretoarchive/core.pyx":1064
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1059, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1064, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":1060
+  /* "paretoarchive/core.pyx":1065
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -18645,7 +18646,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":1061
+    /* "paretoarchive/core.pyx":1066
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -18654,7 +18655,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":1062
+    /* "paretoarchive/core.pyx":1067
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -18663,7 +18664,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":1063
+    /* "paretoarchive/core.pyx":1068
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -18673,19 +18674,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":1064
+      /* "paretoarchive/core.pyx":1069
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11],self._sign[12]*veci[12]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1064, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1069, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1064, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1069, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":1063
+      /* "paretoarchive/core.pyx":1068
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -18695,7 +18696,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":1066
+    /* "paretoarchive/core.pyx":1071
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11],self._sign[12]*veci[12]])             # <<<<<<<<<<<<<<
@@ -18703,33 +18704,33 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
-      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
-      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
-      __pyx_t_17 = PyFloat_FromDouble(((__pyx_v_self->_sign[11]) * (__pyx_v_veci[11]))); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_17 = PyFloat_FromDouble(((__pyx_v_self->_sign[11]) * (__pyx_v_veci[11]))); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_18 = PyFloat_FromDouble(((__pyx_v_self->_sign[12]) * (__pyx_v_veci[12]))); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_18 = PyFloat_FromDouble(((__pyx_v_self->_sign[12]) * (__pyx_v_veci[12]))); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
-      __pyx_t_19 = PyList_New(13); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_19 = PyList_New(13); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_19);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_19, 0, __pyx_t_1);
@@ -18770,13 +18771,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
       __pyx_t_16 = 0;
       __pyx_t_17 = 0;
       __pyx_t_18 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_19); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1066, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_19); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":1067
+  /* "paretoarchive/core.pyx":1072
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11],self._sign[12]*veci[12]])
  *     return res             # <<<<<<<<<<<<<<
@@ -18788,7 +18789,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1054
+  /* "paretoarchive/core.pyx":1059
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -18821,7 +18822,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive13_16points(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1077
+/* "paretoarchive/core.pyx":1082
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -18854,7 +18855,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14___reduce__(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":1078
+  /* "paretoarchive/core.pyx":1083
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive14, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -18862,11 +18863,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14___reduce__(
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1078, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1083, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 14); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1078, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 14); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1083, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1078, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1083, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -18874,7 +18875,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14___reduce__(
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1078, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1083, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive14));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive14));
@@ -18886,7 +18887,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14___reduce__(
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1077
+  /* "paretoarchive/core.pyx":1082
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -18907,7 +18908,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14___reduce__(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1080
+/* "paretoarchive/core.pyx":1085
  *     return (PyBspTreeArchive14, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -18936,7 +18937,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":1081
+  /* "paretoarchive/core.pyx":1086
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive14()             # <<<<<<<<<<<<<<
@@ -18945,7 +18946,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive14();
 
-  /* "paretoarchive/core.pyx":1082
+  /* "paretoarchive/core.pyx":1087
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive14()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -18954,7 +18955,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":1083
+  /* "paretoarchive/core.pyx":1088
  *     self._front = new BspTreeArchive14()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -18963,7 +18964,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":1084
+  /* "paretoarchive/core.pyx":1089
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -18972,7 +18973,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":1085
+  /* "paretoarchive/core.pyx":1090
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -18981,7 +18982,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":1086
+  /* "paretoarchive/core.pyx":1091
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -18990,7 +18991,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":1087
+  /* "paretoarchive/core.pyx":1092
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -18999,7 +19000,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":1088
+  /* "paretoarchive/core.pyx":1093
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -19008,7 +19009,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":1089
+  /* "paretoarchive/core.pyx":1094
  *     self._sign[4] = 1
  *     self._sign[5] = 1
  *     self._sign[6] = 1             # <<<<<<<<<<<<<<
@@ -19017,7 +19018,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[6]) = 1;
 
-  /* "paretoarchive/core.pyx":1090
+  /* "paretoarchive/core.pyx":1095
  *     self._sign[5] = 1
  *     self._sign[6] = 1
  *     self._sign[7] = 1             # <<<<<<<<<<<<<<
@@ -19026,7 +19027,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[7]) = 1;
 
-  /* "paretoarchive/core.pyx":1091
+  /* "paretoarchive/core.pyx":1096
  *     self._sign[6] = 1
  *     self._sign[7] = 1
  *     self._sign[8] = 1             # <<<<<<<<<<<<<<
@@ -19035,7 +19036,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[8]) = 1;
 
-  /* "paretoarchive/core.pyx":1092
+  /* "paretoarchive/core.pyx":1097
  *     self._sign[7] = 1
  *     self._sign[8] = 1
  *     self._sign[9] = 1             # <<<<<<<<<<<<<<
@@ -19044,7 +19045,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[9]) = 1;
 
-  /* "paretoarchive/core.pyx":1093
+  /* "paretoarchive/core.pyx":1098
  *     self._sign[8] = 1
  *     self._sign[9] = 1
  *     self._sign[10] = 1             # <<<<<<<<<<<<<<
@@ -19053,7 +19054,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[10]) = 1;
 
-  /* "paretoarchive/core.pyx":1094
+  /* "paretoarchive/core.pyx":1099
  *     self._sign[9] = 1
  *     self._sign[10] = 1
  *     self._sign[11] = 1             # <<<<<<<<<<<<<<
@@ -19062,7 +19063,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[11]) = 1;
 
-  /* "paretoarchive/core.pyx":1095
+  /* "paretoarchive/core.pyx":1100
  *     self._sign[10] = 1
  *     self._sign[11] = 1
  *     self._sign[12] = 1             # <<<<<<<<<<<<<<
@@ -19071,7 +19072,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[12]) = 1;
 
-  /* "paretoarchive/core.pyx":1096
+  /* "paretoarchive/core.pyx":1101
  *     self._sign[11] = 1
  *     self._sign[12] = 1
  *     self._sign[13] = 1             # <<<<<<<<<<<<<<
@@ -19080,7 +19081,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
  */
   (__pyx_v_self->_sign[13]) = 1;
 
-  /* "paretoarchive/core.pyx":1080
+  /* "paretoarchive/core.pyx":1085
  *     return (PyBspTreeArchive14, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -19094,7 +19095,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_2__cinit__(struct
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1098
+/* "paretoarchive/core.pyx":1103
  *     self._sign[13] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -19127,104 +19128,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":1099
+  /* "paretoarchive/core.pyx":1104
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1099, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1099, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1100
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1100, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1100, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1101
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1101, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1101, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1102
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1102, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1102, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1103
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1103, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1103, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1104
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1104, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -19233,16 +19144,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1105
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1105, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1105, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1105, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -19251,16 +19162,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1106
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1106, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1106, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -19269,16 +19180,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1107
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1107, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1107, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -19287,16 +19198,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1108
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1108, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -19305,16 +19216,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1109
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1109, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1109, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1109, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -19323,16 +19234,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[10]) = __pyx_t_1;
+  (__pyx_v_self->_sign[5]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1110
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
- *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1110, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -19341,16 +19252,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[11]) = __pyx_t_1;
+  (__pyx_v_self->_sign[6]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1111
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
- * 
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1111, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1111, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1111, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -19359,16 +19270,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[12]) = __pyx_t_1;
+  (__pyx_v_self->_sign[7]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1112
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
- *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 13, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1112, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -19377,9 +19288,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1113
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1113, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1113, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1114
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1114, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1114, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[10]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1115
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1115, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1115, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[11]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1116
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1116, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1116, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[12]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1117
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 13, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1117, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1117, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[13]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":1098
+  /* "paretoarchive/core.pyx":1103
  *     self._sign[13] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -19400,7 +19401,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_4configure(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1114
+/* "paretoarchive/core.pyx":1119
  *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -19423,7 +19424,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_6__dealloc__(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":1115
+  /* "paretoarchive/core.pyx":1120
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -19432,7 +19433,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_6__dealloc__(str
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":1116
+  /* "paretoarchive/core.pyx":1121
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -19441,7 +19442,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_6__dealloc__(str
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":1114
+  /* "paretoarchive/core.pyx":1119
  *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -19453,7 +19454,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_6__dealloc__(str
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":1118
+/* "paretoarchive/core.pyx":1123
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -19511,7 +19512,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive14_9process(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 1118, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 1123, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -19530,7 +19531,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive14_9process(Py
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1118, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1123, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive14.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -19561,7 +19562,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_8process(st
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":1119
+  /* "paretoarchive/core.pyx":1124
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 14             # <<<<<<<<<<<<<<
@@ -19570,39 +19571,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_8process(st
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1119, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1124, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 14) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 1119, __pyx_L1_error)
+      __PYX_ERR(0, 1124, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":1122
+  /* "paretoarchive/core.pyx":1127
  *     cdef ObjVec[myInt14] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1122, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1122, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1127, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1127, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":1123
+    /* "paretoarchive/core.pyx":1128
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1123, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1128, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":1124
+    /* "paretoarchive/core.pyx":1129
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -19611,7 +19612,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_8process(st
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":1122
+    /* "paretoarchive/core.pyx":1127
  *     cdef ObjVec[myInt14] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -19620,294 +19621,294 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":1125
+  /* "paretoarchive/core.pyx":1130
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1125, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1130, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":1126
+  /* "paretoarchive/core.pyx":1131
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1126, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1126, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1126, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1126, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1131, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1127
+  /* "paretoarchive/core.pyx":1132
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1127, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1132, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1127, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1132, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1127, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1132, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1127, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1132, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1128
+  /* "paretoarchive/core.pyx":1133
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1128, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1133, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1128, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1133, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1128, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1133, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1128, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1133, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1129
+  /* "paretoarchive/core.pyx":1134
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1129, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1134, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1129, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1134, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1129, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1134, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1129, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1134, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1130
+  /* "paretoarchive/core.pyx":1135
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1130, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1135, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1130, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1135, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1130, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1135, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1130, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1135, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1131
+  /* "paretoarchive/core.pyx":1136
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1131, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1136, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1131, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1136, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1131, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1136, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1131, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1136, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1132
+  /* "paretoarchive/core.pyx":1137
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]             # <<<<<<<<<<<<<<
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1132, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1137, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1132, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1137, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1132, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1137, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1132, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1137, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[6]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1133
+  /* "paretoarchive/core.pyx":1138
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]             # <<<<<<<<<<<<<<
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1133, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1138, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1133, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1138, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1133, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1138, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1133, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1138, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[7]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1134
+  /* "paretoarchive/core.pyx":1139
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]             # <<<<<<<<<<<<<<
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1134, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1139, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1134, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1139, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1134, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1139, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1134, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1139, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[8]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1135
+  /* "paretoarchive/core.pyx":1140
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]             # <<<<<<<<<<<<<<
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1135, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1140, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1135, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1140, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1135, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1140, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1135, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1140, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[9]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1136
+  /* "paretoarchive/core.pyx":1141
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]             # <<<<<<<<<<<<<<
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1136, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1136, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1136, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1136, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1141, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[10]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1137
+  /* "paretoarchive/core.pyx":1142
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]             # <<<<<<<<<<<<<<
  *     data[12] = self._sign[12]*item[12]
  *     data[13] = self._sign[13]*item[13]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[11])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1137, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[11])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1142, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1137, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1142, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1137, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1142, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1137, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1142, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[11]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1138
+  /* "paretoarchive/core.pyx":1143
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]             # <<<<<<<<<<<<<<
  *     data[13] = self._sign[13]*item[13]
  *     if not returnId:
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[12])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1138, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[12])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1143, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1138, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1143, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1138, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1143, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1138, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1143, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[12]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1139
+  /* "paretoarchive/core.pyx":1144
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]
  *     data[13] = self._sign[13]*item[13]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[13])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1139, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[13])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 13, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1139, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 13, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1139, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1139, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1144, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[13]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1140
+  /* "paretoarchive/core.pyx":1145
  *     data[12] = self._sign[12]*item[12]
  *     data[13] = self._sign[13]*item[13]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1140, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1145, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":1141
+    /* "paretoarchive/core.pyx":1146
  *     data[13] = self._sign[13]*item[13]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -19915,13 +19916,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_8process(st
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1141, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1146, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":1140
+    /* "paretoarchive/core.pyx":1145
  *     data[12] = self._sign[12]*item[12]
  *     data[13] = self._sign[13]*item[13]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -19930,7 +19931,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":1142
+  /* "paretoarchive/core.pyx":1147
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -19938,9 +19939,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_8process(st
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1142, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1147, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1142, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1147, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
@@ -19952,7 +19953,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_8process(st
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1118
+  /* "paretoarchive/core.pyx":1123
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -19974,7 +19975,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_8process(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1144
+/* "paretoarchive/core.pyx":1149
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -20001,7 +20002,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_10clear(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":1145
+  /* "paretoarchive/core.pyx":1150
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -20010,7 +20011,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_10clear(str
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":1146
+  /* "paretoarchive/core.pyx":1151
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -20019,7 +20020,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_10clear(str
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":1144
+  /* "paretoarchive/core.pyx":1149
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -20034,7 +20035,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_10clear(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1148
+/* "paretoarchive/core.pyx":1153
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -20065,7 +20066,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_12empty(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":1149
+  /* "paretoarchive/core.pyx":1154
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -20073,13 +20074,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_12empty(str
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1149, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1154, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1148
+  /* "paretoarchive/core.pyx":1153
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -20098,7 +20099,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_12empty(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1151
+/* "paretoarchive/core.pyx":1156
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -20129,7 +20130,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_14size(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":1152
+  /* "paretoarchive/core.pyx":1157
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -20137,13 +20138,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_14size(stru
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1152, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1157, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1151
+  /* "paretoarchive/core.pyx":1156
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -20162,7 +20163,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_14size(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1154
+/* "paretoarchive/core.pyx":1159
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -20202,7 +20203,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive14_17points(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 1154, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 1159, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -20213,14 +20214,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive14_17points(Py
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1154, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1159, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1154, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1159, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive14.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -20266,7 +20267,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":1158
+  /* "paretoarchive/core.pyx":1163
  *     cdef ObjVec[myInt14] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -20275,19 +20276,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":1159
+  /* "paretoarchive/core.pyx":1164
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1159, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1164, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":1160
+  /* "paretoarchive/core.pyx":1165
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -20299,7 +20300,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":1161
+    /* "paretoarchive/core.pyx":1166
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -20308,7 +20309,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":1162
+    /* "paretoarchive/core.pyx":1167
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -20317,7 +20318,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":1163
+    /* "paretoarchive/core.pyx":1168
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -20327,19 +20328,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":1164
+      /* "paretoarchive/core.pyx":1169
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11],self._sign[12]*veci[12],self._sign[13]*veci[13]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1164, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1169, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1164, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1169, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":1163
+      /* "paretoarchive/core.pyx":1168
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -20349,7 +20350,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":1166
+    /* "paretoarchive/core.pyx":1171
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11],self._sign[12]*veci[12],self._sign[13]*veci[13]])             # <<<<<<<<<<<<<<
@@ -20357,35 +20358,35 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
-      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
-      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
-      __pyx_t_17 = PyFloat_FromDouble(((__pyx_v_self->_sign[11]) * (__pyx_v_veci[11]))); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_17 = PyFloat_FromDouble(((__pyx_v_self->_sign[11]) * (__pyx_v_veci[11]))); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_18 = PyFloat_FromDouble(((__pyx_v_self->_sign[12]) * (__pyx_v_veci[12]))); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_18 = PyFloat_FromDouble(((__pyx_v_self->_sign[12]) * (__pyx_v_veci[12]))); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
-      __pyx_t_19 = PyFloat_FromDouble(((__pyx_v_self->_sign[13]) * (__pyx_v_veci[13]))); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_19 = PyFloat_FromDouble(((__pyx_v_self->_sign[13]) * (__pyx_v_veci[13]))); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_19);
-      __pyx_t_20 = PyList_New(14); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_20 = PyList_New(14); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_20);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_20, 0, __pyx_t_1);
@@ -20429,13 +20430,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
       __pyx_t_17 = 0;
       __pyx_t_18 = 0;
       __pyx_t_19 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_20); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_20); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":1167
+  /* "paretoarchive/core.pyx":1172
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11],self._sign[12]*veci[12],self._sign[13]*veci[13]])
  *     return res             # <<<<<<<<<<<<<<
@@ -20447,7 +20448,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1154
+  /* "paretoarchive/core.pyx":1159
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -20481,7 +20482,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive14_16points(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1177
+/* "paretoarchive/core.pyx":1182
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -20514,7 +20515,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15___reduce__(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "paretoarchive/core.pyx":1178
+  /* "paretoarchive/core.pyx":1183
  * 
  *   def __reduce__(self):
  *     return (PyBspTreeArchive15, (self._id, self._sign))             # <<<<<<<<<<<<<<
@@ -20522,11 +20523,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15___reduce__(
  *   def __cinit__(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1178, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1183, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 15); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1178, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_carray_to_py_int(__pyx_v_self->_sign, 15); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1183, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1178, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1183, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -20534,7 +20535,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15___reduce__(
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1178, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1183, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive15));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive15));
@@ -20546,7 +20547,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15___reduce__(
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1177
+  /* "paretoarchive/core.pyx":1182
  *   cdef int _id
  * 
  *   def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -20567,7 +20568,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15___reduce__(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1180
+/* "paretoarchive/core.pyx":1185
  *     return (PyBspTreeArchive15, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -20596,7 +20597,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "paretoarchive/core.pyx":1181
+  /* "paretoarchive/core.pyx":1186
  * 
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive15()             # <<<<<<<<<<<<<<
@@ -20605,7 +20606,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   __pyx_v_self->_front = new __pyx_t_13paretoarchive_4core_BspTreeArchive15();
 
-  /* "paretoarchive/core.pyx":1182
+  /* "paretoarchive/core.pyx":1187
  *   def __cinit__(self):
  *     self._front = new BspTreeArchive15()
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -20614,7 +20615,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":1183
+  /* "paretoarchive/core.pyx":1188
  *     self._front = new BspTreeArchive15()
  *     self._id = 0
  *     self._sign[0] = 1             # <<<<<<<<<<<<<<
@@ -20623,7 +20624,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[0]) = 1;
 
-  /* "paretoarchive/core.pyx":1184
+  /* "paretoarchive/core.pyx":1189
  *     self._id = 0
  *     self._sign[0] = 1
  *     self._sign[1] = 1             # <<<<<<<<<<<<<<
@@ -20632,7 +20633,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[1]) = 1;
 
-  /* "paretoarchive/core.pyx":1185
+  /* "paretoarchive/core.pyx":1190
  *     self._sign[0] = 1
  *     self._sign[1] = 1
  *     self._sign[2] = 1             # <<<<<<<<<<<<<<
@@ -20641,7 +20642,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[2]) = 1;
 
-  /* "paretoarchive/core.pyx":1186
+  /* "paretoarchive/core.pyx":1191
  *     self._sign[1] = 1
  *     self._sign[2] = 1
  *     self._sign[3] = 1             # <<<<<<<<<<<<<<
@@ -20650,7 +20651,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[3]) = 1;
 
-  /* "paretoarchive/core.pyx":1187
+  /* "paretoarchive/core.pyx":1192
  *     self._sign[2] = 1
  *     self._sign[3] = 1
  *     self._sign[4] = 1             # <<<<<<<<<<<<<<
@@ -20659,7 +20660,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[4]) = 1;
 
-  /* "paretoarchive/core.pyx":1188
+  /* "paretoarchive/core.pyx":1193
  *     self._sign[3] = 1
  *     self._sign[4] = 1
  *     self._sign[5] = 1             # <<<<<<<<<<<<<<
@@ -20668,7 +20669,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[5]) = 1;
 
-  /* "paretoarchive/core.pyx":1189
+  /* "paretoarchive/core.pyx":1194
  *     self._sign[4] = 1
  *     self._sign[5] = 1
  *     self._sign[6] = 1             # <<<<<<<<<<<<<<
@@ -20677,7 +20678,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[6]) = 1;
 
-  /* "paretoarchive/core.pyx":1190
+  /* "paretoarchive/core.pyx":1195
  *     self._sign[5] = 1
  *     self._sign[6] = 1
  *     self._sign[7] = 1             # <<<<<<<<<<<<<<
@@ -20686,7 +20687,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[7]) = 1;
 
-  /* "paretoarchive/core.pyx":1191
+  /* "paretoarchive/core.pyx":1196
  *     self._sign[6] = 1
  *     self._sign[7] = 1
  *     self._sign[8] = 1             # <<<<<<<<<<<<<<
@@ -20695,7 +20696,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[8]) = 1;
 
-  /* "paretoarchive/core.pyx":1192
+  /* "paretoarchive/core.pyx":1197
  *     self._sign[7] = 1
  *     self._sign[8] = 1
  *     self._sign[9] = 1             # <<<<<<<<<<<<<<
@@ -20704,7 +20705,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[9]) = 1;
 
-  /* "paretoarchive/core.pyx":1193
+  /* "paretoarchive/core.pyx":1198
  *     self._sign[8] = 1
  *     self._sign[9] = 1
  *     self._sign[10] = 1             # <<<<<<<<<<<<<<
@@ -20713,7 +20714,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[10]) = 1;
 
-  /* "paretoarchive/core.pyx":1194
+  /* "paretoarchive/core.pyx":1199
  *     self._sign[9] = 1
  *     self._sign[10] = 1
  *     self._sign[11] = 1             # <<<<<<<<<<<<<<
@@ -20722,7 +20723,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[11]) = 1;
 
-  /* "paretoarchive/core.pyx":1195
+  /* "paretoarchive/core.pyx":1200
  *     self._sign[10] = 1
  *     self._sign[11] = 1
  *     self._sign[12] = 1             # <<<<<<<<<<<<<<
@@ -20731,7 +20732,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[12]) = 1;
 
-  /* "paretoarchive/core.pyx":1196
+  /* "paretoarchive/core.pyx":1201
  *     self._sign[11] = 1
  *     self._sign[12] = 1
  *     self._sign[13] = 1             # <<<<<<<<<<<<<<
@@ -20740,7 +20741,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[13]) = 1;
 
-  /* "paretoarchive/core.pyx":1197
+  /* "paretoarchive/core.pyx":1202
  *     self._sign[12] = 1
  *     self._sign[13] = 1
  *     self._sign[14] = 1             # <<<<<<<<<<<<<<
@@ -20749,7 +20750,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
  */
   (__pyx_v_self->_sign[14]) = 1;
 
-  /* "paretoarchive/core.pyx":1180
+  /* "paretoarchive/core.pyx":1185
  *     return (PyBspTreeArchive15, (self._id, self._sign))
  * 
  *   def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -20763,7 +20764,7 @@ static int __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_2__cinit__(struct
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1199
+/* "paretoarchive/core.pyx":1204
  *     self._sign[14] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -20796,104 +20797,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("configure", 0);
 
-  /* "paretoarchive/core.pyx":1200
+  /* "paretoarchive/core.pyx":1205
  * 
  *   def configure(self, config):
  *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
  *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
  *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1200, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1200, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[0]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1201
- *   def configure(self, config):
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1201, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1201, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[1]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1202
- *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1202, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1202, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[2]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1203
- *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1203, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1203, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[3]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1204
- *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1204, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1204, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-    __pyx_t_1 = 1;
-  } else {
-    __pyx_t_1 = -1;
-  }
-  (__pyx_v_self->_sign[4]) = __pyx_t_1;
-
-  /* "paretoarchive/core.pyx":1205
- *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1205, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1205, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1205, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -20902,16 +20813,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[5]) = __pyx_t_1;
+  (__pyx_v_self->_sign[0]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1206
- *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *   def configure(self, config):
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1206, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1206, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1206, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -20920,16 +20831,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[6]) = __pyx_t_1;
+  (__pyx_v_self->_sign[1]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1207
- *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[0] = 1 if config[0] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1207, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1207, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1207, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -20938,16 +20849,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[7]) = __pyx_t_1;
+  (__pyx_v_self->_sign[2]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1208
- *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[1] = 1 if config[1] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1208, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1208, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1208, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -20956,16 +20867,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[8]) = __pyx_t_1;
+  (__pyx_v_self->_sign[3]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1209
- *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[2] = 1 if config[2] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1209, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1209, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1209, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -20974,16 +20885,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+  (__pyx_v_self->_sign[4]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1210
- *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ *     self._sign[3] = 1 if config[3] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1210, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1210, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -20992,16 +20903,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[10]) = __pyx_t_1;
+  (__pyx_v_self->_sign[5]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1211
- *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
- *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
+ *     self._sign[4] = 1 if config[4] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1211, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1211, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1211, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -21010,16 +20921,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[11]) = __pyx_t_1;
+  (__pyx_v_self->_sign[6]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1212
- *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
- *     self._sign[14] = 1 if config[14] else -1  #1 minimize, -1 maximize
+ *     self._sign[5] = 1 if config[5] else -1  #1 minimize, -1 maximize
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1212, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1212, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1212, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -21028,16 +20939,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[12]) = __pyx_t_1;
+  (__pyx_v_self->_sign[7]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1213
- *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
- *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- *     self._sign[14] = 1 if config[14] else -1  #1 minimize, -1 maximize
- * 
+ *     self._sign[6] = 1 if config[6] else -1  #1 minimize, -1 maximize
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 13, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1213, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1213, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1213, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -21046,16 +20957,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
-  (__pyx_v_self->_sign[13]) = __pyx_t_1;
+  (__pyx_v_self->_sign[8]) = __pyx_t_1;
 
   /* "paretoarchive/core.pyx":1214
- *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
- *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
- *     self._sign[14] = 1 if config[14] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
- * 
- *   def __dealloc__(self):
+ *     self._sign[7] = 1 if config[7] else -1  #1 minimize, -1 maximize
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
  */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 14, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1214, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1214, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -21064,9 +20975,99 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   } else {
     __pyx_t_1 = -1;
   }
+  (__pyx_v_self->_sign[9]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1215
+ *     self._sign[8] = 1 if config[8] else -1  #1 minimize, -1 maximize
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1215, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1215, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[10]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1216
+ *     self._sign[9] = 1 if config[9] else -1  #1 minimize, -1 maximize
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1216, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1216, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[11]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1217
+ *     self._sign[10] = 1 if config[10] else -1  #1 minimize, -1 maximize
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
+ *     self._sign[14] = 1 if config[14] else -1  #1 minimize, -1 maximize
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1217, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1217, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[12]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1218
+ *     self._sign[11] = 1 if config[11] else -1  #1 minimize, -1 maximize
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ *     self._sign[14] = 1 if config[14] else -1  #1 minimize, -1 maximize
+ * 
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 13, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1218, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1218, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
+  (__pyx_v_self->_sign[13]) = __pyx_t_1;
+
+  /* "paretoarchive/core.pyx":1219
+ *     self._sign[12] = 1 if config[12] else -1  #1 minimize, -1 maximize
+ *     self._sign[13] = 1 if config[13] else -1  #1 minimize, -1 maximize
+ *     self._sign[14] = 1 if config[14] else -1  #1 minimize, -1 maximize             # <<<<<<<<<<<<<<
+ * 
+ *   def __dealloc__(self):
+ */
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_config, 14, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1219, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1219, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
+    __pyx_t_1 = 1;
+  } else {
+    __pyx_t_1 = -1;
+  }
   (__pyx_v_self->_sign[14]) = __pyx_t_1;
 
-  /* "paretoarchive/core.pyx":1199
+  /* "paretoarchive/core.pyx":1204
  *     self._sign[14] = 1
  * 
  *   def configure(self, config):             # <<<<<<<<<<<<<<
@@ -21087,7 +21088,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_4configure(
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1216
+/* "paretoarchive/core.pyx":1221
  *     self._sign[14] = 1 if config[14] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -21110,7 +21111,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_6__dealloc__(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "paretoarchive/core.pyx":1217
+  /* "paretoarchive/core.pyx":1222
  * 
  *   def __dealloc__(self):
  *     del self._front             # <<<<<<<<<<<<<<
@@ -21119,7 +21120,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_6__dealloc__(str
  */
   delete __pyx_v_self->_front;
 
-  /* "paretoarchive/core.pyx":1218
+  /* "paretoarchive/core.pyx":1223
  *   def __dealloc__(self):
  *     del self._front
  *     self._front = NULL             # <<<<<<<<<<<<<<
@@ -21128,7 +21129,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_6__dealloc__(str
  */
   __pyx_v_self->_front = NULL;
 
-  /* "paretoarchive/core.pyx":1216
+  /* "paretoarchive/core.pyx":1221
  *     self._sign[14] = 1 if config[14] else -1  #1 minimize, -1 maximize
  * 
  *   def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -21140,7 +21141,7 @@ static void __pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_6__dealloc__(str
   __Pyx_RefNannyFinishContext();
 }
 
-/* "paretoarchive/core.pyx":1220
+/* "paretoarchive/core.pyx":1225
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -21198,7 +21199,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive15_9process(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 1220, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process") < 0)) __PYX_ERR(0, 1225, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -21217,7 +21218,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive15_9process(Py
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1220, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1225, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive15.process", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -21248,7 +21249,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_8process(st
   __Pyx_RefNannySetupContext("process", 0);
   __Pyx_INCREF(__pyx_v_customId);
 
-  /* "paretoarchive/core.pyx":1221
+  /* "paretoarchive/core.pyx":1226
  * 
  *   def process(self, item, customId=None, returnId=False):
  *     assert len(item) == 15             # <<<<<<<<<<<<<<
@@ -21257,39 +21258,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_8process(st
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1221, __pyx_L1_error)
+    __pyx_t_1 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 1226, __pyx_L1_error)
     if (unlikely(!((__pyx_t_1 == 15) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 1221, __pyx_L1_error)
+      __PYX_ERR(0, 1226, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "paretoarchive/core.pyx":1224
+  /* "paretoarchive/core.pyx":1229
  *     cdef ObjVec[myInt15] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
  *         customId = self._id
  *         self._id += 1
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1224, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1224, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_customId, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1229, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1229, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "paretoarchive/core.pyx":1225
+    /* "paretoarchive/core.pyx":1230
  *     cdef int i
  *     if customId == None:
  *         customId = self._id             # <<<<<<<<<<<<<<
  *         self._id += 1
  *     data.setId(customId)
  */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1225, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1230, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF_SET(__pyx_v_customId, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "paretoarchive/core.pyx":1226
+    /* "paretoarchive/core.pyx":1231
  *     if customId == None:
  *         customId = self._id
  *         self._id += 1             # <<<<<<<<<<<<<<
@@ -21298,7 +21299,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_8process(st
  */
     __pyx_v_self->_id = (__pyx_v_self->_id + 1);
 
-    /* "paretoarchive/core.pyx":1224
+    /* "paretoarchive/core.pyx":1229
  *     cdef ObjVec[myInt15] data
  *     cdef int i
  *     if customId == None:             # <<<<<<<<<<<<<<
@@ -21307,313 +21308,313 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":1227
+  /* "paretoarchive/core.pyx":1232
  *         customId = self._id
  *         self._id += 1
  *     data.setId(customId)             # <<<<<<<<<<<<<<
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  */
-  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1227, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_int(__pyx_v_customId); if (unlikely((__pyx_t_4 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1232, __pyx_L1_error)
   __pyx_v_data.setId(__pyx_t_4);
 
-  /* "paretoarchive/core.pyx":1228
+  /* "paretoarchive/core.pyx":1233
  *         self._id += 1
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]             # <<<<<<<<<<<<<<
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1228, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1233, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1228, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1233, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1228, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1233, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1228, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1233, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[0]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1229
+  /* "paretoarchive/core.pyx":1234
  *     data.setId(customId)
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]             # <<<<<<<<<<<<<<
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1229, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[1])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1234, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1229, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1234, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1229, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1234, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1229, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1234, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[1]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1230
+  /* "paretoarchive/core.pyx":1235
  *     data[0] = self._sign[0]*item[0]
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]             # <<<<<<<<<<<<<<
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1230, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1235, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1230, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1235, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1230, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1235, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1230, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1235, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[2]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1231
+  /* "paretoarchive/core.pyx":1236
  *     data[1] = self._sign[1]*item[1]
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]             # <<<<<<<<<<<<<<
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1231, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[3])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1236, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1231, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1236, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1231, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1236, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1231, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1236, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[3]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1232
+  /* "paretoarchive/core.pyx":1237
  *     data[2] = self._sign[2]*item[2]
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]             # <<<<<<<<<<<<<<
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1232, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[4])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1237, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1232, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1237, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1232, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1237, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1232, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1237, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[4]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1233
+  /* "paretoarchive/core.pyx":1238
  *     data[3] = self._sign[3]*item[3]
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]             # <<<<<<<<<<<<<<
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1233, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[5])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1233, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1233, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1233, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1238, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[5]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1234
+  /* "paretoarchive/core.pyx":1239
  *     data[4] = self._sign[4]*item[4]
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]             # <<<<<<<<<<<<<<
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1234, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1239, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1234, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 6, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1239, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1234, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1239, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1234, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1239, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[6]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1235
+  /* "paretoarchive/core.pyx":1240
  *     data[5] = self._sign[5]*item[5]
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]             # <<<<<<<<<<<<<<
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1235, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[7])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1240, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1235, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 7, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1240, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1235, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1240, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1235, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1240, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[7]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1236
+  /* "paretoarchive/core.pyx":1241
  *     data[6] = self._sign[6]*item[6]
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]             # <<<<<<<<<<<<<<
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1236, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[8])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1241, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1236, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 8, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1241, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1236, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1241, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1236, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1241, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[8]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1237
+  /* "paretoarchive/core.pyx":1242
  *     data[7] = self._sign[7]*item[7]
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]             # <<<<<<<<<<<<<<
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1237, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[9])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1237, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 9, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1237, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1237, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1242, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[9]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1238
+  /* "paretoarchive/core.pyx":1243
  *     data[8] = self._sign[8]*item[8]
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]             # <<<<<<<<<<<<<<
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1238, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[10])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1243, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1238, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 10, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1243, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1238, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1243, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1238, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1243, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[10]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1239
+  /* "paretoarchive/core.pyx":1244
  *     data[9] = self._sign[9]*item[9]
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]             # <<<<<<<<<<<<<<
  *     data[12] = self._sign[12]*item[12]
  *     data[13] = self._sign[13]*item[13]
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[11])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1239, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[11])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1244, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1239, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 11, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1244, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1239, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1244, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1239, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1244, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[11]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1240
+  /* "paretoarchive/core.pyx":1245
  *     data[10] = self._sign[10]*item[10]
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]             # <<<<<<<<<<<<<<
  *     data[13] = self._sign[13]*item[13]
  *     data[14] = self._sign[14]*item[14]
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[12])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1240, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[12])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1245, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1240, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 12, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1245, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1240, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1245, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1240, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1245, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[12]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1241
+  /* "paretoarchive/core.pyx":1246
  *     data[11] = self._sign[11]*item[11]
  *     data[12] = self._sign[12]*item[12]
  *     data[13] = self._sign[13]*item[13]             # <<<<<<<<<<<<<<
  *     data[14] = self._sign[14]*item[14]
  *     if not returnId:
  */
-  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[13])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1241, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[13])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1246, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 13, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1241, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 13, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1246, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1241, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1246, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1241, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1246, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   (__pyx_v_data[13]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1242
+  /* "paretoarchive/core.pyx":1247
  *     data[12] = self._sign[12]*item[12]
  *     data[13] = self._sign[13]*item[13]
  *     data[14] = self._sign[14]*item[14]             # <<<<<<<<<<<<<<
  *     if not returnId:
  *           return self._front.process(data)
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[14])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1242, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int((__pyx_v_self->_sign[14])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1247, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 14, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1242, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_item, 14, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1247, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1242, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1247, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1242, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_t_6); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 1247, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   (__pyx_v_data[14]) = __pyx_t_7;
 
-  /* "paretoarchive/core.pyx":1243
+  /* "paretoarchive/core.pyx":1248
  *     data[13] = self._sign[13]*item[13]
  *     data[14] = self._sign[14]*item[14]
  *     if not returnId:             # <<<<<<<<<<<<<<
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1243, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_returnId); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1248, __pyx_L1_error)
   __pyx_t_8 = ((!__pyx_t_3) != 0);
   if (__pyx_t_8) {
 
-    /* "paretoarchive/core.pyx":1244
+    /* "paretoarchive/core.pyx":1249
  *     data[14] = self._sign[14]*item[14]
  *     if not returnId:
  *           return self._front.process(data)             # <<<<<<<<<<<<<<
@@ -21621,13 +21622,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_8process(st
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1244, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1249, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_r = __pyx_t_6;
     __pyx_t_6 = 0;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":1243
+    /* "paretoarchive/core.pyx":1248
  *     data[13] = self._sign[13]*item[13]
  *     data[14] = self._sign[14]*item[14]
  *     if not returnId:             # <<<<<<<<<<<<<<
@@ -21636,7 +21637,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_8process(st
  */
   }
 
-  /* "paretoarchive/core.pyx":1245
+  /* "paretoarchive/core.pyx":1250
  *     if not returnId:
  *           return self._front.process(data)
  *     return (self._front.process(data), customId)             # <<<<<<<<<<<<<<
@@ -21644,9 +21645,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_8process(st
  *   def clear(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1245, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->process(__pyx_v_data)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1250, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1245, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1250, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6);
@@ -21658,7 +21659,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_8process(st
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1220
+  /* "paretoarchive/core.pyx":1225
  *     self._front = NULL
  * 
  *   def process(self, item, customId=None, returnId=False):             # <<<<<<<<<<<<<<
@@ -21680,7 +21681,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_8process(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1247
+/* "paretoarchive/core.pyx":1252
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -21707,7 +21708,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_10clear(str
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("clear", 0);
 
-  /* "paretoarchive/core.pyx":1248
+  /* "paretoarchive/core.pyx":1253
  * 
  *   def clear(self):
  *     self._id = 0             # <<<<<<<<<<<<<<
@@ -21716,7 +21717,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_10clear(str
  */
   __pyx_v_self->_id = 0;
 
-  /* "paretoarchive/core.pyx":1249
+  /* "paretoarchive/core.pyx":1254
  *   def clear(self):
  *     self._id = 0
  *     self._front.clear()             # <<<<<<<<<<<<<<
@@ -21725,7 +21726,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_10clear(str
  */
   __pyx_v_self->_front->clear();
 
-  /* "paretoarchive/core.pyx":1247
+  /* "paretoarchive/core.pyx":1252
  *     return (self._front.process(data), customId)
  * 
  *   def clear(self):             # <<<<<<<<<<<<<<
@@ -21740,7 +21741,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_10clear(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1251
+/* "paretoarchive/core.pyx":1256
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -21771,7 +21772,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_12empty(str
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("empty", 0);
 
-  /* "paretoarchive/core.pyx":1252
+  /* "paretoarchive/core.pyx":1257
  * 
  *   def empty(self):
  *     return self._front.empty()             # <<<<<<<<<<<<<<
@@ -21779,13 +21780,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_12empty(str
  *   def size(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1252, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->_front->empty()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1257, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1251
+  /* "paretoarchive/core.pyx":1256
  *     self._front.clear()
  * 
  *   def empty(self):             # <<<<<<<<<<<<<<
@@ -21804,7 +21805,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_12empty(str
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1254
+/* "paretoarchive/core.pyx":1259
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -21835,7 +21836,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_14size(stru
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("size", 0);
 
-  /* "paretoarchive/core.pyx":1255
+  /* "paretoarchive/core.pyx":1260
  * 
  *   def size(self):
  *     return self._front.size()             # <<<<<<<<<<<<<<
@@ -21843,13 +21844,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_14size(stru
  *   def points(self, bool returnIds=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1255, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_int(__pyx_v_self->_front->size()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1260, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1254
+  /* "paretoarchive/core.pyx":1259
  *     return self._front.empty()
  * 
  *   def size(self):             # <<<<<<<<<<<<<<
@@ -21868,7 +21869,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_14size(stru
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1257
+/* "paretoarchive/core.pyx":1262
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -21908,7 +21909,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive15_17points(Py
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 1257, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "points") < 0)) __PYX_ERR(0, 1262, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -21919,14 +21920,14 @@ static PyObject *__pyx_pw_13paretoarchive_4core_18PyBspTreeArchive15_17points(Py
       }
     }
     if (values[0]) {
-      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1257, __pyx_L3_error)
+      __pyx_v_returnIds = __Pyx_PyObject_IsTrue(values[0]); if (unlikely((__pyx_v_returnIds == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1262, __pyx_L3_error)
     } else {
       __pyx_v_returnIds = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1257, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("points", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1262, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive15.points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -21973,7 +21974,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("points", 0);
 
-  /* "paretoarchive/core.pyx":1261
+  /* "paretoarchive/core.pyx":1266
  *     cdef ObjVec[myInt15] veci
  *     cdef int i
  *     vec = self._front.points()             # <<<<<<<<<<<<<<
@@ -21982,19 +21983,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
  */
   __pyx_v_vec = __pyx_v_self->_front->points();
 
-  /* "paretoarchive/core.pyx":1262
+  /* "paretoarchive/core.pyx":1267
  *     cdef int i
  *     vec = self._front.points()
  *     res = []             # <<<<<<<<<<<<<<
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1262, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1267, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_res = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":1263
+  /* "paretoarchive/core.pyx":1268
  *     vec = self._front.points()
  *     res = []
  *     for i in range(0,vec.size()):             # <<<<<<<<<<<<<<
@@ -22006,7 +22007,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "paretoarchive/core.pyx":1264
+    /* "paretoarchive/core.pyx":1269
  *     res = []
  *     for i in range(0,vec.size()):
  *         val = vec[i]             # <<<<<<<<<<<<<<
@@ -22015,7 +22016,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
  */
     __pyx_v_val = (__pyx_v_vec[__pyx_v_i]);
 
-    /* "paretoarchive/core.pyx":1265
+    /* "paretoarchive/core.pyx":1270
  *     for i in range(0,vec.size()):
  *         val = vec[i]
  *         veci = val[0]             # <<<<<<<<<<<<<<
@@ -22024,7 +22025,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
  */
     __pyx_v_veci = (__pyx_v_val[0]);
 
-    /* "paretoarchive/core.pyx":1266
+    /* "paretoarchive/core.pyx":1271
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -22034,19 +22035,19 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
     __pyx_t_5 = (__pyx_v_returnIds != 0);
     if (__pyx_t_5) {
 
-      /* "paretoarchive/core.pyx":1267
+      /* "paretoarchive/core.pyx":1272
  *         veci = val[0]
  *         if returnIds:
  *             res.append(veci.getId())             # <<<<<<<<<<<<<<
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11],self._sign[12]*veci[12],self._sign[13]*veci[13],self._sign[14]*veci[14]])
  */
-      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1267, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_veci.getId()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1272, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1267, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1272, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "paretoarchive/core.pyx":1266
+      /* "paretoarchive/core.pyx":1271
  *         val = vec[i]
  *         veci = val[0]
  *         if returnIds:             # <<<<<<<<<<<<<<
@@ -22056,7 +22057,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
       goto __pyx_L5;
     }
 
-    /* "paretoarchive/core.pyx":1269
+    /* "paretoarchive/core.pyx":1274
  *             res.append(veci.getId())
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11],self._sign[12]*veci[12],self._sign[13]*veci[13],self._sign[14]*veci[14]])             # <<<<<<<<<<<<<<
@@ -22064,37 +22065,37 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
  * 
  */
     /*else*/ {
-      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_1 = PyFloat_FromDouble(((__pyx_v_self->_sign[0]) * (__pyx_v_veci[0]))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_7 = PyFloat_FromDouble(((__pyx_v_self->_sign[1]) * (__pyx_v_veci[1]))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_8 = PyFloat_FromDouble(((__pyx_v_self->_sign[2]) * (__pyx_v_veci[2]))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_9 = PyFloat_FromDouble(((__pyx_v_self->_sign[3]) * (__pyx_v_veci[3]))); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_10 = PyFloat_FromDouble(((__pyx_v_self->_sign[4]) * (__pyx_v_veci[4]))); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_11 = PyFloat_FromDouble(((__pyx_v_self->_sign[5]) * (__pyx_v_veci[5]))); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_12 = PyFloat_FromDouble(((__pyx_v_self->_sign[6]) * (__pyx_v_veci[6]))); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_13 = PyFloat_FromDouble(((__pyx_v_self->_sign[7]) * (__pyx_v_veci[7]))); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
-      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_14 = PyFloat_FromDouble(((__pyx_v_self->_sign[8]) * (__pyx_v_veci[8]))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_15 = PyFloat_FromDouble(((__pyx_v_self->_sign[9]) * (__pyx_v_veci[9]))); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
-      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_16 = PyFloat_FromDouble(((__pyx_v_self->_sign[10]) * (__pyx_v_veci[10]))); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
-      __pyx_t_17 = PyFloat_FromDouble(((__pyx_v_self->_sign[11]) * (__pyx_v_veci[11]))); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_17 = PyFloat_FromDouble(((__pyx_v_self->_sign[11]) * (__pyx_v_veci[11]))); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_18 = PyFloat_FromDouble(((__pyx_v_self->_sign[12]) * (__pyx_v_veci[12]))); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_18 = PyFloat_FromDouble(((__pyx_v_self->_sign[12]) * (__pyx_v_veci[12]))); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
-      __pyx_t_19 = PyFloat_FromDouble(((__pyx_v_self->_sign[13]) * (__pyx_v_veci[13]))); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_19 = PyFloat_FromDouble(((__pyx_v_self->_sign[13]) * (__pyx_v_veci[13]))); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_19);
-      __pyx_t_20 = PyFloat_FromDouble(((__pyx_v_self->_sign[14]) * (__pyx_v_veci[14]))); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_20 = PyFloat_FromDouble(((__pyx_v_self->_sign[14]) * (__pyx_v_veci[14]))); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_20);
-      __pyx_t_21 = PyList_New(15); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_21 = PyList_New(15); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_21);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_21, 0, __pyx_t_1);
@@ -22141,13 +22142,13 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
       __pyx_t_18 = 0;
       __pyx_t_19 = 0;
       __pyx_t_20 = 0;
-      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_21); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1269, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_res, __pyx_t_21); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1274, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_21); __pyx_t_21 = 0;
     }
     __pyx_L5:;
   }
 
-  /* "paretoarchive/core.pyx":1270
+  /* "paretoarchive/core.pyx":1275
  *         else:
  *             res.append([self._sign[0]*veci[0],self._sign[1]*veci[1],self._sign[2]*veci[2],self._sign[3]*veci[3],self._sign[4]*veci[4],self._sign[5]*veci[5],self._sign[6]*veci[6],self._sign[7]*veci[7],self._sign[8]*veci[8],self._sign[9]*veci[9],self._sign[10]*veci[10],self._sign[11]*veci[11],self._sign[12]*veci[12],self._sign[13]*veci[13],self._sign[14]*veci[14]])
  *     return res             # <<<<<<<<<<<<<<
@@ -22159,7 +22160,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1257
+  /* "paretoarchive/core.pyx":1262
  *     return self._front.size()
  * 
  *   def points(self, bool returnIds=False):             # <<<<<<<<<<<<<<
@@ -22194,7 +22195,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_18PyBspTreeArchive15_16points(st
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1277
+/* "paretoarchive/core.pyx":1282
  * 
  * class PyBspTreeArchive:
  *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
@@ -22303,7 +22304,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_16PyBspTreeArchive_1__init__(PyO
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__init__") < 0)) __PYX_ERR(0, 1277, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__init__") < 0)) __PYX_ERR(0, 1282, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -22337,7 +22338,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_16PyBspTreeArchive_1__init__(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 8, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1277, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 8, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1282, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -22369,39 +22370,39 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "paretoarchive/core.pyx":1278
+  /* "paretoarchive/core.pyx":1283
  * class PyBspTreeArchive:
  *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
  *       if (objectives < 2) or (objectives > MAXOBJ):             # <<<<<<<<<<<<<<
  *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
  *       self._archive = OBJ2CLASS[objectives]()
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_objectives, __pyx_int_2, Py_LT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1278, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1278, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_objectives, __pyx_int_2, Py_LT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1283, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1283, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (!__pyx_t_3) {
   } else {
     __pyx_t_1 = __pyx_t_3;
     goto __pyx_L4_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_MAXOBJ); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1278, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_MAXOBJ); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1283, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = PyObject_RichCompare(__pyx_v_objectives, __pyx_t_2, Py_GT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1278, __pyx_L1_error)
+  __pyx_t_4 = PyObject_RichCompare(__pyx_v_objectives, __pyx_t_2, Py_GT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1283, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1278, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 1283, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_1 = __pyx_t_3;
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_1)) {
 
-    /* "paretoarchive/core.pyx":1279
+    /* "paretoarchive/core.pyx":1284
  *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
  *       if (objectives < 2) or (objectives > MAXOBJ):
  *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))             # <<<<<<<<<<<<<<
  *       self._archive = OBJ2CLASS[objectives]()
  *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
  */
-    __pyx_t_4 = PyTuple_New(5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1279, __pyx_L1_error)
+    __pyx_t_4 = PyTuple_New(5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1284, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_5 = 0;
     __pyx_t_6 = 127;
@@ -22410,11 +22411,11 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
     __Pyx_GIVEREF(__pyx_kp_u_Invalid_number_of_objectives_Onl);
     PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_kp_u_Invalid_number_of_objectives_Onl);
     { /* enter inner scope */
-      __pyx_t_2 = PyList_New(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1279, __pyx_L8_error)
+      __pyx_t_2 = PyList_New(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1284, __pyx_L8_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_MAXOBJ); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1279, __pyx_L8_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_MAXOBJ); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1284, __pyx_L8_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1279, __pyx_L8_error)
+      __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1284, __pyx_L8_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_INCREF(__pyx_int_2);
       __Pyx_GIVEREF(__pyx_int_2);
@@ -22422,16 +22423,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
       __Pyx_GIVEREF(__pyx_t_7);
       PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_7);
       __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_Call(__pyx_builtin_range, __pyx_t_8, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1279, __pyx_L8_error)
+      __pyx_t_7 = __Pyx_PyObject_Call(__pyx_builtin_range, __pyx_t_8, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1284, __pyx_L8_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       if (likely(PyList_CheckExact(__pyx_t_7)) || PyTuple_CheckExact(__pyx_t_7)) {
         __pyx_t_8 = __pyx_t_7; __Pyx_INCREF(__pyx_t_8); __pyx_t_9 = 0;
         __pyx_t_10 = NULL;
       } else {
-        __pyx_t_9 = -1; __pyx_t_8 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1279, __pyx_L8_error)
+        __pyx_t_9 = -1; __pyx_t_8 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1284, __pyx_L8_error)
         __Pyx_GOTREF(__pyx_t_8);
-        __pyx_t_10 = Py_TYPE(__pyx_t_8)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1279, __pyx_L8_error)
+        __pyx_t_10 = Py_TYPE(__pyx_t_8)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 1284, __pyx_L8_error)
       }
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       for (;;) {
@@ -22439,17 +22440,17 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
           if (likely(PyList_CheckExact(__pyx_t_8))) {
             if (__pyx_t_9 >= PyList_GET_SIZE(__pyx_t_8)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_7 = PyList_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 1279, __pyx_L8_error)
+            __pyx_t_7 = PyList_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 1284, __pyx_L8_error)
             #else
-            __pyx_t_7 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1279, __pyx_L8_error)
+            __pyx_t_7 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1284, __pyx_L8_error)
             __Pyx_GOTREF(__pyx_t_7);
             #endif
           } else {
             if (__pyx_t_9 >= PyTuple_GET_SIZE(__pyx_t_8)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 1279, __pyx_L8_error)
+            __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_7); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 1284, __pyx_L8_error)
             #else
-            __pyx_t_7 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1279, __pyx_L8_error)
+            __pyx_t_7 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1284, __pyx_L8_error)
             __Pyx_GOTREF(__pyx_t_7);
             #endif
           }
@@ -22459,7 +22460,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
             PyObject* exc_type = PyErr_Occurred();
             if (exc_type) {
               if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-              else __PYX_ERR(0, 1279, __pyx_L8_error)
+              else __PYX_ERR(0, 1284, __pyx_L8_error)
             }
             break;
           }
@@ -22467,9 +22468,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
         }
         __Pyx_XDECREF_SET(__pyx_7genexpr__pyx_v_a, __pyx_t_7);
         __pyx_t_7 = 0;
-        __pyx_t_7 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyUnicode_Type)), __pyx_7genexpr__pyx_v_a); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1279, __pyx_L8_error)
+        __pyx_t_7 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyUnicode_Type)), __pyx_7genexpr__pyx_v_a); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1284, __pyx_L8_error)
         __Pyx_GOTREF(__pyx_t_7);
-        if (unlikely(__Pyx_ListComp_Append(__pyx_t_2, (PyObject*)__pyx_t_7))) __PYX_ERR(0, 1279, __pyx_L8_error)
+        if (unlikely(__Pyx_ListComp_Append(__pyx_t_2, (PyObject*)__pyx_t_7))) __PYX_ERR(0, 1284, __pyx_L8_error)
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -22480,7 +22481,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
       goto __pyx_L1_error;
       __pyx_L11_exit_scope:;
     } /* exit inner scope */
-    __pyx_t_8 = PyUnicode_Join(__pyx_kp_u_, __pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1279, __pyx_L1_error)
+    __pyx_t_8 = PyUnicode_Join(__pyx_kp_u_, __pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1284, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_6 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) > __pyx_t_6) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) : __pyx_t_6;
@@ -22492,9 +22493,9 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
     __pyx_t_5 += 5;
     __Pyx_GIVEREF(__pyx_kp_u_and);
     PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_kp_u_and);
-    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_MAXOBJ); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1279, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_MAXOBJ); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1284, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_2 = __Pyx_PyObject_FormatSimpleAndDecref(PyObject_Unicode(__pyx_t_8), __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1279, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_FormatSimpleAndDecref(PyObject_Unicode(__pyx_t_8), __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1284, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_6 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2) > __pyx_t_6) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2) : __pyx_t_6;
@@ -22506,17 +22507,17 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
     __pyx_t_5 += 13;
     __Pyx_GIVEREF(__pyx_kp_u_is_supported);
     PyTuple_SET_ITEM(__pyx_t_4, 4, __pyx_kp_u_is_supported);
-    __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_4, 5, __pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1279, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_4, 5, __pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1284, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])), __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1279, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])), __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1284, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_4, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __PYX_ERR(0, 1279, __pyx_L1_error)
+    __PYX_ERR(0, 1284, __pyx_L1_error)
 
-    /* "paretoarchive/core.pyx":1278
+    /* "paretoarchive/core.pyx":1283
  * class PyBspTreeArchive:
  *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
  *       if (objectives < 2) or (objectives > MAXOBJ):             # <<<<<<<<<<<<<<
@@ -22525,16 +22526,16 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
  */
   }
 
-  /* "paretoarchive/core.pyx":1280
+  /* "paretoarchive/core.pyx":1285
  *       if (objectives < 2) or (objectives > MAXOBJ):
  *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
  *       self._archive = OBJ2CLASS[objectives]()             # <<<<<<<<<<<<<<
  *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
  *       self.process = self._archive.process
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_OBJ2CLASS); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1280, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_OBJ2CLASS); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1285, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_t_2, __pyx_v_objectives); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1280, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_t_2, __pyx_v_objectives); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1285, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -22549,25 +22550,25 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   }
   __pyx_t_4 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1280, __pyx_L1_error)
+  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1285, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_archive, __pyx_t_4) < 0) __PYX_ERR(0, 1280, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_archive, __pyx_t_4) < 0) __PYX_ERR(0, 1285, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "paretoarchive/core.pyx":1281
+  /* "paretoarchive/core.pyx":1286
  *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
  *       self._archive = OBJ2CLASS[objectives]()
  *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])             # <<<<<<<<<<<<<<
  *       self.process = self._archive.process
  *       self.empty = self._archive.empty
  */
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1281, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_configure); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1281, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_configure); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyList_New(6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1281, __pyx_L1_error)
+  __pyx_t_8 = PyList_New(6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_INCREF(__pyx_v_minimizeObjective1);
   __Pyx_GIVEREF(__pyx_v_minimizeObjective1);
@@ -22600,87 +22601,87 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   __pyx_t_4 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_7, __pyx_t_8) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_8);
   __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1281, __pyx_L1_error)
+  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "paretoarchive/core.pyx":1282
+  /* "paretoarchive/core.pyx":1287
  *       self._archive = OBJ2CLASS[objectives]()
  *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
  *       self.process = self._archive.process             # <<<<<<<<<<<<<<
  *       self.empty = self._archive.empty
  *       self.clear = self._archive.clear
  */
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1282, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1287, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_process); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1282, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_process); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1287, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_process, __pyx_t_2) < 0) __PYX_ERR(0, 1282, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_process, __pyx_t_2) < 0) __PYX_ERR(0, 1287, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "paretoarchive/core.pyx":1283
+  /* "paretoarchive/core.pyx":1288
  *       self._archive.configure([minimizeObjective1,minimizeObjective2,minimizeObjective3,minimizeObjective4,minimizeObjective5,minimizeObjective6])
  *       self.process = self._archive.process
  *       self.empty = self._archive.empty             # <<<<<<<<<<<<<<
  *       self.clear = self._archive.clear
  *       self.size = self._archive.size
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1283, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_empty); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1283, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_empty); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_empty, __pyx_t_4) < 0) __PYX_ERR(0, 1283, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_empty, __pyx_t_4) < 0) __PYX_ERR(0, 1288, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "paretoarchive/core.pyx":1284
+  /* "paretoarchive/core.pyx":1289
  *       self.process = self._archive.process
  *       self.empty = self._archive.empty
  *       self.clear = self._archive.clear             # <<<<<<<<<<<<<<
  *       self.size = self._archive.size
  *       self.points = self._archive.points
  */
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1284, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1289, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_clear); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1284, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_clear); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1289, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_clear, __pyx_t_2) < 0) __PYX_ERR(0, 1284, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_clear, __pyx_t_2) < 0) __PYX_ERR(0, 1289, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "paretoarchive/core.pyx":1285
+  /* "paretoarchive/core.pyx":1290
  *       self.empty = self._archive.empty
  *       self.clear = self._archive.clear
  *       self.size = self._archive.size             # <<<<<<<<<<<<<<
  *       self.points = self._archive.points
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1285, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1290, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_size); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1285, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_size); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1290, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_size, __pyx_t_4) < 0) __PYX_ERR(0, 1285, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_size, __pyx_t_4) < 0) __PYX_ERR(0, 1290, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "paretoarchive/core.pyx":1286
+  /* "paretoarchive/core.pyx":1291
  *       self.clear = self._archive.clear
  *       self.size = self._archive.size
  *       self.points = self._archive.points             # <<<<<<<<<<<<<<
  * 
  *    def filter(self, data, returnIds=False, sortKey=None):
  */
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1286, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_archive); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_points); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1286, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_points); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_points, __pyx_t_2) < 0) __PYX_ERR(0, 1286, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_points, __pyx_t_2) < 0) __PYX_ERR(0, 1291, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "paretoarchive/core.pyx":1277
+  /* "paretoarchive/core.pyx":1282
  * 
  * class PyBspTreeArchive:
  *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
@@ -22705,7 +22706,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive___init__(CYTH
   return __pyx_r;
 }
 
-/* "paretoarchive/core.pyx":1288
+/* "paretoarchive/core.pyx":1293
  *       self.points = self._archive.points
  * 
  *    def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
@@ -22757,7 +22758,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_16PyBspTreeArchive_3filter(PyObj
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_data)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("filter", 0, 2, 4, 1); __PYX_ERR(0, 1288, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("filter", 0, 2, 4, 1); __PYX_ERR(0, 1293, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -22773,7 +22774,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_16PyBspTreeArchive_3filter(PyObj
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "filter") < 0)) __PYX_ERR(0, 1288, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "filter") < 0)) __PYX_ERR(0, 1293, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -22794,7 +22795,7 @@ static PyObject *__pyx_pw_13paretoarchive_4core_16PyBspTreeArchive_3filter(PyObj
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("filter", 0, 2, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1288, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("filter", 0, 2, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1293, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("paretoarchive.core.PyBspTreeArchive.filter", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -22827,14 +22828,14 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("filter", 0);
 
-  /* "paretoarchive/core.pyx":1289
+  /* "paretoarchive/core.pyx":1294
  * 
  *    def filter(self, data, returnIds=False, sortKey=None):
  *      self.clear()             # <<<<<<<<<<<<<<
  *      for i, d in enumerate(data):
  *         self.process(d, customId=i)
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_clear); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1289, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_clear); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1294, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -22848,12 +22849,12 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1289, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1294, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":1290
+  /* "paretoarchive/core.pyx":1295
  *    def filter(self, data, returnIds=False, sortKey=None):
  *      self.clear()
  *      for i, d in enumerate(data):             # <<<<<<<<<<<<<<
@@ -22866,26 +22867,26 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
     __pyx_t_2 = __pyx_v_data; __Pyx_INCREF(__pyx_t_2); __pyx_t_4 = 0;
     __pyx_t_5 = NULL;
   } else {
-    __pyx_t_4 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_v_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1290, __pyx_L1_error)
+    __pyx_t_4 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_v_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1295, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = Py_TYPE(__pyx_t_2)->tp_iternext; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1290, __pyx_L1_error)
+    __pyx_t_5 = Py_TYPE(__pyx_t_2)->tp_iternext; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1295, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_5)) {
       if (likely(PyList_CheckExact(__pyx_t_2))) {
         if (__pyx_t_4 >= PyList_GET_SIZE(__pyx_t_2)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_3); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 1290, __pyx_L1_error)
+        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_3); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 1295, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1290, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1295, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       } else {
         if (__pyx_t_4 >= PyTuple_GET_SIZE(__pyx_t_2)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_3); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 1290, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_3); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 1295, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1290, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1295, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       }
@@ -22895,7 +22896,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 1290, __pyx_L1_error)
+          else __PYX_ERR(0, 1295, __pyx_L1_error)
         }
         break;
       }
@@ -22905,37 +22906,37 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
     __pyx_t_3 = 0;
     __Pyx_INCREF(__pyx_t_1);
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_1);
-    __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1290, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1295, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1);
     __pyx_t_1 = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "paretoarchive/core.pyx":1291
+    /* "paretoarchive/core.pyx":1296
  *      self.clear()
  *      for i, d in enumerate(data):
  *         self.process(d, customId=i)             # <<<<<<<<<<<<<<
  *      pts = self.points(returnIds=returnIds)
  *      if sortKey == None:
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_process); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1291, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_process); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1296, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_6 = PyTuple_New(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1291, __pyx_L1_error)
+    __pyx_t_6 = PyTuple_New(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1296, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_INCREF(__pyx_v_d);
     __Pyx_GIVEREF(__pyx_v_d);
     PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_v_d);
-    __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1291, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1296, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_customId, __pyx_v_i) < 0) __PYX_ERR(0, 1291, __pyx_L1_error)
-    __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, __pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1291, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_customId, __pyx_v_i) < 0) __PYX_ERR(0, 1296, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, __pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1296, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "paretoarchive/core.pyx":1290
+    /* "paretoarchive/core.pyx":1295
  *    def filter(self, data, returnIds=False, sortKey=None):
  *      self.clear()
  *      for i, d in enumerate(data):             # <<<<<<<<<<<<<<
@@ -22946,38 +22947,38 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":1292
+  /* "paretoarchive/core.pyx":1297
  *      for i, d in enumerate(data):
  *         self.process(d, customId=i)
  *      pts = self.points(returnIds=returnIds)             # <<<<<<<<<<<<<<
  *      if sortKey == None:
  *         return pts
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_points); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1292, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_points); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1297, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1292, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1297, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_returnIds, __pyx_v_returnIds) < 0) __PYX_ERR(0, 1292, __pyx_L1_error)
-  __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1292, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_returnIds, __pyx_v_returnIds) < 0) __PYX_ERR(0, 1297, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1297, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_pts = __pyx_t_8;
   __pyx_t_8 = 0;
 
-  /* "paretoarchive/core.pyx":1293
+  /* "paretoarchive/core.pyx":1298
  *         self.process(d, customId=i)
  *      pts = self.points(returnIds=returnIds)
  *      if sortKey == None:             # <<<<<<<<<<<<<<
  *         return pts
  *      return sorted(pts, key = sortKey)
  */
-  __pyx_t_8 = PyObject_RichCompare(__pyx_v_sortKey, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_8); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1293, __pyx_L1_error)
-  __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 1293, __pyx_L1_error)
+  __pyx_t_8 = PyObject_RichCompare(__pyx_v_sortKey, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_8); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1298, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 1298, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   if (__pyx_t_9) {
 
-    /* "paretoarchive/core.pyx":1294
+    /* "paretoarchive/core.pyx":1299
  *      pts = self.points(returnIds=returnIds)
  *      if sortKey == None:
  *         return pts             # <<<<<<<<<<<<<<
@@ -22988,7 +22989,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
     __pyx_r = __pyx_v_pts;
     goto __pyx_L0;
 
-    /* "paretoarchive/core.pyx":1293
+    /* "paretoarchive/core.pyx":1298
  *         self.process(d, customId=i)
  *      pts = self.points(returnIds=returnIds)
  *      if sortKey == None:             # <<<<<<<<<<<<<<
@@ -22997,21 +22998,21 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
  */
   }
 
-  /* "paretoarchive/core.pyx":1295
+  /* "paretoarchive/core.pyx":1300
  *      if sortKey == None:
  *         return pts
  *      return sorted(pts, key = sortKey)             # <<<<<<<<<<<<<<
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_8 = PyTuple_New(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1295, __pyx_L1_error)
+  __pyx_t_8 = PyTuple_New(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_INCREF(__pyx_v_pts);
   __Pyx_GIVEREF(__pyx_v_pts);
   PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_v_pts);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1295, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_key, __pyx_v_sortKey) < 0) __PYX_ERR(0, 1295, __pyx_L1_error)
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_sorted, __pyx_t_8, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1295, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_key, __pyx_v_sortKey) < 0) __PYX_ERR(0, 1300, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_sorted, __pyx_t_8, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -23019,7 +23020,7 @@ static PyObject *__pyx_pf_13paretoarchive_4core_16PyBspTreeArchive_2filter(CYTHO
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "paretoarchive/core.pyx":1288
+  /* "paretoarchive/core.pyx":1293
  *       self.points = self._archive.points
  * 
  *    def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
@@ -25060,9 +25061,9 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {0, 0, 0, 0, 0, 0, 0}
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 94, __pyx_L1_error)
-  __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 1290, __pyx_L1_error)
-  __pyx_builtin_sorted = __Pyx_GetBuiltinName(__pyx_n_s_sorted); if (!__pyx_builtin_sorted) __PYX_ERR(0, 1295, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 99, __pyx_L1_error)
+  __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 1295, __pyx_L1_error)
+  __pyx_builtin_sorted = __Pyx_GetBuiltinName(__pyx_n_s_sorted); if (!__pyx_builtin_sorted) __PYX_ERR(0, 1300, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -25072,33 +25073,33 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "paretoarchive/core.pyx":1277
+  /* "paretoarchive/core.pyx":1282
  * 
  * class PyBspTreeArchive:
  *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
  *       if (objectives < 2) or (objectives > MAXOBJ):
  *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
  */
-  __pyx_tuple__2 = PyTuple_Pack(9, __pyx_n_s_self, __pyx_n_s_objectives, __pyx_n_s_minimizeObjective1, __pyx_n_s_minimizeObjective2, __pyx_n_s_minimizeObjective3, __pyx_n_s_minimizeObjective4, __pyx_n_s_minimizeObjective5, __pyx_n_s_minimizeObjective6, __pyx_n_s_a); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 1277, __pyx_L1_error)
+  __pyx_tuple__2 = PyTuple_Pack(9, __pyx_n_s_self, __pyx_n_s_objectives, __pyx_n_s_minimizeObjective1, __pyx_n_s_minimizeObjective2, __pyx_n_s_minimizeObjective3, __pyx_n_s_minimizeObjective4, __pyx_n_s_minimizeObjective5, __pyx_n_s_minimizeObjective6, __pyx_n_s_a); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 1282, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
-  __pyx_codeobj__3 = (PyObject*)__Pyx_PyCode_New(8, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__2, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_paretoarchive_core_pyx, __pyx_n_s_init, 1277, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__3)) __PYX_ERR(0, 1277, __pyx_L1_error)
-  __pyx_tuple__4 = PyTuple_Pack(7, ((PyObject *)__pyx_int_3), ((PyObject *)Py_True), ((PyObject *)Py_True), ((PyObject *)Py_True), ((PyObject *)Py_True), ((PyObject *)Py_True), ((PyObject *)Py_True)); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 1277, __pyx_L1_error)
+  __pyx_codeobj__3 = (PyObject*)__Pyx_PyCode_New(8, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__2, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_paretoarchive_core_pyx, __pyx_n_s_init, 1282, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__3)) __PYX_ERR(0, 1282, __pyx_L1_error)
+  __pyx_tuple__4 = PyTuple_Pack(7, ((PyObject *)__pyx_int_3), ((PyObject *)Py_True), ((PyObject *)Py_True), ((PyObject *)Py_True), ((PyObject *)Py_True), ((PyObject *)Py_True), ((PyObject *)Py_True)); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 1282, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "paretoarchive/core.pyx":1288
+  /* "paretoarchive/core.pyx":1293
  *       self.points = self._archive.points
  * 
  *    def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
  *      self.clear()
  *      for i, d in enumerate(data):
  */
-  __pyx_tuple__5 = PyTuple_Pack(7, __pyx_n_s_self, __pyx_n_s_data, __pyx_n_s_returnIds, __pyx_n_s_sortKey, __pyx_n_s_i, __pyx_n_s_d, __pyx_n_s_pts); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 1288, __pyx_L1_error)
+  __pyx_tuple__5 = PyTuple_Pack(7, __pyx_n_s_self, __pyx_n_s_data, __pyx_n_s_returnIds, __pyx_n_s_sortKey, __pyx_n_s_i, __pyx_n_s_d, __pyx_n_s_pts); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 1293, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
-  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(4, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_paretoarchive_core_pyx, __pyx_n_s_filter, 1288, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 1288, __pyx_L1_error)
-  __pyx_tuple__7 = PyTuple_Pack(2, ((PyObject *)Py_False), ((PyObject *)Py_None)); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 1288, __pyx_L1_error)
+  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(4, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_paretoarchive_core_pyx, __pyx_n_s_filter, 1293, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 1293, __pyx_L1_error)
+  __pyx_tuple__7 = PyTuple_Pack(2, ((PyObject *)Py_False), ((PyObject *)Py_None)); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 1293, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
   __Pyx_RefNannyFinishContext();
@@ -25109,23 +25110,23 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 }
 
 static CYTHON_SMALL_CODE int __Pyx_InitGlobals(void) {
-  if (__Pyx_InitStrings(__pyx_string_tab) < 0) __PYX_ERR(0, 1, __pyx_L1_error);
-  __pyx_int_0 = PyInt_FromLong(0); if (unlikely(!__pyx_int_0)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_1 = PyInt_FromLong(1); if (unlikely(!__pyx_int_1)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_2 = PyInt_FromLong(2); if (unlikely(!__pyx_int_2)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_3 = PyInt_FromLong(3); if (unlikely(!__pyx_int_3)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_4 = PyInt_FromLong(4); if (unlikely(!__pyx_int_4)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_5 = PyInt_FromLong(5); if (unlikely(!__pyx_int_5)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_6 = PyInt_FromLong(6); if (unlikely(!__pyx_int_6)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_7 = PyInt_FromLong(7); if (unlikely(!__pyx_int_7)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_8 = PyInt_FromLong(8); if (unlikely(!__pyx_int_8)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_9 = PyInt_FromLong(9); if (unlikely(!__pyx_int_9)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_10 = PyInt_FromLong(10); if (unlikely(!__pyx_int_10)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_11 = PyInt_FromLong(11); if (unlikely(!__pyx_int_11)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_12 = PyInt_FromLong(12); if (unlikely(!__pyx_int_12)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_13 = PyInt_FromLong(13); if (unlikely(!__pyx_int_13)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_14 = PyInt_FromLong(14); if (unlikely(!__pyx_int_14)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_15 = PyInt_FromLong(15); if (unlikely(!__pyx_int_15)) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_InitStrings(__pyx_string_tab) < 0) __PYX_ERR(0, 2, __pyx_L1_error);
+  __pyx_int_0 = PyInt_FromLong(0); if (unlikely(!__pyx_int_0)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_1 = PyInt_FromLong(1); if (unlikely(!__pyx_int_1)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_2 = PyInt_FromLong(2); if (unlikely(!__pyx_int_2)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_3 = PyInt_FromLong(3); if (unlikely(!__pyx_int_3)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_4 = PyInt_FromLong(4); if (unlikely(!__pyx_int_4)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_5 = PyInt_FromLong(5); if (unlikely(!__pyx_int_5)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_6 = PyInt_FromLong(6); if (unlikely(!__pyx_int_6)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_7 = PyInt_FromLong(7); if (unlikely(!__pyx_int_7)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_8 = PyInt_FromLong(8); if (unlikely(!__pyx_int_8)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_9 = PyInt_FromLong(9); if (unlikely(!__pyx_int_9)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_10 = PyInt_FromLong(10); if (unlikely(!__pyx_int_10)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_11 = PyInt_FromLong(11); if (unlikely(!__pyx_int_11)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_12 = PyInt_FromLong(12); if (unlikely(!__pyx_int_12)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_13 = PyInt_FromLong(13); if (unlikely(!__pyx_int_13)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_14 = PyInt_FromLong(14); if (unlikely(!__pyx_int_14)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_int_15 = PyInt_FromLong(15); if (unlikely(!__pyx_int_15)) __PYX_ERR(0, 2, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -25170,140 +25171,140 @@ static int __Pyx_modinit_type_init_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive1) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive1) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive1.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive1.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive1.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive1.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive1, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive1) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive1, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive1) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive1 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive1;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive2) < 0) __PYX_ERR(0, 106, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive2) < 0) __PYX_ERR(0, 111, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive2.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive2.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive2.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive2.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive2, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive2) < 0) __PYX_ERR(0, 106, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive2, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive2) < 0) __PYX_ERR(0, 111, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive2 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive2;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive3) < 0) __PYX_ERR(0, 170, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive3) < 0) __PYX_ERR(0, 175, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive3.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive3.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive3.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive3.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive3, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive3) < 0) __PYX_ERR(0, 170, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive3, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive3) < 0) __PYX_ERR(0, 175, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive3 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive3;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive4) < 0) __PYX_ERR(0, 237, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive4) < 0) __PYX_ERR(0, 242, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive4.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive4.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive4.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive4.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive4, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive4) < 0) __PYX_ERR(0, 237, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive4, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive4) < 0) __PYX_ERR(0, 242, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive4 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive4;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive5) < 0) __PYX_ERR(0, 307, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive5) < 0) __PYX_ERR(0, 312, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive5.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive5.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive5.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive5.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive5, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive5) < 0) __PYX_ERR(0, 307, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive5, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive5) < 0) __PYX_ERR(0, 312, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive5 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive5;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive6) < 0) __PYX_ERR(0, 380, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive6) < 0) __PYX_ERR(0, 385, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive6.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive6.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive6.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive6.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive6, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive6) < 0) __PYX_ERR(0, 380, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive6, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive6) < 0) __PYX_ERR(0, 385, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive6 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive6;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive7) < 0) __PYX_ERR(0, 456, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive7) < 0) __PYX_ERR(0, 461, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive7.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive7.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive7.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive7.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive7, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive7) < 0) __PYX_ERR(0, 456, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive7, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive7) < 0) __PYX_ERR(0, 461, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive7 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive7;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive8) < 0) __PYX_ERR(0, 535, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive8) < 0) __PYX_ERR(0, 540, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive8.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive8.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive8.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive8.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive8, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive8) < 0) __PYX_ERR(0, 535, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive8, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive8) < 0) __PYX_ERR(0, 540, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive8 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive8;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive9) < 0) __PYX_ERR(0, 617, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive9) < 0) __PYX_ERR(0, 622, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive9.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive9.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive9.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive9.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive9, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive9) < 0) __PYX_ERR(0, 617, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive9, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive9) < 0) __PYX_ERR(0, 622, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive9 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive9;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive10) < 0) __PYX_ERR(0, 702, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive10) < 0) __PYX_ERR(0, 707, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive10.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive10.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive10.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive10.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive10, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive10) < 0) __PYX_ERR(0, 702, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive10, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive10) < 0) __PYX_ERR(0, 707, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive10 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive10;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive11) < 0) __PYX_ERR(0, 790, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive11) < 0) __PYX_ERR(0, 795, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive11.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive11.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive11.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive11.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive11, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive11) < 0) __PYX_ERR(0, 790, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive11, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive11) < 0) __PYX_ERR(0, 795, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive11 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive11;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive12) < 0) __PYX_ERR(0, 881, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive12) < 0) __PYX_ERR(0, 886, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive12.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive12.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive12.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive12.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive12, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive12) < 0) __PYX_ERR(0, 881, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive12, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive12) < 0) __PYX_ERR(0, 886, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive12 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive12;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive13) < 0) __PYX_ERR(0, 975, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive13) < 0) __PYX_ERR(0, 980, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive13.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive13.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive13.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive13.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive13, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive13) < 0) __PYX_ERR(0, 975, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive13, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive13) < 0) __PYX_ERR(0, 980, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive13 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive13;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive14) < 0) __PYX_ERR(0, 1072, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive14) < 0) __PYX_ERR(0, 1077, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive14.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive14.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive14.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive14.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive14, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive14) < 0) __PYX_ERR(0, 1072, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive14, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive14) < 0) __PYX_ERR(0, 1077, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive14 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive14;
-  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive15) < 0) __PYX_ERR(0, 1172, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_13paretoarchive_4core_PyBspTreeArchive15) < 0) __PYX_ERR(0, 1177, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
   __pyx_type_13paretoarchive_4core_PyBspTreeArchive15.tp_print = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_13paretoarchive_4core_PyBspTreeArchive15.tp_dictoffset && __pyx_type_13paretoarchive_4core_PyBspTreeArchive15.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_13paretoarchive_4core_PyBspTreeArchive15.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive15, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive15) < 0) __PYX_ERR(0, 1172, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_PyBspTreeArchive15, (PyObject *)&__pyx_type_13paretoarchive_4core_PyBspTreeArchive15) < 0) __PYX_ERR(0, 1177, __pyx_L1_error)
   __pyx_ptype_13paretoarchive_4core_PyBspTreeArchive15 = &__pyx_type_13paretoarchive_4core_PyBspTreeArchive15;
   __Pyx_RefNannyFinishContext();
   return 0;
@@ -25455,30 +25456,30 @@ if (!__Pyx_RefNanny) {
 }
 #endif
   __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_core(void)", 0);
-  if (__Pyx_check_binary_version() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_check_binary_version() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #ifdef __Pxy_PyFrame_Initialize_Offsets
   __Pxy_PyFrame_Initialize_Offsets();
   #endif
-  __pyx_empty_tuple = PyTuple_New(0); if (unlikely(!__pyx_empty_tuple)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (unlikely(!__pyx_empty_bytes)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_empty_unicode = PyUnicode_FromStringAndSize("", 0); if (unlikely(!__pyx_empty_unicode)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_empty_tuple = PyTuple_New(0); if (unlikely(!__pyx_empty_tuple)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (unlikely(!__pyx_empty_bytes)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_empty_unicode = PyUnicode_FromStringAndSize("", 0); if (unlikely(!__pyx_empty_unicode)) __PYX_ERR(0, 2, __pyx_L1_error)
   #ifdef __Pyx_CyFunction_USED
-  if (__pyx_CyFunction_init() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__pyx_CyFunction_init() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
   #ifdef __Pyx_FusedFunction_USED
-  if (__pyx_FusedFunction_init() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__pyx_FusedFunction_init() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
   #ifdef __Pyx_Coroutine_USED
-  if (__pyx_Coroutine_init() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__pyx_Coroutine_init() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
   #ifdef __Pyx_Generator_USED
-  if (__pyx_Generator_init() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__pyx_Generator_init() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
   #ifdef __Pyx_AsyncGen_USED
-  if (__pyx_AsyncGen_init() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__pyx_AsyncGen_init() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
   #ifdef __Pyx_StopAsyncIteration_USED
-  if (__pyx_StopAsyncIteration_init() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__pyx_StopAsyncIteration_init() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
   /*--- Library function declarations ---*/
   /*--- Threads initialization code ---*/
@@ -25497,140 +25498,141 @@ if (!__Pyx_RefNanny) {
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
-  if (unlikely(!__pyx_m)) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (unlikely(!__pyx_m)) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
-  __pyx_d = PyModule_GetDict(__pyx_m); if (unlikely(!__pyx_d)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_d = PyModule_GetDict(__pyx_m); if (unlikely(!__pyx_d)) __PYX_ERR(0, 2, __pyx_L1_error)
   Py_INCREF(__pyx_d);
-  __pyx_b = PyImport_AddModule(__Pyx_BUILTIN_MODULE_NAME); if (unlikely(!__pyx_b)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_b = PyImport_AddModule(__Pyx_BUILTIN_MODULE_NAME); if (unlikely(!__pyx_b)) __PYX_ERR(0, 2, __pyx_L1_error)
   Py_INCREF(__pyx_b);
-  __pyx_cython_runtime = PyImport_AddModule((char *) "cython_runtime"); if (unlikely(!__pyx_cython_runtime)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_cython_runtime = PyImport_AddModule((char *) "cython_runtime"); if (unlikely(!__pyx_cython_runtime)) __PYX_ERR(0, 2, __pyx_L1_error)
   Py_INCREF(__pyx_cython_runtime);
-  if (PyObject_SetAttrString(__pyx_m, "__builtins__", __pyx_b) < 0) __PYX_ERR(0, 1, __pyx_L1_error);
+  if (PyObject_SetAttrString(__pyx_m, "__builtins__", __pyx_b) < 0) __PYX_ERR(0, 2, __pyx_L1_error);
   /*--- Initialize various global constants etc. ---*/
-  if (__Pyx_InitGlobals() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_InitGlobals() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
-  if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
   if (__pyx_module_is_main_paretoarchive__core) {
-    if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
-    PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
+    PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 2, __pyx_L1_error)
     if (!PyDict_GetItemString(modules, "paretoarchive.core")) {
-      if (unlikely(PyDict_SetItemString(modules, "paretoarchive.core", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+      if (unlikely(PyDict_SetItemString(modules, "paretoarchive.core", __pyx_m) < 0)) __PYX_ERR(0, 2, __pyx_L1_error)
     }
   }
   #endif
   /*--- Builtin init code ---*/
-  if (__Pyx_InitCachedBuiltins() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_InitCachedBuiltins() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   /*--- Constants init code ---*/
-  if (__Pyx_InitCachedConstants() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_InitCachedConstants() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   /*--- Global type/function init code ---*/
   (void)__Pyx_modinit_global_init_code();
   (void)__Pyx_modinit_variable_export_code();
   (void)__Pyx_modinit_function_export_code();
-  if (unlikely(__Pyx_modinit_type_init_code() < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (unlikely(__Pyx_modinit_type_init_code() < 0)) __PYX_ERR(0, 2, __pyx_L1_error)
   (void)__Pyx_modinit_type_import_code();
   (void)__Pyx_modinit_variable_import_code();
   (void)__Pyx_modinit_function_import_code();
   /*--- Execution code ---*/
   #if defined(__Pyx_Generator_USED) || defined(__Pyx_Coroutine_USED)
-  if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
 
-  /* "paretoarchive/core.pyx":24
+  /* "paretoarchive/core.pyx":29
  * 
  * 
  * MAXOBJ = 15             # <<<<<<<<<<<<<<
  * 
  * cdef extern from *:
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_MAXOBJ, __pyx_int_15) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_MAXOBJ, __pyx_int_15) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
 
-  /* "paretoarchive/core.pyx":1272
+  /* "paretoarchive/core.pyx":1277
  *     return res
  * 
  * OBJ2CLASS = {2:PyBspTreeArchive2,3:PyBspTreeArchive3,4:PyBspTreeArchive4,5:PyBspTreeArchive5,6:PyBspTreeArchive6,7:PyBspTreeArchive7,8:PyBspTreeArchive8,9:PyBspTreeArchive9,10:PyBspTreeArchive10,11:PyBspTreeArchive11,12:PyBspTreeArchive12,13:PyBspTreeArchive13,14:PyBspTreeArchive14,15:PyBspTreeArchive15}             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(14); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1272, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(14); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1277, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_2, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive2)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_3, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive3)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_4, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive4)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_5, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive5)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_6, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive6)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_7, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive7)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_8, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive8)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_9, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive9)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_10, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive10)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_11, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive11)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_12, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive12)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_13, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive13)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_14, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive14)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_15, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive15)) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_OBJ2CLASS, __pyx_t_1) < 0) __PYX_ERR(0, 1272, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_2, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive2)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_3, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive3)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_4, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive4)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_5, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive5)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_6, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive6)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_7, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive7)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_8, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive8)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_9, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive9)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_10, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive10)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_11, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive11)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_12, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive12)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_13, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive13)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_14, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive14)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_int_15, ((PyObject *)__pyx_ptype_13paretoarchive_4core_PyBspTreeArchive15)) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_OBJ2CLASS, __pyx_t_1) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":1276
+  /* "paretoarchive/core.pyx":1281
  * 
  * 
  * class PyBspTreeArchive:             # <<<<<<<<<<<<<<
  *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
  *       if (objectives < 2) or (objectives > MAXOBJ):
  */
-  __pyx_t_1 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_PyBspTreeArchive, __pyx_n_s_PyBspTreeArchive, (PyObject *) NULL, __pyx_n_s_paretoarchive_core, (PyObject *) NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1276, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_PyBspTreeArchive, __pyx_n_s_PyBspTreeArchive, (PyObject *) NULL, __pyx_n_s_paretoarchive_core, (PyObject *) NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1281, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "paretoarchive/core.pyx":1277
+  /* "paretoarchive/core.pyx":1282
  * 
  * class PyBspTreeArchive:
  *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):             # <<<<<<<<<<<<<<
  *       if (objectives < 2) or (objectives > MAXOBJ):
  *          raise Exception("Invalid number of objectives. Only %s and %s is supported" % (','.join([str(a) for a in range(2, MAXOBJ)]),MAXOBJ))
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_13paretoarchive_4core_16PyBspTreeArchive_1__init__, 0, __pyx_n_s_PyBspTreeArchive___init, NULL, __pyx_n_s_paretoarchive_core, __pyx_d, ((PyObject *)__pyx_codeobj__3)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1277, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_13paretoarchive_4core_16PyBspTreeArchive_1__init__, 0, __pyx_n_s_PyBspTreeArchive___init, NULL, __pyx_n_s_paretoarchive_core, __pyx_d, ((PyObject *)__pyx_codeobj__3)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1282, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_2, __pyx_tuple__4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_init, __pyx_t_2) < 0) __PYX_ERR(0, 1277, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_init, __pyx_t_2) < 0) __PYX_ERR(0, 1282, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "paretoarchive/core.pyx":1288
+  /* "paretoarchive/core.pyx":1293
  *       self.points = self._archive.points
  * 
  *    def filter(self, data, returnIds=False, sortKey=None):             # <<<<<<<<<<<<<<
  *      self.clear()
  *      for i, d in enumerate(data):
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_13paretoarchive_4core_16PyBspTreeArchive_3filter, 0, __pyx_n_s_PyBspTreeArchive_filter, NULL, __pyx_n_s_paretoarchive_core, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1288, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_13paretoarchive_4core_16PyBspTreeArchive_3filter, 0, __pyx_n_s_PyBspTreeArchive_filter, NULL, __pyx_n_s_paretoarchive_core, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1293, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_2, __pyx_tuple__7);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_filter, __pyx_t_2) < 0) __PYX_ERR(0, 1288, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_filter, __pyx_t_2) < 0) __PYX_ERR(0, 1293, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "paretoarchive/core.pyx":1276
+  /* "paretoarchive/core.pyx":1281
  * 
  * 
  * class PyBspTreeArchive:             # <<<<<<<<<<<<<<
  *    def __init__(self, objectives=3, minimizeObjective1=True, minimizeObjective2=True, minimizeObjective3=True, minimizeObjective4=True, minimizeObjective5=True, minimizeObjective6=True):
  *       if (objectives < 2) or (objectives > MAXOBJ):
  */
-  __pyx_t_2 = __Pyx_Py3ClassCreate(((PyObject*)&__Pyx_DefaultClassType), __pyx_n_s_PyBspTreeArchive, __pyx_empty_tuple, __pyx_t_1, NULL, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1276, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Py3ClassCreate(((PyObject*)&__Pyx_DefaultClassType), __pyx_n_s_PyBspTreeArchive, __pyx_empty_tuple, __pyx_t_1, NULL, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1281, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_PyBspTreeArchive, __pyx_t_2) < 0) __PYX_ERR(0, 1276, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_PyBspTreeArchive, __pyx_t_2) < 0) __PYX_ERR(0, 1281, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "paretoarchive/core.pyx":1
- * from libcpp cimport bool             # <<<<<<<<<<<<<<
- * from libcpp.vector cimport vector
+  /* "paretoarchive/core.pyx":2
+ * 
+ * # Do not edit this file manually. This file was generated automaticaly by             # <<<<<<<<<<<<<<
+ * # running a script /home/vojta/git/py-paretoarchive/./gensrc.py
  * 
  */
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "carray.to_py":124

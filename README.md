@@ -8,7 +8,14 @@ Creating an archive of all non-dominated points using Fast Incremental BSP Tree.
 python -m pip install --user py-paretoarchive
 ```
 
-The package requires Cython module for its run. When Cython is correctly installed, the package should be platform independent.
+The package requires Cython module for its run. On Windows, you will need to have [Microsoft Build Tools](https://wiki.python.org/moin/WindowsCompilers). Note that PyPi suggest you a link to the proper tool after this command.
+
+#### Instalation from sources
+```bash
+pip install pytest Cython
+make install-from-source
+pytest
+```
 
 ### USAGE
 
@@ -116,6 +123,10 @@ def pandas_pareto(data : pd.DataFrame, columns : list, **kwargs) -> pd.DataFrame
 # example usage    
 par_df = pandas_pareto(df, ["area", "energy", "weight"], minimizeObjective2 = False)
 ```
+
+### Notes
+* The values are internally repesented as `double` numbers. For very large integers you may lose the precision. 
+* Up to 15 objectives can be handled.
 
 ### SOURCE
 
