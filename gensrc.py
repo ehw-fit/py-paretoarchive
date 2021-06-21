@@ -101,5 +101,5 @@ cdef class PyBspTreeArchive%d:
   src += ['OBJ2CLASS = {%s}' % ','.join(['%d:PyBspTreeArchive%d' % (i,i) for i in range(2, OBJS+1)])]
   src += ['']
 
-  tpl = open('paretoarchive.pyx').read()
-  open('paretoarchive_gen.pyx','w').write(tpl.replace('%CLASSES%','\n'.join(src)))
+  tpl = open('paretoarchive.template.pyx').read()
+  open('src/paretoarchive/core.pyx','w').write(tpl.replace('%CLASSES%','\n'.join(src)))

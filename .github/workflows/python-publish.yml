@@ -31,9 +31,7 @@ jobs:
         pip install Cython wheel 
     - name: Generate source code
       run: |
-        python gensrc.py
-    - name: Build package
-      run: python -m build
+        make dist
     - name: Remove wheel packages
       run: rm dist/*.whl
     - name: Publish package
@@ -41,3 +39,22 @@ jobs:
       with:
         user: __token__
         password: ${{ secrets.PYPI_API_TOKEN }}
+
+  test_app:
+    runs-on: ubuntu-latest
+    wait: deploy
+
+    steps:
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install the package
+      run: pip install py-paretoarchive pandas
+    - uses: actions/checkout@v2
+    - name: Run pytest
+      run: pytest
+
+    
+
+
