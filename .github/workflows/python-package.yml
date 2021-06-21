@@ -27,12 +27,9 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install flake8 pytest pandas
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Generate source code
-      run: |
-        python gensrc.py
     - name: Build
       run: |      
-        python setup.py build
+        make build
         python setup.py install --user
     - name: Lint with flake8
       run: |

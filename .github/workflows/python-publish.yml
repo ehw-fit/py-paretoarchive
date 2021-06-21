@@ -42,7 +42,7 @@ jobs:
 
   test_app:
     runs-on: ubuntu-latest
-    wait: deploy
+    needs: deploy
 
     steps:
     - name: Set up Python
