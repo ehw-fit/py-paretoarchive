@@ -5,12 +5,10 @@ Creating an archive of all non-dominated points using Fast Incremental BSP Tree.
 ### COMPILATION
 
 ```bash
-python setup.py build
-python install --user
-# or
-pip3 install --user git+https://github.com/ehw-fit/py-paretoarchive
-pip install --user git+https://github.com/ehw-fit/py-paretoarchive
+python -m pip install --user py-paretoarchive
 ```
+
+The package requires Cython module for its run. When Cython is correctly installed, the package should be platform independent.
 
 ### USAGE
 
@@ -96,6 +94,14 @@ print([dataset[i]['wce'] for i in indexes])
 
 ## Using in Pandas
 You can easily use the library to filter a Pandas DataFrame. Note that the selected columns cannot have a "NaN" values (you should use `df.dropna(subset=["c1", "c2"])` function.
+
+```python
+from paretoarchive.pandas import pareto
+par_df = pareto(df, ["area", "energy", "weight"], minimizeObjective2 = False)
+```
+
+or
+
 
 ```python
 from paretoarchive import PyBspTreeArchive
