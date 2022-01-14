@@ -1,18 +1,23 @@
 # Archive of non-dominated points
+[![PyPI version fury.io](https://badge.fury.io/py/py-paretoarchive.svg)](https://pypi.python.org/pypi/py-paretoarchive/)
+[![PyPI license](https://img.shields.io/pypi/l/py-paretoarchive.svg)](https://pypi.python.org/pypi/py-paretoarchive/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/py-paretoarchive.svg)](https://pypi.python.org/pypi/py-paretoarchive/)
+
+
 
 Creating an archive of all non-dominated points using Fast Incremental BSP Tree. This package provides a Python wrapper for code provided as [a fast incremental BSP archive](https://www.ini.rub.de/PEOPLE/glasmtbl/code/ParetoArchive/index.html).
 
 ### COMPILATION
 
 ```bash
-python -m pip install --user py-paretoarchive
+python3 -m pip install --user py-paretoarchive
 ```
 
 The package requires Cython module for its run. On Windows, you will need to have [Microsoft Build Tools](https://wiki.python.org/moin/WindowsCompilers). Note that PyPi suggest you a link to the proper tool after this command.
 
 #### Instalation from sources
 ```bash
-pip install pytest Cython
+pip3 install pytest Cython
 make install-from-source
 pytest
 ```
