@@ -49,6 +49,7 @@
 #include <algorithm>
 #include <iostream>
 #include <string.h>
+#include <limits>
 
 #ifdef _MSC_VER
 
