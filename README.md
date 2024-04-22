@@ -10,7 +10,7 @@ Creating an archive of all non-dominated points using Fast Incremental BSP Tree.
 ### COMPILATION
 
 ```bash
-python3 -m pip install --user py-paretoarchive
+CYTHONIZE=1 python3 -m pip install --user py-paretoarchive
 ```
 
 The package requires Cython module for its run. On Windows, you will need to have [Microsoft Build Tools](https://wiki.python.org/moin/WindowsCompilers). Note that PyPi suggest you a link to the proper tool after this command.
