@@ -2,7 +2,10 @@
 
 import pandas as pd
 
-def pareto(df : pd.DataFrame, columns : list[str], minimize : None | bool | list[bool] = None, keep_data = False) -> pd.DataFrame: 
+from typing import Union, List, Optional
+
+
+def pareto(df: pd.DataFrame, columns: List[str], minimize: Optional[Union[bool, List[bool]]] = None, keep_data=False) -> pd.DataFrame:
     """
     Compute the Pareto front of a DataFrame for given columns.
 
@@ -39,7 +42,7 @@ def pareto(df : pd.DataFrame, columns : list[str], minimize : None | bool | list
     >>> pareto(df, ["A", "B"], minimize=[True, False])
     """
     df = df.copy()
-    
+
     if minimize is None:
         minimize = [True] * len(columns)
     elif isinstance(minimize, bool):
@@ -48,15 +51,15 @@ def pareto(df : pd.DataFrame, columns : list[str], minimize : None | bool | list
         minimize = minimize * len(columns)
     elif len(minimize) != len(columns):
         raise ValueError("Length of minimize must match length of columns.")
-    
+
     assert "dominated" not in df.columns, "DataFrame already has 'dominated' column."
-    
+
     df["dominated"] = False
-    
+
     for id, row in df.iterrows():
         if row["dominated"]:
             continue
-        
+
         dom = True
         strict = False
         for c, asc in zip(columns, minimize):
@@ -72,8 +75,8 @@ def pareto(df : pd.DataFrame, columns : list[str], minimize : None | bool | list
     if keep_data:
         assert "pareto" not in df.columns, "DataFrame already has 'pareto' column."
         df["pareto"] = ~df["dominated"]
-        
+
         return df.drop(columns=["dominated"])
-    
+
     else:
         return df.query("not dominated").drop(columns=["dominated"])

@@ -10,14 +10,24 @@ Previous version (0.21) used to achive of all non-dominated points using Fast In
 In order to not needing to install Cython, the package uses numpy implementation only
 
 
-#### Instalation from sources
+#### Debuging
 ```bash
-pip3 install pytest Cython
-make install-from-source
-pytest
-```
+python -m venv -r requirements.txt .venv
+source .venv/bin/activate
+pip install --upgrade pip
 
-The package requires Cython module for its run. When Cython is correctly installed, the package should be platform independent.
+python -m pip install -e .[dev]
+```
+#### Testing
+```bash
+# Run tests
+PYTHONPATH=src /usr/bin/python -m pytest tests/ -v  
+
+
+
+
+# PYTHONPATH=src /usr/bin/python -m pytest tests/ -v
+```
 
 ### USAGE
 
