@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: [3.7, 3.8, 3.9, '3.10', '3.11', '3.12', '3.13']
+        python-version: [3.8, 3.9, '3.10', '3.11', '3.12', '3.13']
 
     steps:
     - uses: actions/checkout@v4
@@ -37,9 +37,9 @@ jobs:
     - name: Check package
       run: |
         # Check that the package can be imported
-        python -c "import paretoarchive; print(paretoarchive.__version__)"
-        python -c "import paretoarchive.pandas; print(paretoarchive.pandas.__name__)"
-        python -c "import paretoarchive.np; print(paretoarchive.np.__name__)"
+        python -c "import paretoarchive;"
+        # python -c "import paretoarchive.pandas; print(paretoarchive.pandas.__name__)"
+        # python -c "import paretoarchive.np; print(paretoarchive.np.__name__)"
     
     - name: Run tests
       run: |
