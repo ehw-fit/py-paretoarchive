@@ -1,7 +1,9 @@
 import numpy as np
 
 
-def pareto(*columns: np.ndarray, minimize: list[bool] | bool = True) -> np.ndarray:
+from typing import List, Union
+
+def pareto(*columns: np.ndarray, minimize: Union[List[bool], bool] = True) -> np.ndarray:
     """
     Identifies the Pareto-optimal points (the Pareto front) from multiple objective columns.
     Parameters
