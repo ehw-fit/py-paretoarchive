@@ -1,2 +1,41 @@
 [build-system]
-requires = ["setuptools", "wheel", "Cython"]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-paretoarchive"
+version = "1.00"
+description = "Efficient incremental Pareto archive based on BSP"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Vojtech Mrazek", email = "mrazek@fit.vutbr.cz"},
+    {name = "Zdenek Vasicek"}
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: C",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/ehw-fit/py-paretoarchive"
+Repository = "https://github.com/ehw-fit/py-paretoarchive"
+"Issue Tracker" = "https://github.com/ehw-fit/py-paretoarchive/issues"
+Download = "https://pypi.org/project/py-paretoarchive"
+
+[tool.setuptools]
+zip-safe = false
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
